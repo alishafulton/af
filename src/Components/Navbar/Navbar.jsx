@@ -7,7 +7,7 @@ export default function Navbar () {
         <ul className="nav-menu">
             <li>Hello is anybody out there</li>
         </ul>
-        <div className="nav-connect">Connect with me!</div>
+        <div className="nav-connect">pls</div>
       </div>
     )
   };
