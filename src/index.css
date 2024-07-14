@@ -16,5 +16,6 @@ body {
 
 h2 {
   font-family: Lexend;
-  color:#000000
+  color:#000000;
+  font-weight: 300;
 }
