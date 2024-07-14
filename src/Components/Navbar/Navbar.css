@@ -7,16 +7,17 @@
 
 .nav-menu{
     display: flex;
-    align-items: center;
+    align-items: bottom;
     list-style: none;
     gap: 60px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .nav-connect{
-    padding: 20px 10px;
+    padding: 10px 20px;
     border-radius: 50px;
     background: #000000;
+    color: #ffffff;
     font-size: 22px;
     cursor: pointer;
 }
