@@ -10,7 +10,7 @@ export default function Navbar () {
             <li><h2>Portfolio</h2></li>
             <li><h2>About Me</h2></li>
         </ul>
-        <div className="nav-connect">Contact Me</div>
+        <div className="nav-connect"><h2>Contact Me</h2></div>
       </div>
     )
   };

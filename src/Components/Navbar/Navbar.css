@@ -1,16 +1,16 @@
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
     margin: 20px 170px;
 }
 
 .nav-menu{
     display: flex;
-    align-items: bottom;
+    align-items: baseline;
     list-style: none;
     gap: 60px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .nav-connect{
