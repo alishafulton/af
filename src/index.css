@@ -2,9 +2,19 @@
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: Lexend;
+  src: url(/src/assets/Lexend-VariableFont_wght.ttf);
+}
+
 body {
   height: 100vh;
   background: #FFFEF2;
   color: #000000;
+}
 
+h2 {
+  font-family: Lexend;
+  color:#000000
 }
