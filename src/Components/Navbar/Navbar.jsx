@@ -1,11 +1,11 @@
 import React from "react";
 import './Navbar.css'
-import name from '../../assets/alisha fulton.png'
+import logo from '../../assets/name.png'
 
 export default function Navbar () {
     return (
       <div className='navbar'>
-        <img src={name} alt="alisha fulton" />
+        <img src="{logo}" alt="" />
         <ul className="nav-menu">
             <li>Hello is anybody out there</li>
         </ul>
