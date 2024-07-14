@@ -7,9 +7,10 @@ export default function Navbar () {
       <div className='navbar'>
         <img src={logo} alt="" />
         <ul className="nav-menu">
-            <li>Hello is anybody out there</li>
+            <li>Portfolio</li>
+            <li>About Me</li>
         </ul>
-        <div className="nav-connect">pls</div>
+        <div className="nav-connect">Contact Me</div>
       </div>
     )
   };
