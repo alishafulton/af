@@ -7,7 +7,7 @@ export default function AboutNav () {
       <div className='navsection'>
         About Me <br/>
         Extracurriculars<br/>
-        Spotify<br/></ul>
+        Spotify<br/>
         </div>
     );
   };
