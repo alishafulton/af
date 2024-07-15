@@ -1,0 +1,13 @@
+.blurb{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    height: 200px;
+}
+
+.bio-blurb{
+    display: flex;
+    align-items: stretch;
+    width:auto;
+    font-size: 12px;
+}
