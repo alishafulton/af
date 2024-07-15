@@ -1,5 +1,5 @@
 .blurb{
-    display: flex;
+    display: inline-block;
     align-items: stretch;
     justify-content: center;
 }
@@ -10,8 +10,15 @@
     width: 500px;
     margin: 10px 10px;
     font-size: 12px;
+    font-family: Lexend;
 }
 
 .selfie{
     height: 500px;
+}
+
+h1 {
+    font-family: Lexend;
+    color:#000006;
+    font-weight:400;
 }
