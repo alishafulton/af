@@ -8,6 +8,11 @@
   src: url(/src/assets/assetsLexend-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: Playfair;
+  src: url(/src/assets/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
 body {
   height: 100vh;
   background: #FFFEF2;
