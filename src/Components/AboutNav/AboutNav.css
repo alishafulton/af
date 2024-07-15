@@ -1,0 +1,6 @@
+.navsection{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 300px;
+}
