@@ -5,7 +5,7 @@ import AboutNav from "../Components/AboutNav/AboutNav";
   
   export default function About () {
     return (
-      <>
+      
       <div>
         <div>
       <AboutNav/>
@@ -13,7 +13,7 @@ import AboutNav from "../Components/AboutNav/AboutNav";
         </div>
         <Outlet/>
       </div>
-      </>
+      
     )
   };
   

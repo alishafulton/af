@@ -4,3 +4,8 @@
     justify-content: center;
     width: 300px;
 }
+
+li {
+    text-decoration: none;
+    font-family: Playfair;
+}
