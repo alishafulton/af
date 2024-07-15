@@ -8,17 +8,8 @@ import Blurb from "../Components/Blurb/Blurb";
       <div>
         <Blurb/>
         <Outlet/>
-About
-
-
-
-
-
       </div>
       </>
     )
   };
-  
-
-
   
