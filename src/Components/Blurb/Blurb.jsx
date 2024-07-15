@@ -1,9 +1,8 @@
 import React from "react";
 import './Blurb.css';
 import selfie from '../../assets/CurrentPhoto.png'
-import { Link } from "react-router-dom";
 
-export default function Navbar () {
+export default function Blurb () {
     return (
       <div className='blurb'>
         <img src={ selfie } alt="" className="selfie"/>
