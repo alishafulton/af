@@ -1,7 +1,7 @@
 .navsection{
     display: inline;
-    align-items: stretch;
-    justify-content: right;
-    width: 300px;
+    align-items: start;
+    justify-content: center;
+    width: 100px;
     margin: 10px;
 }
