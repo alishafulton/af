@@ -1,6 +1,6 @@
 .aboutpage {
-    display: inline;
-    align-items: center;
+    display: block;
+    align-items: start;
     justify-content: center;
     margin: 50px 10px 10px 10px;
 }
