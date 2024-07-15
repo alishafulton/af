@@ -4,7 +4,10 @@ import './AboutNav.css';
 
 export default function AboutNav () {
     return (
-      <div><ul>
-        <li>About Me</li></ul></div>
+      <div className='navsection'><ul>
+        <li>About Me</li>
+        <li>Extracurriculars</li>
+        <li>Spotify</li>
+        </ul></div>
     );
   };
