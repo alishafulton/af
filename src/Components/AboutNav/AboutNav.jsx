@@ -5,9 +5,11 @@ import selfie from '../../assets/CurrentPhoto.png'
 export default function AboutNav () {
     return (
       <div className='navsection'>
-        ABOUT ME
+        <ul>
+        <li>ABOUT ME</li>
         <br/>
-        EXTRACURRICULARS
+        <li>EXTRACURRICULARS</li>
+        </ul>
         </div>
     );
   };
