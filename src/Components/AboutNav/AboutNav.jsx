@@ -5,9 +5,9 @@ import './AboutNav.css';
 export default function AboutNav () {
     return (
       <div className='navsection'>
-        About Me <br/>
-        Extracurriculars<br/>
-        Spotify<br/>
+        <h5>About Me </h5><br/>
+        <h5>Extracurriculars</h5><br/>
+        <h5>Spotify</h5><br/>
         </div>
     );
   };
