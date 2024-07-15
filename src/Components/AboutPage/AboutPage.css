@@ -1,6 +1,6 @@
 .aboutpage {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
     margin: 30px 10px 10px 10px;
 }

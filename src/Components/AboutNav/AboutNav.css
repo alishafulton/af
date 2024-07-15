@@ -3,10 +3,5 @@
     align-items: stretch;
     justify-content: right;
     width: 300px;
-}
-
-li {
-    text-decoration: none;
-    font-family: Playfair;
-    font-size: 18px;
+    margin: 10px;
 }
