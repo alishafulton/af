@@ -1,7 +1,7 @@
 import React from "react";
 import './Navbar.css';
 import logo from '../../assets/name.png'
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Navbar () {
     return (
@@ -14,11 +14,9 @@ export default function Navbar () {
         </ul>
 
         <div className="nav-connect">contact</div>
-
-      <Outlet />
-
-
-      </div>
+        
+        </div>
+      
     )
   };
   
