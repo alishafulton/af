@@ -13,7 +13,10 @@ export default function Navbar () {
         <li><Link to="/af/portfolio"><h2>portfolio</h2></Link></li>
         </ul>
 
+        <div className="nav-connect">contact</div>
+
       <Outlet />
+
 
       </div>
     )
