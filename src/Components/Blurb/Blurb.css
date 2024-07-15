@@ -2,6 +2,7 @@
     display: inline-block;
     align-items: stretch;
     justify-content: center;
+    margin: 30px;
 }
 
 .bio-blurb{
@@ -17,8 +18,3 @@
     height: 500px;
 }
 
-h1 {
-    font-family: Lexend;
-    color:#000006;
-    font-weight:400;
-}

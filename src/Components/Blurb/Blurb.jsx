@@ -23,9 +23,6 @@ export default function Blurb () {
         <br/>
         To learn more about my work, check out my portfolio!</h1>
         </div>
-        
         </div>
-      
     );
   };
-  
