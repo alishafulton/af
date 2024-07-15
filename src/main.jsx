@@ -5,6 +5,7 @@ import App from './App';
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Home } from "./pages/Home.tsx";
 import { Portfolio } from "./pages/Portfolio.tsx"
+import { About } from "./pages/About.tsx"
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/af/portfolio",
         element: <Portfolio/>
+      },
+      {
+        path: "/af/about",
+        element: <About/>
       },
     ],
   },
