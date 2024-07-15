@@ -17,10 +17,10 @@ export default function Blurb () {
         intelligence that I hope to bring to any team. I am excited to find a UX/UI Design 
         role that will leverage my customer-centric experience, foster my eagerness to learn, 
         and allow me to create designs that will improve everyday user experiences.
-        <br/>
+        <br/><br/>
         I am actively seeking new opportunities and am open to collaborating on exciting 
         projects. Send me a message, let's connect! 
-        <br/>
+        <br/><br/>
         To learn more about my work, check out my portfolio!</h1>
         </div>
         </div>

@@ -7,6 +7,7 @@ import AboutPage from "../Components/AboutPage/AboutPage";
 
       <div>
         <AboutPage/>
+        
         <Outlet/>
       </div>
       

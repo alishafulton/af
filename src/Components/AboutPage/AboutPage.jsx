@@ -5,13 +5,9 @@ import './AboutPage.css'
 
 export default function AboutPage () {
     return (
-         <div className='entire'>
-        <div className='navsection'>
-          <AboutNav/>
-        </div>
         <div>
+        <AboutNav/>
         <Blurb/>
         </div>
-      </div>
     );
   };
