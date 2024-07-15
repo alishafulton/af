@@ -1,0 +1,13 @@
+.entire {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 1600px;
+}
+
+.navsection {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 200px;
+}
