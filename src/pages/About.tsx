@@ -7,9 +7,10 @@ import AboutNav from "../Components/AboutNav/AboutNav";
     return (
       <>
       <div>
-
+        <div>
+      <AboutNav/>
         <Blurb/>
-        <AboutNav/>
+        </div>
         <Outlet/>
       </div>
       </>
