@@ -7,6 +7,6 @@ export default function About () {
         <img src={ selfie } alt=""/>
         </div>
       
-    )
+    );
   };
   
