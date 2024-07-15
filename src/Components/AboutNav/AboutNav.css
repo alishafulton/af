@@ -1,5 +1,5 @@
 .navsection{
-    display: flex;
+    display: inline;
     align-items: stretch;
     justify-content: right;
     width: 300px;
