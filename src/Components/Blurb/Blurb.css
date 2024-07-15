@@ -1,7 +1,7 @@
 .blurb{
     display: flex;
     align-items: stretch;
-    justify-content: center;
+    margin: 10px 10px 10px 10px;
 }
 
 .bio-blurb{
