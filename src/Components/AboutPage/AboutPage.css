@@ -1,3 +1,7 @@
 ul {
     text-decoration: none;
 }
+
+.entirety {
+    display: flex;
+}
