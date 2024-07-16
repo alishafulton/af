@@ -8,8 +8,7 @@ export default function AboutPage() {
   const [isOn2, setIsOn2] = useState(false);
 
   function toggle() {
-    setIsOn((isOn) => !isOn);
-    setIsOn2((isOn2) => !isOn2);
+    setIsOn((isOn) => !isOn) && setIsOn2((isOn2) => !isOn2);
   }
 
 
