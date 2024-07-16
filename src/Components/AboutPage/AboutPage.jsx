@@ -7,8 +7,6 @@ import Extra from "../Extracurriculars/Extracurriculars";
 
 export default function AboutPage() {
     const [section, setSection] = useState(true);
-    const first = { Blurb };
-    const second = { Extra };
     
     function toggle() {
       if(first === true) {
@@ -21,7 +19,7 @@ export default function AboutPage() {
     return (
       <div>
         <button onClick={toggle}>Toggle Shoot</button>  
-        <div>{section ? first : second}</div>
+        <div>{section ? { Blurb } : { Extra }}</div>
       </div>
     );
   }
