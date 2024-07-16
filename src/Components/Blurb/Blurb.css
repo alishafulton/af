@@ -1,11 +1,10 @@
 .blurb{
     display: flex;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px;
 }
 
 .bio-blurb{
     width: 500px;
-    margin: 20px;
     font-size: 12px;
     font-family: Lexend;
 }
