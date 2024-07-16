@@ -10,8 +10,6 @@ export default function AboutPage () {
         <AboutNav/><Blurb/>
         </div>
 
-
-
 </>
     );
   };
