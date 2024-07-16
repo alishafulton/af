@@ -17,19 +17,18 @@ function Item({ name, isPacked }) {
   export default function AboutPage() {
     return (
       <section>
-        <h1>Sally Ride's Packing List</h1>
         <ul>
           <Item 
             isPacked={true} 
-            name="Space suit" 
+            name="bio" 
           />
           <Item 
             isPacked={true} 
-            name="Helmet with a golden leaf" 
+            name="extracurriculars" 
           />
           <Item 
             isPacked={false} 
-            name="Photo of Tam" 
+            name="spotify" 
           />
         </ul>
       </section>
