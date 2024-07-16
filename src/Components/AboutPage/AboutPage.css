@@ -1,17 +1,11 @@
 
 
 .entirety {
-    align-content: start;
     display: flex;
     padding-top: 50px;
 }
 
 .nav-menu {
-    align-content: start;
-    height: 400px;
-    padding-right: 30px;
-}
 
-.mystery-section {
-    width: 800px;
+    padding-right: 30px;
 }
