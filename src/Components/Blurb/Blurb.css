@@ -6,11 +6,12 @@
     width: 500px;
     font-size: 12px;
     font-family: Lexend;
-    margin: 10px 0px;
+
 }
 
 .selfie{
     height: 400px;
+    margin: 0px 20px;
 }
 
 h1 {
