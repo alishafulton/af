@@ -12,7 +12,7 @@ export default function AboutPage() {
 
   return (
     <div className="results">
-        <ul class="links">
+        <ul>
             <li><button onClick={toggle1}>about me</button></li><br/>
             <li><button>extracurriculars</button></li><br/>
             <li><button>spotify</button></li>
