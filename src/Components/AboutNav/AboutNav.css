@@ -1,9 +1,5 @@
 .navsection{
-    align-items: start;
-    align-content: start;
-    justify-items: end;
     width: 100px;
-    margin: 20px;
 }
 
 h5 {
