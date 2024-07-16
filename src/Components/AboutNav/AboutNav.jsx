@@ -11,7 +11,7 @@ export default function LightSwitch() {
   }
 
   return (
-    <button onClick={handleClick}>
+    <button class="button" onClick={handleClick}>
       about me
     </button>
   );

@@ -1,5 +1,6 @@
-.handleClick {
+.button {
     background-color:#FFFEF2;
     border:none;
     color: #000000;
+    margin: 5px 5px;
 }
