@@ -4,4 +4,11 @@ ul {
 
 .entirety {
     display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.nav-menu {
+    align-content: start;
+    padding-right: 30px;
 }
