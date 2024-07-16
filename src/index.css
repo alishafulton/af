@@ -48,10 +48,9 @@ button {
   margin: 5px 5px;
   font-family: Lexend;
   font-size: 28px;
-  text-align: end;
 }
 
-li {
+ul,li  {
   list-style-type: none;
   text-align: end;
 }
