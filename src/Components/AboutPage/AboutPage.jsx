@@ -1,15 +1,19 @@
 import React from "react";
-import AboutNav from "../AboutNav/AboutNav";
-import Blurb from "../Blurb/Blurb";
 import './AboutPage.css'
+import React, { useState } from "react";
 
-export default function AboutPage () {
-    return (
-        <>
-        <div className='aboutpage'>
-        <AboutNav/><Blurb/>
-        </div>
+export default function AboutPage() {
+  const [isOn, setIsOn] = useState(false);
 
-</>
-    );
-  };
+  function toggle1() {
+    setIsOn((isOn) => !isOn);
+  }
+
+
+  return (
+    <div className="Results">
+      {isOn && <Blurb/>}
+      <button onClick={toggle1}>about me</button>
+    </div>
+  );
+}
