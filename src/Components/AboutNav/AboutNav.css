@@ -1,10 +1,10 @@
 .navsection{
-    width: 400px;
-    justify-content: end;
+    width: 300px;
 }
 
 h5 {
     font-family: Lexend;
     font-size: 18px;
     font-weight: 500;
+    text-align: right;
 }
