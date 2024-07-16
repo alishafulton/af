@@ -39,7 +39,7 @@ export default function AboutPage() {
 
     function BioBlurb() {
       if (bioVisible) {
-        return { Blurb };
+        return "bioooooo";
       }
         return null;
       }
