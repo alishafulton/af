@@ -14,6 +14,8 @@ export default function AboutPage() {
     <div className="Results">
         <div className="Links">
             <button onClick={toggle1}>about me</button>
+            <button>extracurriculars</button>
+            <button>spotify</button>
         </div>
       {isOn && <Blurb />}
     </div>
