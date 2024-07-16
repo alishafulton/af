@@ -11,10 +11,10 @@ export default function AboutPage() {
 
 
   return (
-    <div className="Results">
-        <div className="Links">
-            <button onClick={toggle1}>about me</button>
-            <button>extracurriculars</button>
+    <div className="results">
+        <div className="links">
+            <button onClick={toggle1}>about me</button><br/>
+            <button>extracurriculars</button><br/>
             <button>spotify</button>
         </div>
       {isOn && <Blurb />}
