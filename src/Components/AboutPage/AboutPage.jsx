@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import './AboutPage.css'
+import Blurb from "../Blurb/Blurb";
 
 
 
 
 export default function AboutPage() {
 
-    const bio = "bio"
+    const bio = { Blurb }
     const extras = "extras"
     const spotify = "bio"
     
@@ -41,7 +42,7 @@ export default function AboutPage() {
 
     function BioBlurb() {
       if (bioVisible) {
-        return "biographyyyy";
+        return bio;
       }
         return null;
       }
