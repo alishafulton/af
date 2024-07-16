@@ -2,7 +2,7 @@ import React from "react";
 import './AboutNav.css';
 
 
-const AboutNav = () => {
+export const AboutNav = () => {
   const [buttons, setButtons] = useState([
     { label: "about me", value: false },
     { label: "extracurriculars", value: false },
@@ -36,7 +36,7 @@ const AboutNav = () => {
   );
 };
 
-const Specialbuton = ({ buttons, setButtons, handleButtonsChange }) => {
+export const Specialbuton = ({ buttons, setButtons, handleButtonsChange }) => {
   return (
     <>
       {buttons.map((button, index) => (
