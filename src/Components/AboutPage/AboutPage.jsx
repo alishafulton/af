@@ -4,13 +4,15 @@ import Blurb from "../Blurb/Blurb";
 import Extra from "../Extracurriculars/Extracurriculars";
 import Spotify from "../Spotify/Spotify";
 
+import React, { useState } from "react";
+
 
 
 export default function AboutPage() {
 
-    const bio = { Blurb }
-    const extras = { Extra }
-    const spotify = { Spotify }
+    const bio = "bio"
+    const extras = "extras"
+    const spotify = "bio"
     
     
     // set constants with a name, toSet and tf
@@ -32,7 +34,7 @@ export default function AboutPage() {
       function extraClick() {
         setBioVisibility(false)
         setExtraVisibility(true)
-        setSpotifyVisibility(fals)
+        setSpotifyVisibility(false)
       }
 
       function spotifyClick() {
@@ -40,14 +42,36 @@ export default function AboutPage() {
         setExtraVisibility(false)
         setSpotifyVisibility(true)
       }
-    
+
+    function BioBlurb() {
+      if (bioVisible) {
+        return "biographyyyy";
+      }
+        return null;
+      }
+
+
+      function ExtrasBlurb() {
+        if (extraVisible) {
+          return "extry extry";
+        }
+          return null;
+        }
+
+
+        function SpotifyBlurb() {
+            if (spotifyVisible) {
+              return "spotiiiifyyyyyyyyyy";
+            }
+              return null;
+            }
     
     
     // this is what we're returning aka output
     // first division is our nav list as buttons
     
       return (
-    <><>
+        <div>
     <div class = "nav-menu">
         <button onClick={bioClick}>
           bio
@@ -61,15 +85,18 @@ export default function AboutPage() {
           spotify
         </button>
     </div>
-    
+
+    <div>
+    < BioBlurb /> 
+    <ExtrasBlurb />
+    <SpotifyBlurb />
+    </div>
+    </div>
     // this section is the output of the buttons
     // so we only want one at a time
     // so we check which one is true
     // only what is true is displayed
-    
-    <div class="which-section">
-    </div></>
-    </>
+
     
       );
 }

@@ -6,7 +6,7 @@ import AboutPage from "../Components/AboutPage/AboutPage";
     return (
 
       <div>
-        <AboutPage/>
+        <AboutPage />
         <Outlet/>
       </div>
       
