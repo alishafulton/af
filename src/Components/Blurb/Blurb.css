@@ -1,14 +1,11 @@
 .blurb{
     display: flex;
-    align-items: stretch;
     margin: 10px 10px 10px 10px;
 }
 
 .bio-blurb{
-    display: flex;
-    align-items: start;
     width: 500px;
-    margin: 10px;
+    margin: 20px;
     font-size: 12px;
     font-family: Lexend;
 }
@@ -21,5 +18,5 @@ h1 {
     font-family: Playfair;
     color:#000006;
     font-weight:200;
-    font-size: 14px;
+    font-size: 16px;
 }
