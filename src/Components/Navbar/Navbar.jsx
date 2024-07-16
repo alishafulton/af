@@ -9,9 +9,9 @@ export default function Navbar () {
         <img src={ logo } alt="" className="logo"/>
 
         <ul className="nav-menu">
-        <li><Link to="/af/"><h2>home</h2></Link></li>
-        <li><Link to="/af/about"><h2>about me</h2></Link></li>
-        <li><Link to="/af/portfolio"><h2>portfolio</h2></Link></li>
+        <li><Link to="/af/">home</Link></li>
+        <li><Link to="/af/about">about me</Link></li>
+        <li><Link to="/af/portfolio">portfolio</Link></li>
         </ul>
 
         <div className="nav-connect">contact</div>
