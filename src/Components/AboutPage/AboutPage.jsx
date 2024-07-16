@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './AboutPage.css'
+import Blurb from "../Blurb/Blurb";
 
 export default function AboutPage() {
   const [isOn, setIsOn] = useState(false);
@@ -11,7 +12,7 @@ export default function AboutPage() {
 
   return (
     <div className="Results">
-      {isOn && <Blurb/>}
+      {isOn && <Blurb />}
       <button onClick={toggle1}>about me</button>
     </div>
   );
