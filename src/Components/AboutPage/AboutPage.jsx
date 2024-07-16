@@ -82,7 +82,7 @@ export default function AboutPage() {
         </ul>
     </div>
 
-    <div>
+    <div class = "mystery-section">
     < BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />

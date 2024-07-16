@@ -3,7 +3,6 @@
 .entirety {
     align-content: start;
     display: flex;
-    justify-content: center;
     padding-top: 50px;
 }
 
@@ -11,4 +10,8 @@
     align-content: start;
     height: 400px;
     padding-right: 30px;
+}
+
+.mystery-section {
+    width: 800px;
 }
