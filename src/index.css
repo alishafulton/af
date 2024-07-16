@@ -53,4 +53,5 @@ button {
 ul,li  {
   list-style-type: none;
   text-align: end;
+  align-content: start;
 }
