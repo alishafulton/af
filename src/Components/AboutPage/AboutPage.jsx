@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import './AboutPage.css'
-import Blurb from "../Blurb/Blurb";
-import Extra from "../Extracurriculars/Extracurriculars";
-import Spotify from "../Spotify/Spotify";
 
-import React, { useState } from "react";
 
 
 
