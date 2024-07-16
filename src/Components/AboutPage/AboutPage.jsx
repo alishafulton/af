@@ -2,25 +2,36 @@ import React, { useState } from "react";
 import './AboutPage.css'
 import Blurb from "../Blurb/Blurb";
 import Extra from "../Extracurriculars/Extracurriculars";
+import Spotify from "../Spotify/Spotify";
 
 
 
-export default function AboutPage() {
-    const [section, setSection] = useState(true);
-    
-    function toggle() {
-      if(first === true) {
-          setSection(false);
-      } else if (first === false) {
-          setSection(true);
-      }
-    }
-  
+function Item({ name, isPacked }) {
     return (
-      <div>
-        <button onClick={toggle}>Toggle Shoot</button>  
-        <div>{section ? { Blurb } : { Extra }}</div>
-      </div>
+      <li className="item">
+        {name} {isPacked && '✔'}
+      </li>
     );
   }
-
+  
+  export default function AboutPage() {
+    return (
+      <section>
+        <h1>Sally Ride's Packing List</h1>
+        <ul>
+          <Item 
+            isPacked={true} 
+            name="Space suit" 
+          />
+          <Item 
+            isPacked={true} 
+            name="Helmet with a golden leaf" 
+          />
+          <Item 
+            isPacked={false} 
+            name="Photo of Tam" 
+          />
+        </ul>
+      </section>
+    );
+  }
