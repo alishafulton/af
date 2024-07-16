@@ -1,5 +1,4 @@
 import React from "react";
-import './AboutNav.css';
 
 
 export const AboutNav = () => {
@@ -36,7 +35,7 @@ export const AboutNav = () => {
   );
 };
 
-export const Specialbuton = ({ buttons, setButtons, handleButtonsChange }) => {
+const Specialbuton = ({ buttons, setButtons, handleButtonsChange }) => {
   return (
     <>
       {buttons.map((button, index) => (
