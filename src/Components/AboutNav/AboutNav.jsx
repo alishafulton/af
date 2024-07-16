@@ -1,67 +1,17 @@
 import React from "react";
 
 
-export const AboutNav = () => {
-  const [buttons, setButtons] = useState([
-    { label: "about me", value: false },
-    { label: "extracurriculars", value: false },
-    { label: "spotify", value: false }
-  ]);
+export default function MyComponent() {
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleButtonsChange = ({
-    buttons,
-    setButtons,
-    handleButtonsChange
-  }) => label => {
-    const newButtonsState = buttons.map(button => {
-      if (button.label === label) {
-        return (button = { label: button.label, value: true });
-      }
-      return {
-        label: button.label,
-        value: false
-      };
-    });
-    setButtons(newButtonsState);
-  };
+  function toggle() {
+    setIsOpen((isOpen) => !isOpen);
+  }
 
   return (
     <div className="AboutNav">
-      <Specialbuton {...{ buttons, setButtons, handleButtonsChange }} />
-      {buttons[0].value && <div>LOW</div>}
-      {buttons[1].value && <div>MEDIUM</div>}
-      {buttons[2].value && <div>HIGH</div>}
+      {isOpen && <Popup />}
+      <button onClick={toggle}>Toggle show</button>
     </div>
   );
-};
-
-const Specialbuton = ({ buttons, setButtons, handleButtonsChange }) => {
-  return (
-    <>
-      {buttons.map((button, index) => (
-        <button
-          key={`${button.label}-${index}`}
-          onClick={() =>
-            handleButtonsChange({ buttons, setButtons })(button.label)
-          }
-        >
-          {button.label.toUpperCase()}
-        </button>
-      ))}
-    </>
-  );
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
