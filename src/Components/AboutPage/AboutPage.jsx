@@ -6,7 +6,7 @@ import Spotify from "../Spotify/Spotify";
 
 
 
-export default function LightSwitch() {
+export default function AboutPage() {
 
     const bio = { Blurb }
     const extras = { Extra }
@@ -32,6 +32,12 @@ export default function LightSwitch() {
       function extraClick() {
         setBioVisibility(false)
         setExtraVisibility(true)
+        setSpotifyVisibility(fals)
+      }
+
+      function spotifyClick() {
+        setBioVisibility(false)
+        setExtraVisibility(false)
         setSpotifyVisibility(true)
       }
     
@@ -62,9 +68,6 @@ export default function LightSwitch() {
     // only what is true is displayed
     
     <div class="which-section">
-    {bioVisible ? bio : null}
-    {extraVisible ? extras : null}
-    {extraVisible ? extras : null}
     </div></>
     </>
     
