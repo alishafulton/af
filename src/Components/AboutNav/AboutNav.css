@@ -1,5 +1,5 @@
 .navsection{
-    justify-content: end;
+    justify-items: end;
     width: 100px;
     margin: 20px;
 }
