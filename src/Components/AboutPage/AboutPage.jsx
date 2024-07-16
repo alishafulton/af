@@ -1,6 +1,5 @@
-import React from "react";
-import './AboutPage.css'
 import React, { useState } from "react";
+import './AboutPage.css'
 
 export default function AboutPage() {
   const [isOn, setIsOn] = useState(false);
