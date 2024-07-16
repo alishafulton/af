@@ -7,9 +7,6 @@ import Blurb from "../Blurb/Blurb";
 
 export default function AboutPage() {
 
-    const bio = { Blurb }
-    const extras = "extras"
-    const spotify = "bio"
     
     
     // set constants with a name, toSet and tf
@@ -42,7 +39,7 @@ export default function AboutPage() {
 
     function BioBlurb() {
       if (bioVisible) {
-        return bio;
+        return { Blurb };
       }
         return null;
       }
