@@ -2,28 +2,26 @@ import React, { useState } from "react";
 import './AboutPage.css'
 import Blurb from "../Blurb/Blurb";
 import Extra from "../Extracurriculars/Extracurriculars";
-import Spotify from "../Spotify/Spotify";
+
 
 
 export default function AboutPage() {
-    const [didHanSoloShootFirst, setDidHanSoloShootFirst] = useState(true);
-    const paragraphHanShotFirst = { Blurb };
-    const paragraphHanShotSecond = { Extra };
+    const [section, setSection] = useState(true);
+    const first = { Blurb };
+    const second = { Extra };
     
     function toggle() {
-      if(didHanSoloShootFirst === true) {
-          setDidHanSoloShootFirst(false);
-      } else if (didHanSoloShootFirst === false) {
-          setDidHanSoloShootFirst(true);
+      if(first === true) {
+          setSection(false);
+      } else if (first === false) {
+          setSection(true);
       }
     }
   
     return (
-      <div className='container'>
+      <div>
         <button onClick={toggle}>Toggle Shoot</button>  
-
-        <img src={didHanSoloShootFirst ? HanShotFirst : HanShotSecond} />
-        <p>{didHanSoloShootFirst ? paragraphHanShotFirst : paragraphHanShotSecond}</p>
+        <div>{section ? first : second}</div>
       </div>
     );
   }
