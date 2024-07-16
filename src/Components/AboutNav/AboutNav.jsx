@@ -1,17 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
+const [isVisible, setIsVisible] = useState(false);
 
-export default function MyComponent() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  function toggle() {
-    setIsOpen((isOpen) => !isOpen);
-  }
-
+export default function AboutNav () {
   return (
-    <div className="AboutNav">
-      {isOpen && <Popup />}
-      <button onClick={toggle}>Toggle show</button>
-    </div>
-  );
+  <div>
+    <button onClick={() => setIsVisible(!isVisible)}>
+      {isVisible ? 'Hide content' : 'Show content'}
+    </button>
+    {isVisible && (
+      <div>
+        <p>This is the content to show/hide.</p>
+      </div>
+    )}
+  </div>
+);
 }
