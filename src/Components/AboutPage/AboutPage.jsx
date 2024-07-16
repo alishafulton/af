@@ -39,7 +39,7 @@ export default function AboutPage() {
 
     function BioBlurb() {
       if (bioVisible) {
-        return <div><Blurb/></div>;
+        return "we're gonna figure iit out";
       }
         return null;
       }
