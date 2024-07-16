@@ -1,5 +1,6 @@
 .navsection{
-    width: 100px;
+    width: 200px;
+    justify-items: end;
 }
 
 h5 {
