@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 
-const [isVisible, setIsVisible] = useState(false);
+export default function LightSwitch() {
+  function handleClick() {
+    let bodyStyle = document.body.style;
+    if (bodyStyle.backgroundColor === 'black') {
+      bodyStyle.backgroundColor = 'white';
+    } else {
+      bodyStyle.backgroundColor = 'black';
+    }
+  }
 
-export default function AboutNav () {
   return (
-  <div>
-    <button onClick={() => setIsVisible(!isVisible)}>
-      {isVisible ? 'Hide content' : 'Show content'}
+    <button onClick={handleClick}>
+      Toggle the lights
     </button>
-    {isVisible && (
-      <div>
-        <p>This is the content to show/hide.</p>
-      </div>
-    )}
-  </div>
-);
+  );
 }
