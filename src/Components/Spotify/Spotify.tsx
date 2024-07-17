@@ -15,7 +15,7 @@ export const Spotify = ({
   link,
   style = {},
   wide = true,
-  width = 800,
+  width = 840,
   height = 380,
   frameBorder = 0,
   allow = "encrypted-media",
