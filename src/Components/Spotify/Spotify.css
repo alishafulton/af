@@ -1,3 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+
+@import "@tsmodule/react";
+
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
