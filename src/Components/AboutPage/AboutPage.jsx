@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './AboutPage.css'
 import Blurb from "../Blurb/Blurb";
-
+import Spotify from "../Spotify/Spotify";
 
 
 
@@ -55,7 +55,7 @@ export default function AboutPage() {
 
         function SpotifyBlurb() {
             if (spotifyVisible) {
-              return <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1yw34p3ZFZyUg45TlZm7hY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>;
+              return <Spotify/>;
             }
               return null;
             }

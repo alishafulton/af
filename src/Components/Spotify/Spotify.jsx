@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import WebPlayback from './WebPlayback'
+import Login from './Login'
+import './App.css';
 
-export default function Spotify () {
-    return (
-        <>
-      <div className='spotify'>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1yw34p3ZFZyUg45TlZm7hY?utm_source=generator" 
-width="100%" height="352"  allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-</div></>);
+export default function Spotify() {
+
+  const [token, setToken] = useState('');
+
+  useEffect(() => {
+
+    async function getToken() {
+      const response = await fetch('/auth/token');
+      const json = await response.json();
+      setToken(json.access_token);
+    }
+
+    getToken();
+
+  }, []);
+
+  return (
+    <>
+        { (token === '') ? <Login/> : <WebPlayback token={token} /> }
+    </>
+  );
 }
