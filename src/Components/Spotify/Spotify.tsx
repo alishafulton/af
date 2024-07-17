@@ -29,7 +29,7 @@ export const Spotify = ({
     <iframe
       title="Spotify Web Player"
       src={`https://open.spotify.com/embed${url.pathname}`}
-      width={width}
+      width={800}
       height={height}
       frameBorder={frameBorder}
       allow={allow}
