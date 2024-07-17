@@ -25,7 +25,7 @@ export default function WebPlayback(props) {
         script.src = "https://sdk.scdn.co/spotify-player.js";
         script.async = true;
 
-        document.body.appendChild(script);
+        document.spotifybody.appendChild(script);
 
         window.onSpotifyWebPlaybackSDKReady = () => {
 

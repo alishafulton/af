@@ -4,22 +4,22 @@
     padding: 0;
   }
   
-  html, body {
+  html, spotifybody {
     height: 100%;
   }
   
-  body {
+  spotifybody {
     background-color: #333;
     color: #eee;
     font-family: Helvetica, Arial;
     font-size: 3vmin;
   }
   
-  .App {
+  .Spotify {
     text-align: center;
   }
   
-  .App-header {
+  .Spotify-header {
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
