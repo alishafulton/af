@@ -15,8 +15,8 @@ export const Spotify = ({
   link,
   style = {},
   wide = true,
-  width = wide ? "100%" : 800,
-  height = wide ? 380 : 380,
+  width = 800,
+  height = 380,
   frameBorder = 0,
   allow = "encrypted-media",
   ...props
@@ -29,7 +29,7 @@ export const Spotify = ({
     <iframe
       title="Spotify Web Player"
       src={`https://open.spotify.com/embed${url.pathname}`}
-      width={800}
+      width={width}
       height={height}
       frameBorder={frameBorder}
       allow={allow}
