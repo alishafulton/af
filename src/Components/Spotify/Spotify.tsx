@@ -14,9 +14,9 @@ interface SpotifyProps extends HTMLAttributes<HTMLIFrameElement> {
 export const Spotify = ({
   link,
   style = {},
-  wide = false,
-  width = "100%", 800
-  height = wide ? 80 : 380,
+  wide = true,
+  width = wide ? "100%" : 800,
+  height = wide ? 380 : 380,
   frameBorder = 0,
   allow = "encrypted-media",
   ...props
