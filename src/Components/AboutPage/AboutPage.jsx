@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './AboutPage.css'
 import Blurb from "../Blurb/Blurb";
-import Spotify from "../Spotify/Spotify";
+import { Spotify } from "../Spotify/Spotify";
 
 
 
