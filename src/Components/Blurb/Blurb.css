@@ -3,14 +3,14 @@
 }
 
 .bio-blurb{
-    width: 500px;
+    width: 460px;
     font-size: 12px;
     font-family: Lexend;
     padding: 0px 20px;
 }
 
 .selfie{
-    height: 400px;
+    width: 200px;
 }
 
 h1 {
