@@ -1,7 +1,7 @@
 import React from "react";
 import './Blurb.css';
 import selfie from '../../assets/CurrentPhoto.png'
-import Intro from "../Hi Im Alisha/Intro";
+import Intro from "../Intro/Intro";
 
 export default function Blurb () {
     return (
