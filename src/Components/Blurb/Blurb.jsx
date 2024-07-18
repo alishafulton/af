@@ -10,12 +10,7 @@ export default function Blurb () {
       <div className='blurb'>
         <img src={ selfie } alt="" className="selfie"/>
 
-        <div className="intro">< Intro /></div>
-
-        
-        <div className="intro">< AnotherIntro /></div>
-
-        <div className="intro">< ThirdIntro /></div> 
+        <div className="intro">< Intro /> < AnotherIntro />< ThirdIntro /></div> 
         </div>
 
     );
