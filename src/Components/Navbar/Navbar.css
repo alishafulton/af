@@ -14,7 +14,7 @@
 }
 
 .nav-connect{
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 50px;
     background: #000000;
     font-family: Lexend;
@@ -30,5 +30,11 @@
 
 li {
     text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Lexend;
+}
 
+.logo {
+    height: 25px;
 }
