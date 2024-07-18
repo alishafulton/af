@@ -8,8 +8,7 @@ export default function Blurb () {
     return (
       <div className='blurb'>
         <img src={ selfie } alt="" className="selfie"/>
-
-        <div className="intro">< Intro /></div> 
+        < Intro /></div> 
         </div>
 
     );
