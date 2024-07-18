@@ -14,18 +14,3 @@
     width: 320px;
 }
 
-h1 {
-    font-family: Playfair;
-    color:#000006;
-    font-weight:200;
-    font-size: 16px;
-    float: right;
-}
-
-.first-sentence {
-    font-size: 30px;
-    font-family: Lexend;
-    color:#000006;
-    font-weight:400;
-    float: left;
-}
