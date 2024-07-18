@@ -8,7 +8,7 @@ export default function Blurb () {
       <div className='blurb'>
         <img src={ selfie } alt="" className="selfie"/>
 
-        <div className="bio-blurb"> < Intro />
+        <div className="bio-blurb"><div className="intro">< Intro /></div>
         <p>Working over ten years in customer service has given me a keen ability 
         to assess customer needs and collaborate with others to achieve goals. 
         Now, I've transitioned into UX/UI, where I can hone both my interpersonal 
