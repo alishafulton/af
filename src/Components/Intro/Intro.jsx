@@ -11,7 +11,7 @@ export default function Intro () {
     internships in educational settings. I continued my education with a Bachelors of
     Science in Educational Studies. I developed my interpersonal skills
     in four more internships, this time focused less on traditional childhood
-    education, and instead, in and around my local community.
+    education, and instead, in and around my local community. <br/>
     
     
     <div className="first-sentence">Working as a barista</div> at a Starbucks in Santa Barbara, California, I 
@@ -20,7 +20,7 @@ export default function Intro () {
     languages, helpful tools and programs like Visual Studio Code. While my head was 
     in my computer in my free time, I spent my mornings growing into a Shift 
     Supervisor at Starbucks. I moved from state to state, transferring stores
-    and re-learning an entire new group of people (both baristas and customers!)
+    and re-learning an entire new group of people (both baristas and customers!) <br />
 
     <div className="first-sentence">Spending over </div>ten years in customer service has given me a keen ability 
     to assess customer needs and collaborate with others to achieve goals. 
