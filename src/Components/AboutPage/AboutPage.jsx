@@ -8,8 +8,8 @@ import { Spotify } from "../Spotify/Spotify";
 export default function AboutPage() {
 
     
-    
-    // set constants with a name, toSet and tf
+    // set constants with a name, toSet and true or false
+    // bio starts as visible first 
     const [bioVisible, setBioVisibility] = useState(true);
     const [extraVisible, setExtraVisibility] = useState(false);
     const [spotifyVisible, setSpotifyVisibility] = useState(false);
@@ -37,6 +37,8 @@ export default function AboutPage() {
         setSpotifyVisibility(true)
       }
 
+
+      // each button click brings a different result
     function BioBlurb() {
       if (bioVisible) {
         return <Blurb/>;
