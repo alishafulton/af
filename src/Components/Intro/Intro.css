@@ -1,7 +1,7 @@
 .first-sentence {
     font-size: 32px;
     font-family: Lexend;
-    color:#000006;
+    color:#000103;
     font-weight:500;
     float: left;
     padding-right: 10px;
@@ -11,5 +11,6 @@
     font-size: 16px;
     font-family: Playfair;
     padding-left: 20px;
-    color:#000103
+    color:#000103;
+    float: left;
 }
