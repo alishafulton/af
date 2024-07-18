@@ -22,7 +22,7 @@ export const Spotify = ({
   ...props
 }: SpotifyProps) => {
   const url = new URL(link);
-  // https://open.spotify.com/track/1KFxcj3MZrpBGiGA8ZWriv?si=f024c3aa52294aa1
+  // https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf
   // Remove any additional path segments
   url.pathname = url.pathname.replace(/\/intl-\w+\//, "/");
   return (
