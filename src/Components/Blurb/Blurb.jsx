@@ -9,7 +9,6 @@ export default function Blurb () {
       <div className='blurb'>
         <img src={ selfie } alt="" className="selfie"/>
         < Intro /></div> 
-        </div>
 
     );
   };
