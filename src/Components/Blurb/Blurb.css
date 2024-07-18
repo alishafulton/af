@@ -1,6 +1,6 @@
 .blurb{
     display: flex;
-    width: 450px;
+    width: 810px;
     padding: 0px 20px;
     float: left;
 }
@@ -12,7 +12,6 @@
 }
 
 .intro {
-    width: 450px;
     padding-left: 20px;
     float: left;
 }
