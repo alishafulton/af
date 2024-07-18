@@ -7,6 +7,7 @@
     font-size: 12px;
     font-family: Lexend;
     padding: 0px 20px;
+    display: flex;
 }
 
 .selfie{
@@ -21,7 +22,7 @@ h1 {
 }
 
 s1 {
-    font-family: Playfair;
+    font-family: Lexend;
     color:#000006;
     font-weight:400;
     font-size: 32px;
