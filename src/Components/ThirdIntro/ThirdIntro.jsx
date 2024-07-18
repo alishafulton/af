@@ -4,6 +4,6 @@ import '../Intro/Intro.css';
 
 export default function ThirdIntro () {
     return (
-    <div className="first-sentence">Spending over ten years</div>
+    <div className="first-sentence">Spending over</div>
     );
 };
