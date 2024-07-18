@@ -2,6 +2,7 @@ import React from "react";
 import './Blurb.css';
 import selfie from '../../assets/CurrentPhoto.png'
 import Intro from "../Intro/Intro";
+import AnotherIntro from "../AnotherIntro/AnotherIntro";
 
 export default function Blurb () {
     return (
@@ -18,7 +19,7 @@ export default function Blurb () {
           education, and instead, in and around my local community. 
 
         
-        Working as a barista at a Starbucks in Santa Barbara, California, I 
+          <div className="intro">< AnotherIntro /></div> at a Starbucks in Santa Barbara, California, I 
         started taking Computer Science courses online. I used as many free or 
         inexpensive resources that I could to continue learning different coding
         languages, helpful tools and programs like Visual Studio Code. While my head was 
