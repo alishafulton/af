@@ -3,6 +3,7 @@ import './Blurb.css';
 import selfie from '../../assets/CurrentPhoto.png'
 import Intro from "../Intro/Intro";
 import AnotherIntro from "../AnotherIntro/AnotherIntro";
+import ThirdIntro from "../ThirdIntro/ThirdIntro";
 
 export default function Blurb () {
     return (
@@ -27,7 +28,7 @@ export default function Blurb () {
         Supervisor at Starbucks. I moved from state to state, transferring stores
         and learning an entire new group of people (both baristas and customers!)
 
-        Spending over ten years in customer service has given me a keen ability 
+        <div className="intro">< ThirdIntro /></div>Spending over ten years in customer service has given me a keen ability 
         to assess customer needs and collaborate with others to achieve goals. 
         Now, I've transitioned into UX/UI, where I can hone both my interpersonal 
         skills and my creative talent to help brands develop and nurture customer 

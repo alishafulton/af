@@ -1,5 +1,5 @@
 import React from "react";
-import '../Intro.css';
+import '../Intro/Intro.css'
 
 
 export default function AnotherIntro () {
