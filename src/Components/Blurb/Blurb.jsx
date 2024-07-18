@@ -28,7 +28,7 @@ export default function Blurb () {
         Supervisor at Starbucks. I moved from state to state, transferring stores
         and learning an entire new group of people (both baristas and customers!)<br/>
 
-        <div className="intro">< ThirdIntro /></div> in customer service has given me a keen ability 
+        <div className="intro">< ThirdIntro /></div> ten years in customer service has given me a keen ability 
         to assess customer needs and collaborate with others to achieve goals. 
         Now, I've transitioned into UX/UI, where I can hone both my interpersonal 
         skills and my creative talent to help brands develop and nurture customer 
