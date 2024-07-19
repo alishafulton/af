@@ -7,9 +7,9 @@ import pic7 from '../../assets/IMG_0658.png'
 import pic9 from '../../assets/IMG_0739.png'
 import pic10 from '../../assets/IMG_0940.png'
 import pic11 from '../../assets/IMG_0944.png'
-import pic13 from '../../assets/IMG_0967.png'
 import BigPic from "../BigPic/BigPic";
 import Pic1 from "../pic1/pic1";
+import BigPic2 from "../BigPic/BigPic2";
 
 
 export default function Extra () {
@@ -43,7 +43,7 @@ export default function Extra () {
         <img src={ pic10 } alt="" className="pic"/>
         <img src={ pic11 } alt="" className="pic"/>
         <img src={ pic7 } alt="" className="pic"/>
-        <img src={ pic13 } alt="" className="bigpic"/>
+        <BigPic2/>
 
         </div>
     );
