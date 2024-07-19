@@ -17,9 +17,9 @@ export default function Extra () {
     return (
       <div className="extras">
         <img src={ before } alt="" className="pic"/>
-        <img src={ pic1 } alt="" className="pic"/>
         <img src={ wood } alt="" className="pic"/>
         <img src={ girls } alt="" className="pic"/>
+        <img src={ pic1 } alt="" className="pic"/>
         <img src={ pic4 } alt="" className="pic"/>
         <img src={ pic5 } alt="" className="pic"/>
         <img src={ pic9 } alt="" className="pic"/>
