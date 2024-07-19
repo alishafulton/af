@@ -36,8 +36,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div>
         
-        <img src={ girls } alt="" className="pic"/>
-        <img src={ pic1 } alt="" className="pic"/>
+        <img src={ girls } alt="" className="smallpic-v"/>
         <img src={ pic4 } alt="" className="pic"/>
         <img src={ pic5 } alt="" className="pic"/>
         <img src={ pic9 } alt="" className="pic"/>
