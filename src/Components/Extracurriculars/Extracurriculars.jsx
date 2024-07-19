@@ -21,9 +21,9 @@ export default function Extra () {
         seriously considering the idea of screening in their
         200 square foot porch. We discussed a variety of
         methods we could take and after discussing how we 
-        could be the most efficient, we picked a day to get started. 
-        <img src={ wood } alt="" className="smallpic-v"/>  <br/>
-         Brimming with excitement, we triple-measured and wrote down
+        could be the most efficient, we picked a day to get started. <br/>
+        <img src={ wood } alt="" className="smallpic-v"/>  
+        Brimming with excitement, we triple-measured and wrote down
         exactly what we needed to buy on our first trip to Home Depot.
         <div className="rightpic"><Pic1/> </div> We borrowed an SUV to go back and forth to the store and bought
         what we needed for our first section. <br/>
