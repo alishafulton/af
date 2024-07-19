@@ -1,6 +1,5 @@
 import React from "react";
 import './Extracurriculars.css';
-import pic1 from '../../assets/IMG_0640.png'
 import before from '../../assets/IMG_0549.png'
 import wood from '../../assets/IMG_0556.png'
 import pic4 from '../../assets/IMG_0565.png'

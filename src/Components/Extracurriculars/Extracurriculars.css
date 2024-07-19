@@ -9,13 +9,13 @@
 .smallpic-v{
     width: 250px;
     float: left;
-    padding: 10px;
+    margin-right: 10px;
 }
 
 .smallpic-v2{
     width: 150px;
     float: right;
-    padding: 10px;
+    margin-left: 10px;
 }
 
 .extras {
