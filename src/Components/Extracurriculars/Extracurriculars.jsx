@@ -16,7 +16,7 @@ import pic13 from '../../assets/IMG_0967.png'
 export default function Extra () {
     return (
       <div className="extras">
-        <img src={ before } alt="" className="pic"/>
+        <img src={ before } alt="" className="bigpic"/> 
         <img src={ wood } alt="" className="pic"/>
         <img src={ girls } alt="" className="pic"/>
         <img src={ pic1 } alt="" className="pic"/>
