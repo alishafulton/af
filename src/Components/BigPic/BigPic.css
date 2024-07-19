@@ -1,7 +1,8 @@
 .bigpic{
-    width: 620px;
+    width: 65px;
     margin-top: 30px;
     margin-right: 40px;
+    margin-bottom: 15px;
     float: right;
 }
 
@@ -17,5 +18,5 @@
     font-family: Lexend;
     color:#fffef2;
     font-weight: 400;
-    font-size:34px;
+    font-size: 34px;
 }
