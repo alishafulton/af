@@ -13,7 +13,7 @@
 }
 
 .smallpic-v2{
-    width: 150px;
+    width: 200px;
     float: right;
     margin-left: 10px;
 }
@@ -32,7 +32,7 @@
 }
 
 .text {
-    font-size: 20px;
+    font-size: 16px;
     font-family: Playfair;
     color:#000103;
 }

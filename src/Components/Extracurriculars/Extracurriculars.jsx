@@ -26,7 +26,7 @@ export default function Extra () {
         exactly what we needed to buy on our first trip to Home Depot.
         We borrowed an SUV to go back and forth to the store and bought
         what we needed for our first section. <br/>
-        <img src={ girls } alt="" className="smallpic-v2"/>
+        <img src={ girls } alt="" className="smallpic-v2"/> <br/>
 
         This would normally be the part of the story where I tell you
         what an absolute mess it was... except it wasn't. Now, I'm not
