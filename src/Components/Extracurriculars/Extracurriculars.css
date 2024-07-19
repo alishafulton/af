@@ -8,8 +8,24 @@
 
 .smallpic-v{
     width: 250px;
+    float: left;
 }
 
 .extras {
     width: 810px;
+}
+
+.first-sentence {
+    font-size: 32px;
+    font-family: Lexend;
+    color:#000103;
+    font-weight:500;
+    float: left;
+    padding-right: 15px;
+}
+
+.text {
+    font-size: 16px;
+    font-family: Playfair;
+    color:#000103;
 }
