@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './AboutPage.css'
 import Blurb from "../Blurb/Blurb";
 import { Spotify } from "../Spotify/Spotify";
+import Extra from "../Extracurriculars/Extracurriculars";
 
 
 
@@ -49,7 +50,7 @@ export default function AboutPage() {
 
       function ExtrasBlurb() {
         if (extraVisible) {
-          return "extry extry";
+          return <Extra/>;
         }
           return null;
         }
@@ -87,7 +88,7 @@ export default function AboutPage() {
     </div>
 
     <div>
-    < BioBlurb /> 
+    <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
     </div>

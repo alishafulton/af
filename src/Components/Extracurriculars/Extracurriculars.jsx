@@ -1,9 +1,11 @@
 import React from "react";
+import './Extracurriculars.css';
+import pic1 from '../../assets/IMG_0640.HEIC'
 
 export default function Extra () {
     return (
       <div>
-        <h1>Extracurriculaaaaaaaaaars.</h1>
+        <img src={ pic1 } alt="" className="pic"/>
         </div>
     );
   };
