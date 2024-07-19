@@ -3,13 +3,13 @@ import './Extracurriculars.css';
 import wood from '../../assets/IMG_0556.png'
 import pic4 from '../../assets/IMG_0565.png'
 import pic5 from '../../assets/IMG_0573.png'
-import girls from '../../assets/IMG_0576.png'
 import pic7 from '../../assets/IMG_0658.png'
 import pic9 from '../../assets/IMG_0739.png'
 import pic10 from '../../assets/IMG_0940.png'
 import pic11 from '../../assets/IMG_0944.png'
 import pic13 from '../../assets/IMG_0967.png'
 import BigPic from "../BigPic/BigPic";
+import Pic1 from "../pic1/pic1";
 
 
 export default function Extra () {
@@ -26,8 +26,8 @@ export default function Extra () {
         Brimming with excitement, we triple-measured and wrote down
         exactly what we needed to buy on our first trip to Home Depot.
         We borrowed an SUV to go back and forth to the store and bought
-        what we needed for our first section. <br/>
-        <img src={ girls } alt="" className="smallpic-v2"/> <br/>
+        what we needed for our first section. <br/> <div className="rightpic">
+        <Pic1/> </div><br/>
 
         This would normally be the part of the story where I tell you
         what an absolute mess it was... except it wasn't. Now, I'm not

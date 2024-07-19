@@ -32,3 +32,7 @@
     font-family: Playfair;
     color:#000103;
 }
+
+.rightpic {
+    float: right;
+}
