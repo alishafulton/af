@@ -12,6 +12,12 @@
     padding: 10px;
 }
 
+.smallpic-v2{
+    width: 150px;
+    float: right;
+    padding: 10px;
+}
+
 .extras {
     width: 810px;
 }
@@ -26,7 +32,7 @@
 }
 
 .text {
-    font-size: 16px;
+    font-size: 20px;
     font-family: Playfair;
     color:#000103;
 }

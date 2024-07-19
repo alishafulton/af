@@ -27,6 +27,7 @@ export default function Extra () {
         exactly what we needed to buy on our first trip to Home Depot.
         We borrowed an SUV to go back and forth to the store and bought
         what we needed for our first section. <br/>
+        <img src={ girls } alt="" className="smallpic-v2"/>
 
         This would normally be the part of the story where I tell you
         what an absolute mess it was... except it wasn't. Now, I'm not
@@ -36,7 +37,6 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div>
         
-        <img src={ girls } alt="" className="smallpic-v"/>
         <img src={ pic4 } alt="" className="pic"/>
         <img src={ pic5 } alt="" className="pic"/>
         <img src={ pic9 } alt="" className="pic"/>
