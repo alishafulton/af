@@ -1,4 +1,5 @@
 import before from '../../assets/IMG_0549.png'
+import './BigPic.css';
 
 export default function BigPic () {
     return (
