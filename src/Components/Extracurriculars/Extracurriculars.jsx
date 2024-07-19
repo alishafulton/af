@@ -16,11 +16,12 @@ export default function Extra () {
     return (
       <div className="extras">
         <img src={ before } alt="" className="bigpic"/><br/>
-        <div className="first-sentence">In March 2024,</div><div className="text">my cousin and I set out to screen 
-        in their 200 square foot porch. It took us some time to
-        put idea into action, but after a couple days of discussing
-        what methods we would take while getting swarmed by crane 
-        flies, we picked a day to get started.
+        <div className="text"> After a couple weeks of getting 
+        swarmed by crane flies, my cousin and I started 
+        seriously considering the idea of screening in their
+        200 square foot porch. We discussed a variety of
+        methods we could take and after discussing how we 
+        could be the most efficient, we picked a day to get started.
         <img src={ wood } alt="" className="smallpic-v"/>
         Brimming with excitement, we triple-measured and wrote down
         exactly what we needed to buy on our first trip to Home Depot.
