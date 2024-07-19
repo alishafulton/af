@@ -1,5 +1,7 @@
 .bigpic{
     width: 600px;
+    margin-top: 30px;
+    margin-left: 20px;
     float: left;
 }
 
@@ -11,7 +13,7 @@
 
 .headline-text{
     font-family: Lexend;
-    color:#000006;
-    font-weight:400;
+    color:#fffef2;
+    font-weight: 400;
     font-size:34px;
 }
