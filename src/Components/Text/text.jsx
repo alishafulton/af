@@ -6,25 +6,25 @@ import './text.css';
 export default function Text () {
     return (
     
-    <div className="text"><div className="first-sentence">Hi, I'm Alisha!</div> 
+    <div className="text"><p><div className="first-sentence">Hi, I'm Alisha!</div> 
     From learning to read at age three, to getting my Girl Scout Bronze, 
     Silver and Gold Awards, I have always been an avid learner. In high school,
     I took two years of a Practicum Education and Training with four
     internships in educational settings. I continued my education with a Bachelors of
     Science in Educational Studies. I developed my interpersonal skills
     in four more internships, this time focused less on traditional childhood
-    education, and instead, in and around my local community. <br/>
+    education, and instead, in and around my local community. </p>
     
     
-    <div className="first-sentence">Working as a barista</div> at a Starbucks in Santa Barbara, California, I 
+    <p><div className="first-sentence">Working as a barista</div> at a Starbucks in Santa Barbara, California, I 
     started taking Computer Science courses online. I used as many free or 
     inexpensive resources that I could to continue learning different coding
     languages, helpful tools and programs like Visual Studio Code. While my head was 
     in my computer in my free time, I spent my mornings growing into a Shift 
     Supervisor at Starbucks. I moved from state to state, transferring stores
-    and re-learning an entire new group of people (both baristas and customers!) <br />
+    and re-learning an entire new group of people (both baristas and customers!)</p>
 
-    <div className="first-sentence">Spending over </div>ten years in customer service has given me a keen ability 
+    <p> <div className="first-sentence">Spending over </div>ten years in customer service has given me a keen ability 
     to assess customer needs and collaborate with others to achieve goals. 
     Now, I've transitioned into UX/UI, where I can hone both my interpersonal 
     skills and my creative talent to help brands develop and nurture customer 
@@ -32,7 +32,7 @@ export default function Text () {
     confidence in on-the-spot problem solving, as well as high levels of emotional 
     intelligence that I hope to bring to any team. I am excited to find a UX/UI Design 
     role that will leverage my customer-centric experience, foster my eagerness to learn, 
-    and allow me to create designs that will improve everyday user experiences.
+    and allow me to create designs that will improve everyday user experiences.</p>
     </div>
 
     );
