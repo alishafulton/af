@@ -16,7 +16,7 @@ export default function Extra () {
     return (
       <div className="extras">
         <BigPic/><br/>
-        <div className="text"> After a couple weeks of getting 
+        <div className="texte"> After a couple weeks of getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
         200 square foot porch. We discussed a variety of
