@@ -22,12 +22,11 @@ export default function Extra () {
         200 square foot porch. We discussed a variety of
         methods we could take and after discussing how we 
         could be the most efficient, we picked a day to get started. 
-        <img src={ wood } alt="" className="smallpic-v"/>
-        Brimming with excitement, we triple-measured and wrote down
+        <img src={ wood } alt="" className="smallpic-v"/>  <br/>
+         Brimming with excitement, we triple-measured and wrote down
         exactly what we needed to buy on our first trip to Home Depot.
-        We borrowed an SUV to go back and forth to the store and bought
-        what we needed for our first section. <br/> <div className="rightpic">
-        <Pic1/> </div><br/>
+        <div className="rightpic"><Pic1/> </div> We borrowed an SUV to go back and forth to the store and bought
+        what we needed for our first section. <br/>
 
         This would normally be the part of the story where I tell you
         what an absolute mess it was... except it wasn't. Now, I'm not
@@ -37,7 +36,6 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div>
         
-        <img src={ pic4 } alt="" className="pic"/>
         <img src={ pic5 } alt="" className="pic"/>
         <img src={ pic9 } alt="" className="pic"/>
         <img src={ pic10 } alt="" className="pic"/>
