@@ -2,7 +2,7 @@
     width: 650px;
     margin-top: 30px;
     margin-right: 40px;
-    margin-left: 10px;
+    margin-left: 80px;
     margin-bottom: 15px;
     float: right;
 }
@@ -13,6 +13,8 @@
     height: 400px;
     margin-top: 15px;
     margin-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 .headline-text{
@@ -20,4 +22,6 @@
     color:#fffef2;
     font-weight: 400;
     font-size: 34px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
