@@ -1,5 +1,5 @@
 .blurb{
-    display: flex;
+    float: left;
     width: 810px;
 }
 
