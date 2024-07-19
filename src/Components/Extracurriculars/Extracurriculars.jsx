@@ -1,6 +1,5 @@
 import React from "react";
 import './Extracurriculars.css';
-import before from '../../assets/IMG_0549.png'
 import wood from '../../assets/IMG_0556.png'
 import pic4 from '../../assets/IMG_0565.png'
 import pic5 from '../../assets/IMG_0573.png'
@@ -10,12 +9,13 @@ import pic9 from '../../assets/IMG_0739.png'
 import pic10 from '../../assets/IMG_0940.png'
 import pic11 from '../../assets/IMG_0944.png'
 import pic13 from '../../assets/IMG_0967.png'
+import BigPic from "../BigPic/BigPic";
 
 
 export default function Extra () {
     return (
       <div className="extras">
-        <img src={ before } alt="" className="bigpic"/><br/>
+        <BigPic/><br/>
         <div className="text"> After a couple weeks of getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their

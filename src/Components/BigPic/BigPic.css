@@ -1,0 +1,16 @@
+.bigpic{
+    width: 600px;
+    float: left;
+}
+
+.headliner {
+    background-color: #7C99B4;
+    width: 810px;
+}
+
+.headline-text{
+    font-family: Lexend;
+    color:#000006;
+    font-weight:400;
+    font-size:34px;
+}
