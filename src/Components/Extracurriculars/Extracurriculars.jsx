@@ -2,6 +2,7 @@ import React from "react";
 import './Extracurriculars.css';
 import wood from '../../assets/IMG_0556.png'
 import pic5 from '../../assets/IMG_0573.png'
+import pic10 from '../../assets/IMG_0940.png';
 import pic11 from '../../assets/IMG_0944.png'
 import BigPic from "../BigPic/BigPic";
 import Pic1 from "../pic1/pic1";
@@ -54,7 +55,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
         
-        <img src={ pic11 } alt="" className="pic"/>
+        <img src={ pic10 } alt="" className="pic"/>
         
         <BigPic2/>
 
