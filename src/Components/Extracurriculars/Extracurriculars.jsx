@@ -21,22 +21,24 @@ export default function Extra () {
         seriously considering the idea of screening in their
         200 square foot porch. The bugs are unkind in the Texas heat, 
         (especially in the summer) and they lived across from a creek which
-        only worsened the situation. 
-        <img src={ wood } alt="" className="smallpic-v"/>  Their porch was already covered with a roof held up by
+        only worsened the situation. </div>
+        <img src={ wood } alt="" className="smallpic-v"/>  
+        <div className="texte"> 
+        Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
         shapes. It seemed more and more doable the more time we spent 
         staring at it, swatting mosquitos. We discussed a variety of
         methods we could take and after discussing how we 
-        could be the most efficient, we picked a day to get started. <br/>
+        could be the most efficient, we picked a day to get started.</div><br/>
         
-        Brimming with excitement, we triple-measured and wrote down
+        <br/><div className="texte"> Brimming with excitement, we triple-measured and wrote down
         exactly what we needed to buy on our first trip to Home Depot.
         <div className="rightpic"><Pic1/> </div> We borrowed an SUV to go back and forth to the store and bought
-        what we needed for our first section. <br/>
+        what we needed for our first section. <br/></div>
 
         <img src={ pic5 } alt="" className="middlepic"/>
         
-        This would normally be the part of the story where I tell you
+        <div className="texte"> This would normally be the part of the story where I tell you
         what an absolute mess it was... except it wasn't. Now, I'm not
         telling you that we are secretly Master Carpenters and it all
         went perfectly. Believe it or not, I even hammered myself a black eye.
