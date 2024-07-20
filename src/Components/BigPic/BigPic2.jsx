@@ -7,7 +7,7 @@ export default function BigPic2 () {
             
         <img src={ pic13 } alt="" className="bigpic"/>
         
-        <div className="wtxt">This would normally be the part of the story where I tell you
+        <div className="wtxt2">This would normally be the part of the story where I tell you
             what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
         </div>
     );
