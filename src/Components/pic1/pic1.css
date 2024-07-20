@@ -21,12 +21,12 @@
     margin-left: 50px;
 }
 .wtxt {
-    font-size: 20px;
+    font-size: 22px;
     font-family: Lexend;
     color:#FFFEF2;
     line-height: 32px;
-    padding-top: 40px;
-    margin-left: 20px;
+    width: 300px;
+    padding: 40px;
 }
 
 .combo1 {
