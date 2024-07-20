@@ -108,7 +108,7 @@ export default function PortfolioPage() {
         </ul>
     </div>
 
-    <div className="centered">
+    <div>
     <SprigBlurb/> 
     <ChannelBlurb/>
     <CoastBlurb/>
