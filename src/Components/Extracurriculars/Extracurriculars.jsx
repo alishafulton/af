@@ -12,14 +12,21 @@ import ComboPics from "../pic3/pic3";
 export default function Extra () {
     return (
       <div className="extras">
-        <BigPic/><br/>
+        
+        <BigPic />
+        
+        <br />
         <div className="texte"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
         200 square foot porch. The bugs are unkind in the Texas heat, 
         (especially in the summer) and they lived across from a creek which
-        only worsened the situation. </div> <br />
-        <img src={ wood } alt="" className="smallpic-v"/>  
+        only worsened the situation. </div>
+        
+        <br />
+        <img src={ wood } alt="" className="smallpic-v" />  
+        <br />
+
         <div className="texte"> 
         Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
@@ -30,8 +37,9 @@ export default function Extra () {
         
         <br/><div className="texte"> Brimming with excitement, we triple-measured and wrote down
         exactly what we needed to buy on our first trip to Home Depot.
-        <div className="rightpic"><Pic1/> </div> We borrowed an SUV to go back and forth to the store and bought
-        what we needed for our first section. <br/></div>
+        <div className="rightpic"><Pic1/></div> 
+        We borrowed an SUV to go back and forth to the store and bought
+        what we needed for our first section.<br/></div>
 
         <img src={ pic5 } alt="" className="middlepic"/>
         <ComboPics/>
