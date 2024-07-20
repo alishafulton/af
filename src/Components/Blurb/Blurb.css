@@ -1,5 +1,4 @@
 .blurb{
-    float: left;
     width: 810px;
 }
 
@@ -8,6 +7,31 @@
     height: 410px;
     margin-right: 20px;
     float: left;
-
 }
 
+.photos{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: -40px;
+}
+
+
+.s1 {
+    width: 200px;
+    rotate: -10deg;
+}
+
+.s2 {
+    width: 200px;
+    rotate: 30deg;
+}
+
+.s3 {
+    width: 200px;
+    rotate: -20deg;
+}
+
+.s1 {
+    width: 200px;
+    rotate: -10deg;
+}
