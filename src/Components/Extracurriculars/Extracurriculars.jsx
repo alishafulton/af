@@ -47,7 +47,7 @@ export default function Extra () {
 
         <ComboPics/>
         
-        <div className="texte"> Now, I'm not
+        <br/><div className="texte"> Now, I'm not
         telling you that we are secretly Master Carpenters and it all
         went perfectly. Believe it or not, I even hammered myself a black eye.
         But with help from my aunt and two other cousins, a couple of
