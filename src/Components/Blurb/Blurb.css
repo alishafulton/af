@@ -13,6 +13,7 @@
     display: grid;
     grid-auto-flow: column;
     grid-gap: -40px;
+    margin-top: 40px;
 }
 
 
@@ -23,7 +24,7 @@
 
 .s2 {
     width: 200px;
-    rotate: 30deg;
+    rotate: 15deg;
 }
 
 .s3 {
@@ -33,5 +34,5 @@
 
 .s4 {
     width: 200px;
-    rotate: -10deg;
+    rotate: 50deg;
 }
