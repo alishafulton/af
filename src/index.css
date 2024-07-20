@@ -23,8 +23,21 @@ h2 {
   font-family: Lexend;
   color:#000002;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.5s;
 }
+
+h2:hover {
+  transform: scale(1.05);
+  color: #fa7e61;
+}
+
+h2:active {
+  color: #fa7e61;
+}
+
+
 h3 {
   font-family: Lexend;
   color:#ffffff;
