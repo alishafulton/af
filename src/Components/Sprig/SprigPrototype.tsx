@@ -20,7 +20,7 @@ export const SprigPrototype = ({
     height = 600,
     frameBorder = 1,
     allow = "encrypted-media",
-    ...props
+
   }: SprigProps) => {
     const url = new URL(link);
     url.pathname = url.pathname.replace(/\/intl-\w+\//, "/");
@@ -29,15 +29,11 @@ export const SprigPrototype = ({
     return (
     <>
     <iframe 
-    src={`https://www.figma.com/embed${url.pathname}`}width={width}
+    src={`https://www.figma.com/embed${url.pathname}`}
+    width={width}
     height={height}
     frameBorder={frameBorder}
     allow={allow}
-    style={{
-      borderRadius: 8,
-      ...style
-    }}
-    {...props}
   />
     </>
     
