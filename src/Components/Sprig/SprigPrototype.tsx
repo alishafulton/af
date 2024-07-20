@@ -23,19 +23,18 @@ export const SprigPrototype = ({
 
   }: SprigProps) => {
     const url = new URL(link);
-    url.pathname = url.pathname.replace(/\/intl-\w+\//, "/");
 
 
     return (
-    <>
+    
     <iframe 
-    src={`https://www.figma.com/embed${url.pathname}`}
+    src={url}
     width={width}
     height={height}
     frameBorder={frameBorder}
     allow={allow}
   />
-    </>
+    
     
 );
 
