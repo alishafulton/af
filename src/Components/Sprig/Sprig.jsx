@@ -5,8 +5,8 @@ import './Sprig.css';
 export default function Sprig () {
     return (
 
-        <div className="portfolio">
-        <img src={ sprig1 } alt="" className="pimg" /><br/>
+        <div className="portfolio-s">
+        <img src={ sprig1 } alt="" className="pimg" />
         <img src={ sprig2 } alt="" className="pimg"/>
         </div>
 

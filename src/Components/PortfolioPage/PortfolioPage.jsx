@@ -87,8 +87,8 @@ export default function PortfolioPage() {
     // first division is our nav list as buttons
     
       return (
-        <div class ="entirety">
-        <div class ="nav-menu">
+        <div class = "entirety">
+        <div class = "nav-menu">
             <ul>
         <li><button onClick={sprigClick}>
           sprig
@@ -109,7 +109,7 @@ export default function PortfolioPage() {
     </div>
 
     <div>
-    < SprigBlurb/> 
+    <SprigBlurb/> 
     <ChannelBlurb/>
     <CoastBlurb/>
     <BoundBlurb/>
