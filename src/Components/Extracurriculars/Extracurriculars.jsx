@@ -49,7 +49,7 @@ export default function Extra () {
         <ComboPics/>
         
         <br/><div className="texte"> I'm not
-        telling you that we are secretly Master Carpenters and it all
+        telling you that we are secretly <a href="https://en.wikipedia.org/wiki/Sabrina_Carpenter">Master Carpenters</a> and it all
         went perfectly. Believe it or not, I even hammered myself a black eye.
         But with help from my aunt and two other cousins, a couple of
         patient Home Depot employees, and our iPhone calculators,
