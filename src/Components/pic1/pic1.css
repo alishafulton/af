@@ -16,7 +16,8 @@
 .bkgd2 {
     background-color: #7C99B4;
     width: 760px;
-    height: 240px;
+    height: 280px;
+    margin-top: -40px;
     margin-left: 15px;
 }
 
