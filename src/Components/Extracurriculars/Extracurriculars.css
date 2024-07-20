@@ -10,9 +10,9 @@
 .smallpic-v{
     width: 220px;
     float: left;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .smallpic-v2{
@@ -44,6 +44,7 @@
 
 .rightpic {
     float: right;
+    padding-top: 15px;
 }
 
 .middlepic {
