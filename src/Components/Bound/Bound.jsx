@@ -1,14 +1,23 @@
-import sprig1 from '../../assets/sprig1.png';
-import sprig2 from '../../assets/sprig2.png';
+import bound1 from '../../assets/bound1.png';
+import bound2 from '../../assets/bound2.png';
 import '../Sprig/Sprig.css';
+import { BoundPrototype } from './BoundPrototype';
+
 
 export default function Bound () {
     return (
 
-        <>
-        <img src={ sprig1 } alt="" className="portfolio"/>
-        <img src={ sprig2 } alt="" className="portfolio"/>
-        </>
+        <div className="portfolio-c">
+        <img src={ bound1 } alt="" className="pimg" />
+
+
+         <div className="flex flex-row gap-8">
+              <BoundPrototype />
+        </div>
+
+            <img src={ bound2 } alt="" className="pimg" />
+
+        </div>
 
     );
 };

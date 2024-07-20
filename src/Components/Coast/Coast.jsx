@@ -1,14 +1,23 @@
-import sprig1 from '../../assets/sprig1.png';
-import sprig2 from '../../assets/sprig2.png';
+import coast1 from '../../assets/Coast1.png';
+import coast2 from '../../assets/Coast2.png';
 import '../Sprig/Sprig.css';
+import { CoastPrototype } from './CoastPrototype';
+
 
 export default function Coast () {
     return (
 
-        <>
-        <img src={ sprig1 } alt="" className="portfolio"/>
-        <img src={ sprig2 } alt="" className="portfolio"/>
-        </>
+        <div className="portfolio-c">
+        <img src={ coast1 } alt="" className="pimg" />
+
+
+         <div className="flex flex-row gap-8">
+              <CoastPrototype />
+        </div>
+
+            <img src={ coast2 } alt="" className="pimg" />
+
+        </div>
 
     );
 };
