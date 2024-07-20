@@ -1,6 +1,6 @@
-import sprig1 from '../../assets/sprig1.png'
-import sprig2 from '../../assets/sprig2.png'
-import './sprig.css';
+import sprig1 from '../../assets/sprig1.png';
+import sprig2 from '../../assets/sprig2.png';
+import '../Sprig/sprig.css';
 
 export default function Coast () {
     return (
