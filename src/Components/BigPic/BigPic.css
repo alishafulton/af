@@ -28,10 +28,10 @@
 
 .bkgd3 {
     background-color: #7C99B4;
-    width: 800px;
+    width: 700px;
     height: 600px;
-    margin-top: 10px;
-    margin-left: 70px;
+    margin-top: 40px;
+    margin-left: 80px;
 }
 
 .wtxt2 {
@@ -39,7 +39,7 @@
     font-family: Lexend;
     color:#FFFEF2;
     line-height: 32px;
-    width: 300px;
+    width: 400px;
     padding-left: 250px;
     padding-top: 20px;
 }
