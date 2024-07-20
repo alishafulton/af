@@ -5,7 +5,7 @@
     transition: background-image 0.4s ease-in-out;
 }
 
-.img-logo {
+.img-logo:hover {
     width: 200px;
     background-image: url("../../assets/namehover.png");
     background-size: cover;

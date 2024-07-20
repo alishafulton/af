@@ -25,7 +25,8 @@
 }
 
 .nav-connect:hover{
-    transform: scale(1.05);
+    transform: scale(1.06);
+    background: #5A6650;
 }
 
 li {
@@ -33,8 +34,4 @@ li {
     font-size: 18px;
     font-weight: 500;
     font-family: Lexend;
-}
-
-.logo {
-    height: 40px;
 }
