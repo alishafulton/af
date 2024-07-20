@@ -3,7 +3,7 @@ import './Extracurriculars.css';
 import wood from '../../assets/IMG_0556.png'
 import pic4 from '../../assets/IMG_0565.png'
 import pic5 from '../../assets/IMG_0573.png'
-import pic7 from '../../assets/IMG_0658.png'
+
 import pic9 from '../../assets/IMG_0739.png'
 import pic10 from '../../assets/IMG_0940.png'
 import pic11 from '../../assets/IMG_0944.png'
@@ -34,6 +34,8 @@ export default function Extra () {
         <div className="rightpic"><Pic1/> </div> We borrowed an SUV to go back and forth to the store and bought
         what we needed for our first section. <br/>
 
+        <img src={ pic5 } alt="" className="pic"/>
+        
         This would normally be the part of the story where I tell you
         what an absolute mess it was... except it wasn't. Now, I'm not
         telling you that we are secretly Master Carpenters and it all
@@ -42,7 +44,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div>
         
-        <img src={ pic5 } alt="" className="pic"/>
+        
         <img src={ pic9 } alt="" className="pic"/>
         <img src={ pic10 } alt="" className="pic"/>
         <img src={ pic11 } alt="" className="pic"/>
