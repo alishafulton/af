@@ -16,7 +16,7 @@ export const SprigPrototype = ({
     link,
     style = {},
   
-    width = 890,
+    width = 880,
     height = 650,
     frameBorder = 1,
     allow = "encrypted-media",
