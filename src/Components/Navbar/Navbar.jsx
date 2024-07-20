@@ -9,8 +9,7 @@ export default function Navbar () {
         <Logo/>
 
         <ul className="nav-menu">
-        <li><Link to="/af/"><h2>home</h2></Link></li>
-        <li><Link to="/af/about"><h2>about me</h2></Link></li>
+        <li><Link to="/af/"><h2>about me</h2></Link></li>
         <li><Link to="/af/portfolio"><h2>portfolio</h2></Link></li>
         </ul>
 
