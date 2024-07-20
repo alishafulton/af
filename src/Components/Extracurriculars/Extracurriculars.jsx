@@ -19,8 +19,8 @@ export default function Extra () {
         <div className="texte"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
-        200 square foot porch. The bugs are unkind in the Texas heat, 
-        (especially in the summer) and they lived across from a creek which
+        200 square foot porch. The bugs are unkind in the Texas heat 
+        (especially in the summer) and they lived across from a creek, which
         only worsened the situation. </div>
         
         <br />
