@@ -13,12 +13,12 @@
     display: grid;
     grid-auto-flow: column;
     grid-gap: -40px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 
 .s1 {
-    width: 210px;
+    width: 215px;
     rotate: -10deg;
 }
 
@@ -29,12 +29,12 @@
 
 .s3 {
     width: 220px;
-    rotate: -18deg;
-    margin-left: -15px;
-    margin-right: -10px;
+    rotate: -15deg;
+    margin-left: -25px;
+    margin-right: -15px;
 }
 
 .s4 {
     width: 210px;
-    rotate: 18deg;
+    rotate: 12deg;
 }
