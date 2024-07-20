@@ -39,3 +39,8 @@
 .rightpic {
     float: right;
 }
+
+.middlepic {
+    width: 350px;
+    padding: 20px;
+}

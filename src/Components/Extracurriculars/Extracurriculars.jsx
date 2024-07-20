@@ -34,7 +34,7 @@ export default function Extra () {
         <div className="rightpic"><Pic1/> </div> We borrowed an SUV to go back and forth to the store and bought
         what we needed for our first section. <br/>
 
-        <img src={ pic5 } alt="" className="pic"/>
+        <img src={ pic5 } alt="" className="middlepic"/>
         
         This would normally be the part of the story where I tell you
         what an absolute mess it was... except it wasn't. Now, I'm not
