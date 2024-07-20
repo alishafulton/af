@@ -9,9 +9,9 @@ export default function Sprig () {
         <div className="portfolio">
         <img src={ sprig1 } alt="" className="pimg" />
 
-        <div className="flex flex-row gap-8">
+        
               <SprigPrototype/>
-            </div>
+            
 
         <img src={ sprig2 } alt="" className="pimg"/>
         </div>
