@@ -86,18 +86,16 @@ export default function AboutPage() {
         </button></li>
         </ul>
     </div>
-
-    <div className="centered">
+    
+    
+    <div>
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
     </div>
     </div>
-    // this section is the output of the buttons
-    // so we only want one at a time
-    // so we check which one is true
-    // only what is true is displayed
+   
 
     
       );
-}
+};
