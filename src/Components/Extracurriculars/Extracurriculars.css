@@ -1,7 +1,8 @@
 .pic{
-    width: 210px;
+    width: 240px;
     float: left;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .smallpic-v{
