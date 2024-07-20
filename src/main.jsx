@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Home } from "./pages/Home.tsx";
-import { Portfolio } from "./pages/Portfolio.tsx"
 import AboutPage from './Components/AboutPage/AboutPage.jsx';
+import PortfolioPage from './Components/PortfolioPage/PortfolioPage.jsx';
 
 
 const router = createBrowserRouter([
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/af/portfolio",
-        element: < Portfolio />
+        element: <PortfolioPage/>
       },
       {
         path: "/af/about",
