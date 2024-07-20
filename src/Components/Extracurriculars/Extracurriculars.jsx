@@ -42,18 +42,19 @@ export default function Extra () {
         what we needed for our first section.<br/></div>
 
         <img src={ pic5 } alt="" className="middlepic"/>
+
         <ComboPics/>
         
-        <div className="texte"> This would normally be the part of the story where I tell you
+        <div className="texte">This would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess. Now, I'm not
         telling you that we are secretly Master Carpenters and it all
         went perfectly. Believe it or not, I even hammered myself a black eye.
         But with help from my aunt and two other cousins, a couple of
         patient Home Depot employees, and our iPhone calculators,
-        we did it and we did it well. </div>
+        we did it and we did it well. </div><br/>
         
-        
-
+        <div className="texte">Unfortunately the heat is worse than the bugs in the summer, so we had 
+        to take a sabbatical until Texas cools off!</div>
         <img src={ pic11 } alt="" className="pic"/>
         <BigPic2/>
 
