@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import './PortfolioPage.css'
 import Sprig from "../Sprig/Sprig";
-import Channel from "../Channel/Channel";
 import Coast from "../Coast/Coast";
 import Bound from "../Bound/Bound";
+import Channel from "../Channel/Channel";
 
 
 
