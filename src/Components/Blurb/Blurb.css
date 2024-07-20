@@ -30,9 +30,11 @@
 .s3 {
     width: 220px;
     rotate: -18deg;
+    margin-left: -15px;
+    margin-right: -10px;
 }
 
 .s4 {
     width: 210px;
-    rotate: 20deg;
+    rotate: 18deg;
 }

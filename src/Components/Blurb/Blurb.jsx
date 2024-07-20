@@ -25,7 +25,7 @@ export default function Blurb () {
         <div>
           <text2>
             Appreciation cards from my baristas and 
-            managers at Starbucks. Thank you guys! :)
+            managers at Starbucks :)
           </text2>
         </div>
 
