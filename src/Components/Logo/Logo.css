@@ -1,0 +1,12 @@
+.img-logo {
+    width: 200px;
+    background-image: url("../../assets/name.png");
+    background-size: cover;
+    transition: background-image 0.4s ease-in-out;
+}
+
+.img-logo {
+    width: 200px;
+    background-image: url("../../assets/namehover.png");
+    background-size: cover;
+}
