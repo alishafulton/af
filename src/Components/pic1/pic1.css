@@ -12,3 +12,20 @@
     margin-left: 20px; 
     margin-top: 15px;
 }
+
+.bkgd2 {
+    background-color: #7C99B4;
+    display: flex;
+    width: 760px;
+    margin-left: 15px;
+}
+
+.combo1 {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.combo2 {
+    width: 200px;
+    padding-right: 30px;
+}

@@ -47,8 +47,7 @@ export default function Extra () {
         we did it and we did it well. </div>
         
         
-        <img src={ pic9 } alt="" className="pic"/>
-        <img src={ pic10 } alt="" className="pic"/>
+
         <img src={ pic11 } alt="" className="pic"/>
         <BigPic2/>
 
