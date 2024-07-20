@@ -12,7 +12,7 @@ import ComboPics from "../pic3/pic3";
 export default function Extra () {
     return (
       <div className="extras">
-        
+
         <BigPic />
         
         <br />
@@ -45,7 +45,7 @@ export default function Extra () {
         <ComboPics/>
         
         <div className="texte"> This would normally be the part of the story where I tell you
-        what an absolute mess it was... except it wasn't. Now, I'm not
+        what an absolute mess it was and we all laugh... except it wasn't a mess. Now, I'm not
         telling you that we are secretly Master Carpenters and it all
         went perfectly. Believe it or not, I even hammered myself a black eye.
         But with help from my aunt and two other cousins, a couple of

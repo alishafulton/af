@@ -1,5 +1,5 @@
-import pic9 from '../../assets/IMG_0739';
-import pic10 from '../../assets/IMG_0940';
+import pic9 from '../../assets/IMG_0739.png';
+import pic10 from '../../assets/IMG_0940.png';
 import '../pic1/pic1.css';
 
 export default function ComboPics () {
