@@ -1,5 +1,5 @@
 .img-logo {
-    width: 320px;
+    width: 325px;
     height: 50px;
     background-image: url("../../assets/name.png");
     background-size: cover;
@@ -7,7 +7,7 @@
 }
 
 .img-logo:hover {
-    width: 320px;
+    width: 325px;
     height: 50px;
     background-image: url("../../assets/namehover.png");
     background-size: cover;
