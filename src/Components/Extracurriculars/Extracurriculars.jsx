@@ -55,8 +55,6 @@ export default function Extra () {
         we did it and we did it well. </div><br/>
         
         <img src={ pic11 } alt="" className="pic"/>
-        <div className="texte">Unfortunately the heat is worse than the bugs in the summer, so we had 
-        to take a sabbatical until Texas cools off!</div>
         
         <BigPic2/>
 

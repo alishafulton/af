@@ -32,5 +32,13 @@
     height: 400px;
     margin-top: 200px;
     margin-left: 70px;
+}
 
+.wtxt2 {
+    font-size: 24px;
+    font-family: Lexend;
+    color:#FFFEF2;
+    line-height: 32px;
+    width: 300px;
+    padding: 60px;
 }
