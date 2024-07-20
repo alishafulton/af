@@ -32,14 +32,16 @@ export default function Extra () {
         pillars, essentially dividing our wall sections into neat and tidy
         shapes. It seemed more and more doable the more time we spent 
         staring at it, swatting mosquitos. We discussed a variety of
-        methods we could take and after discussing how we 
+        methods we could take and after working out how we 
         could be the most efficient, we picked a day to get started.</div><br/>
         
-        <br/><div className="texte"> Brimming with excitement, we triple-measured and wrote down
-        exactly what we needed to buy on our first trip to Home Depot.
-        <div className="rightpic"><Pic1/></div> 
-        We borrowed an SUV to go back and forth to the store and bought
-        what we needed for our first section.<br/></div>
+        <br/><div className="texte"> Brimming with excitement, we measured 
+        everything three times and wrote down exactly what we needed 
+        to buy on our first trip to Home Depot. 
+        <div className="rightpic"> <Pic1/> </div> 
+         We borrowed an SUV to go back and forth to the store and bought
+        what we needed for our first section. What we assumed would be
+        one of three trips ended up being more like five (or six).<br/></div>
 
         <img src={ pic5 } alt="" className="middlepic"/>
 
