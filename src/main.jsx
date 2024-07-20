@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/af/portfolio",
-        element: <Portfolio/>
+        element: < Portfolio />
       },
       {
         path: "/af/about",

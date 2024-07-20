@@ -10,6 +10,6 @@ import PortfolioPage from "../Components/PortfolioPage/PortfolioPage";
         <Outlet/>
       </div>
       
-    )
+    );
   };
   
