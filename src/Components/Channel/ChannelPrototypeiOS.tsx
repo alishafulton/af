@@ -13,7 +13,7 @@ interface ChannelProps extends HTMLAttributes<HTMLIFrameElement> {
 }
 
 export const ChannelPrototypeiOS = ({
-    width = 890,
+    width = 900,
     height = 650,
     frameBorder = 1,
     allow = "encrypted-media",

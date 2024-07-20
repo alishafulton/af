@@ -16,7 +16,7 @@ export const ChannelPrototypeAnd = ({
     link,
     style = {},
   
-    width = 890,
+    width = 900,
     height = 650,
     frameBorder = 1,
     allow = "encrypted-media",
