@@ -1,10 +1,9 @@
 .pimg {
     width: 890px;
-    justify-content: center;
+    padding-left: 5px;
 }
 
 .portfolio {
     width: 900px;
     background-color: #000103;
-    margin-left: 5px;
 }
