@@ -30,9 +30,10 @@
 .s3 {
     width: 200px;
     rotate: -20deg;
+    margin-left: -10px;
 }
 
 .s4 {
     width: 200px;
-    rotate: 50deg;
+    rotate: 30deg;
 }

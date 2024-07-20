@@ -22,6 +22,12 @@ export default function Blurb () {
           <img src={ s3 } alt="" className="s3"/>
           <img src={ s4 } alt="" className="s4"/>
         </div> 
+        <div>
+          <text2>
+            Appreciation cards from my baristas and 
+            managers at Starbucks. Thanks you guys :)
+          </text2>
+        </div>
 
       </div>
 
