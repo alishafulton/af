@@ -15,10 +15,10 @@
 
 .bkgd2 {
     background-color: #7C99B4;
-    width: 700px;
+    width: 730px;
     height: 280px;
     margin-top: -60px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .wtxt {
     font-size: 24px;
@@ -26,7 +26,7 @@
     color:#FFFEF2;
     line-height: 32px;
     width: 300px;
-    padding: 60px;
+    padding: 55px;
 }
 
 
@@ -37,10 +37,9 @@
 }
 
 .combo2 {
-    width: 280px;
+    width: 300px;
     float: right;
     padding-right: 20px;
     padding-left: 60px;
-    padding-top: -20px;
-    padding-bottom: 5px;
+    padding-top: -40px;
 }
