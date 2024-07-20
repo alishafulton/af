@@ -9,7 +9,7 @@ import { ChannelPrototypeiOS } from './ChannelPrototypeiOS';
 export default function Channel () {
     return (
 
-        <div className="portfolio-c">
+        <div className="portfolio">
         <img src={ channel1 } alt="" className="pimg" />
 
 

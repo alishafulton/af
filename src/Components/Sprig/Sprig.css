@@ -1,7 +1,9 @@
 .pimg {
-    width: 900px;
+    width: 890px;
 }
 
-.portfolio-s {
+.portfolio {
     width: 900px;
+    background-color: #000103;
+    justify-content: center;
 }

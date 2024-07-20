@@ -7,7 +7,7 @@ import { BoundPrototype } from './BoundPrototype';
 export default function Bound () {
     return (
 
-        <div className="portfolio-c">
+        <div className="portfolio">
         <img src={ bound1 } alt="" className="pimg" />
 
 

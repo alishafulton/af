@@ -6,7 +6,7 @@ import { SprigPrototype } from './SprigPrototype';
 export default function Sprig () {
     return (
 
-        <div className="portfolio-s">
+        <div className="portfolio">
         <img src={ sprig1 } alt="" className="pimg" />
 
         <div className="flex flex-row gap-8">

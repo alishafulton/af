@@ -7,7 +7,7 @@ import { CoastPrototype } from './CoastPrototype';
 export default function Coast () {
     return (
 
-        <div className="portfolio-c">
+        <div className="portfolio">
         <img src={ coast1 } alt="" className="pimg" />
 
 
