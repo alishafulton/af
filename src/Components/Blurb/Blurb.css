@@ -18,22 +18,21 @@
 
 
 .s1 {
-    width: 200px;
+    width: 210px;
     rotate: -10deg;
 }
 
 .s2 {
-    width: 200px;
+    width: 210px;
     rotate: 15deg;
 }
 
 .s3 {
-    width: 200px;
-    rotate: -20deg;
-    margin-left: -10px;
+    width: 220px;
+    rotate: -18deg;
 }
 
 .s4 {
-    width: 200px;
-    rotate: 30deg;
+    width: 210px;
+    rotate: 20deg;
 }
