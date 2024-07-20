@@ -12,7 +12,7 @@ interface SprigProps extends HTMLAttributes<HTMLIFrameElement> {
   allow?: string
 }
 
-export const SprigPrototype ({
+export const SprigPrototype = ({
     link,
     style = {},
   
