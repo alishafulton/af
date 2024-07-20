@@ -1,15 +1,12 @@
 import React from "react";
 import './Extracurriculars.css';
 import wood from '../../assets/IMG_0556.png'
-import pic4 from '../../assets/IMG_0565.png'
 import pic5 from '../../assets/IMG_0573.png'
-
-import pic9 from '../../assets/IMG_0739.png'
-import pic10 from '../../assets/IMG_0940.png'
 import pic11 from '../../assets/IMG_0944.png'
 import BigPic from "../BigPic/BigPic";
 import Pic1 from "../pic1/pic1";
 import BigPic2 from "../BigPic/BigPic2";
+import ComboPics from "../pic3/pic3";
 
 
 export default function Extra () {
@@ -21,7 +18,7 @@ export default function Extra () {
         seriously considering the idea of screening in their
         200 square foot porch. The bugs are unkind in the Texas heat, 
         (especially in the summer) and they lived across from a creek which
-        only worsened the situation. </div>
+        only worsened the situation. </div> <br />
         <img src={ wood } alt="" className="smallpic-v"/>  
         <div className="texte"> 
         Their porch was already covered with a roof held up by
@@ -37,6 +34,7 @@ export default function Extra () {
         what we needed for our first section. <br/></div>
 
         <img src={ pic5 } alt="" className="middlepic"/>
+        <ComboPics/>
         
         <div className="texte"> This would normally be the part of the story where I tell you
         what an absolute mess it was... except it wasn't. Now, I'm not
