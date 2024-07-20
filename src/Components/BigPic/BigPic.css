@@ -41,11 +41,12 @@
     line-height: 32px;
     width: 400px;
     padding-left: 230px;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .bigpic2{
     width: 650px;
     margin-right: 40px;
     margin-left: 90px;
+    padding-top: -20px;
 }
