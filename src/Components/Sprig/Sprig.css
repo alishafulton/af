@@ -6,6 +6,5 @@
 .portfolio {
     width: 900px;
     background-color: #000103;
-    justify-content: center;
-    align-content: center;
+    margin-left: 5px;
 }

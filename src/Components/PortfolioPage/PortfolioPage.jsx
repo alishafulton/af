@@ -108,17 +108,14 @@ export default function PortfolioPage() {
         </ul>
     </div>
 
-    <div className="centered">
+    <div>
     <SprigBlurb/> 
     <ChannelBlurb/>
     <CoastBlurb/>
     <BoundBlurb/>
     </div>
     </div>
-    // this section is the output of the buttons
-    // so we only want one at a time
-    // so we check which one is true
-    // only what is true is displayed
+
 
     
       );
