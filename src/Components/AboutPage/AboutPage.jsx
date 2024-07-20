@@ -87,7 +87,7 @@ export default function AboutPage() {
         </ul>
     </div>
 
-    <div>
+    <div className="centered">
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
