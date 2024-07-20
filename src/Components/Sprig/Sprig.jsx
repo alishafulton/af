@@ -6,7 +6,7 @@ export default function Sprig () {
     return (
 
         <div className="portfolio">
-        <img src={ sprig1 } alt="" className="pimg" />
+        <img src={ sprig1 } alt="" className="pimg" /><br/>
         <img src={ sprig2 } alt="" className="pimg"/>
         </div>
 
