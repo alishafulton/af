@@ -1,0 +1,15 @@
+
+
+.entirety {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.nav-menu {
+    align-items: start;
+    align-content: start;
+    padding-right: 30px;
+}
+
+

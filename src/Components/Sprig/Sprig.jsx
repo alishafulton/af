@@ -5,10 +5,10 @@ import './Sprig.css';
 export default function Sprig () {
     return (
 
-        <>
-        <img src={ sprig1 } alt="" className="portfolio"/>
-        <img src={ sprig2 } alt="" className="portfolio"/>
-        </>
+        <div className="portfolio">
+        <img src={ sprig1 } alt="" className="pimg" />
+        <img src={ sprig2 } alt="" className="pimg"/>
+        </div>
 
     );
 };
