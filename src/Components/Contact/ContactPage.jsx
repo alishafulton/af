@@ -9,7 +9,6 @@ export default function ContactPage() {
     <div className="Contact">
       <h1>Contact Me!</h1>
       <ContactForm/>
-      <ContactRestAPI/>
     </div>
   );
 }
