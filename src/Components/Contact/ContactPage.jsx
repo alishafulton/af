@@ -6,7 +6,6 @@ import ContactForm from './ContactForm.jsx';
 export default function ContactPage() {
   return (
     <div className="Contact">
-      <ContactForm/>
     </div>
   );
 }
