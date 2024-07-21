@@ -8,7 +8,7 @@ export default function ContactForm  () {
     e.preventDefault();
 
     emailjs
-      .sendForm('VITE_SERVICE_ID', 'VITE_TEMPLATE_ID', form.current, {
+      .sendForm('VITE_SERVICE_ID', 'TEMPLATE_ID', form.current, {
         publicKey: 'VITE_PUBLIC_KEY',
       })
       .then(
