@@ -46,9 +46,13 @@ export const ContactForm = () => {
           type="text"
           placeholder="name"
           value={name}
-          onChange={(e) => setEmail(e.target.value)} />
-
-        <textarea 
+          onChange={(e) => setName(e.target.value)} />
+        <input 
+          type="email"
+          placeholder="email"
+          value={email}
+          onChange={(e) => setName(e.target.value)} />
+         <textarea 
         cols="30"
         rows="10"
         value={message}
