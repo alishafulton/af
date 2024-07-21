@@ -7,9 +7,9 @@ import './ContactForm.css'
 // to me so I can see it later!
 
 export const ContactForm = () => {
-  const [email, setEmail] = useState();
-  const [name, setName] = useState();
-  const [message, setMessage] = useState();
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
 
   // we use this time to recall some ~secrets~
 
@@ -41,26 +41,27 @@ export const ContactForm = () => {
 };
 
   return (
-     <form onSubmit={handleSubmit} className="form">
+     <><form onSubmit={handleSubmit} className="form">
         <input 
           type="text"
           placeholder="name"
           value={name}
-          onChange={(e) => setName(e.target.value)} />
+          onChange={(e) => setName(e.target.value)} /> <br/>
         <input 
           type="email"
           placeholder="email"
           value={email}
-          onChange={(e) => setName(e.target.value)} />
+          onChange={(e) => setEmail(e.target.value)} /> <br/>
          <textarea 
         cols="30"
         rows="10"
         value={message}
-        onChange={(e) => setMessage(e.target.value)} >
+        onChange={(e) => setMessage(e.target.value)} ><br/>
 
         </textarea>
 
       <button type="submit">Send Message</button>
      </form>
+     </>
   );
 };
