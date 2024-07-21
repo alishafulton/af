@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactRestAPI from './ContactRestAPI.jsx';
 import './ContactPage.css'
 import ContactForm from './ContactForm.jsx';
 

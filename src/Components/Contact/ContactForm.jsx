@@ -10,12 +10,11 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Your EmailJS service ID, template ID, and Public Key
     const SERVICE_ID = process.env.VITE_SERVICE_ID;
     const TEMPLATE_ID = process.env.VITE_TEMPLATE_ID;
     const PUBLIC_KEY = process.env.VITE_PUBLIC_KEY;
 
-    // Create a new object that contains dynamic template params
+
     const templateParams = {
       from_name: name,
       from_email: email,
