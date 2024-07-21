@@ -7,7 +7,7 @@ const VITE_PUBLIC_KEY = process.env.VITE_PUBLIC.KEY
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-export const ContactUs = () => {
+export const ContactForm = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
