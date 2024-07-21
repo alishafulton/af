@@ -17,6 +17,7 @@ const ContactForm = () => {
   });
   
   
+  
   // Shows alert message for form submission feedback
   const toggleAlert = (message, type) => {
     setAlertInfo({ display: true, message, type });
@@ -43,10 +44,10 @@ const ContactForm = () => {
       };
 
       await emailjs.send(
-        process.env.VITE_SERVICE_ID,
-        process.env.VITE_TEMPLATE_ID,
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         templateParams,
-        process.env.VITE_USER_ID
+        import.meta.env.VITE_USER_ID
       );
 
      // Display success alert
