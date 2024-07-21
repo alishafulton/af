@@ -2,14 +2,17 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function ContactForm  () {
-  const form = useRef();
+const form = useRef();
+const VITE_SERVICE_ID = process.env.VITE_SERVICE_ID 
+const VITE_TEMPLATE_ID = process.env.VITE_TEMPLATE_ID 
+const VITE_PUBLIC_KEY = process.env.VITE_PUBLIC.KEY
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('VITE_SERVICE_ID', 'TEMPLATE_ID', form.current, {
-        publicKey: 'VITE_PUBLIC_KEY',
+      .sendForm(VITE_SERVICE_ID, VITE_TEMPLATE_ID, form.current, {
+        publicKey: VITE_PUBLIC_KEY
       })
       .then(
         () => {
