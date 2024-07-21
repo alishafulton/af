@@ -1,6 +1,7 @@
 import React from 'react';
-import ContactRestAPI, { ContactForm } from './ContactRestAPI.jsx';
+import ContactRestAPI from './ContactRestAPI.jsx';
 import './ContactPage.css'
+import ContactForm from './ContactForm.jsx';
 
 
 export default function ContactPage() {
