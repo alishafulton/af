@@ -15,15 +15,15 @@ jobs:
     runs-on: ubuntu-latest
     env:
         HOST_NAME: Earthly
-        VITE_SERVICE_ID: ${{ secrets.SERVICE_ID }}
+        VITE_SERVICE_ID: ${{ secrets.VITE_SERVICE_ID }}
         VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
         VITE_PUBLIC_ID: ${{ secrets.VITE_PUBLIC_ID }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Print service ID
-        run: echo "Host $SERVICE_ID"
+      - name: Print service id
+        run: echo "Host $VITE_SERVICE_ID"
           
       - name: Print homepage URL
         run: echo "Host https://$HOST_NAME.dev"
