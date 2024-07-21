@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 // aka gotta save what you say
 // to me so I can see it later!
 
-const ContactRESTAPI = () => {
+const ContactRestAPI = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
@@ -73,4 +73,4 @@ const ContactRESTAPI = () => {
   )
 }
 
-export default ContactRESTAPI
+export default ContactRestAPI
