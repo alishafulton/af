@@ -1,56 +1,61 @@
 import React from 'react';
-import { View, TextInput, Button } from 'react-native';
-import { send, EmailJSResponseStatus } from '@emailjs/react-native';
+
+
+// The Important Stuff 
+// aka gotta save what you say
+// to me so I can see it later!
 
 export const ContactForm = () => {
   const [email, setEmail] = useState();
   const [name, setName] = useState();
-  const SERVICE_ID = process.env.VITE_SERVICE_ID;
-  const TEMPLATE_ID = process.env.VITE_TEMPLATE_ID;
-  const PUBLIC_KEY = process.env.PUBLIC_KEY;
+  const [message, setMessage] = useState();
 
-  const onSubmit = async () => {
-    try {
-      await send(
-        SERVICE_ID,
-        TEMPLATE_ID,
-        {
-          name,
-          email,
-          message: 'This is a static message',
-        },
-        {
-          publicKey: PUBLIC_KEY,
-        },
-      );
+  // we use this time to recall some ~secrets~
 
-      console.log('SUCCESS!');
-    } catch (err) {
-      if (err instanceof EmailJSResponseStatus) {
-        console.log('EmailJS Request Failed...', err);
-      }
+  const handleSubmit = (e) => { 
+    e.preventDefault(); 
+    const SERVICE_ID = process.env.VITE_SERVICE_ID;
+    const TEMPLATE_ID = process.env.VITE_TEMPLATE_ID;
+    const PUBLIC_KEY = process.env.VITE_PUBLIC_KEY;
+  
 
-      console.log('ERROR', err);
+    const templateParams = {
+    from_name: name,
+    from_email: email,
+    to_name: 'Alisha',
+    message: message,
     }
-  };
+  
+
+  emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+    .then((response) => {
+      console.log("Message sent!", response);
+      setName("");
+      setEmail("");
+      setMessage("");
+    })
+    .catch((error) => {
+      console.error("Error sending!", error);
+    });
+};
 
   return (
-    <View>
-      <TextInput
-        inputMode="email"
-        keyboardType="email-address"
-        textContentType="emailAddress"
-        placeholder="Email"
-        value={email}
-        onChangeText={setEmail}
-      />
-      <TextInput
-        inputMode="text"
-        placeholder="Name"
-        value={name}
-        onChangeText={setName}
-      />
-      <Button title="Submit" onPress={onSubmit} />
-    </View>
+     <form onSubmit={handleSubmit} className="form">
+        <input 
+          type="text"
+          placeholder="name"
+          value={name}
+          onChange={(e) => setEmail(e.target.value)} />
+
+        <textarea 
+        cols="30"
+        rows="10"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)} >
+
+        </textarea>
+
+      <button type="submit">Send Message</button>
+     </form>
   );
 };
