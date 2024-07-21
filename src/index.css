@@ -84,3 +84,14 @@ ul,li  {
   text-align: end;
   align-content: start;
 }
+
+
+.emailForm {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: 10px 0px;
+}
