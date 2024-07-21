@@ -21,9 +21,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-
-      - name: Print service id
-        run: echo "Host $VITE_SERVICE_ID"
           
       - name: Print homepage URL
         run: echo "Host https://$HOST_NAME.dev"
