@@ -8,7 +8,7 @@
 
 .img-logo:hover {
     width: 325px;
-    height: 50px;
+    height: 52px;
     background-image: url("../../assets/namehover.png");
     background-size: cover;
 }
