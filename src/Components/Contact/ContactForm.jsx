@@ -1,65 +1,172 @@
-import React, { useState } from 'react'
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors }
+  } = useForm();
+  const [disabled, setDisabled] = useState(false);
+  const [alertInfo, setAlertInfo] = useState({
+    display: false,
+    message: '',
+    type: '',
+  });
+  
+  
+  // Shows alert message for form submission feedback
+  const toggleAlert = (message, type) => {
+    setAlertInfo({ display: true, message, type });
 
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+    // Hide alert after 5 seconds
+    setTimeout(() => {
+      setAlertInfo({ display: false, message: '', type: '' });
+    }, 5000);
+  };
+  
+  // Function called on submit that uses emailjs to send email of valid contact form
+  const onSubmit = async (data) => {
+    // Destrcture data object
+    const { name, email, subject, message } = data;
+    try {
+      // Disable form while processing submission
+      setDisabled(true);
+      
+      const templateParams = {
+        name,
+        email,
+        subject,
+        message
+      };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+      await emailjs.send(
+        process.env.VITE_SERVICE_ID,
+        process.env.VITE_TEMPLATE_ID,
+        templateParams,
+        process.env.VITE_USER_ID
+      );
 
-    const SERVICE_ID = secrets.VITE_SERVICE_ID;
-    const TEMPLATE_ID = secrets.VITE_TEMPLATE_ID;
-    const PUBLIC_KEY = secrets.VITE_PUBLIC_KEY;
-
-
-    const templateParams = {
-      from_name: name,
-      from_email: email,
-      to_name: 'Alisha',
-      message: message,
-    };
-
-    // Send the email using EmailJS
-    emailjs
-    .sendForm(SERVICE_ID, TEMPLATE_ID, templateParams, {publicKey: PUBLIC_KEY ,})
-      .then((response) => {
-        console.log('Email sent successfully!', response);
-        setName('');
-        setEmail('');
-        setMessage('');
-      })
-      .catch((error) => {
-        console.error('Error sending email:', error);
-      });
-  }
+     // Display success alert
+    toggleAlert('Form submission was successful!', 'success');
+    } catch (e) {
+      console.error(e);
+      // Display error alert
+      toggleAlert('Uh oh. Something went wrong.', 'danger');
+    } finally {
+      // Re-enable form submission
+      setDisabled(false);
+      // Reset contact form fields after submission
+      reset();
+    }
+  };
 
   return (
-    <form onSubmit={handleSubmit} className='emailForm'>
-      <input
-        type="text"
-        placeholder="Your Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        type="email"
-        placeholder="Your Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <textarea
-        cols="30"
-        rows="10"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      >
-      </textarea>
-      <button type="submit">Send Email</button>
-    </form>
-  )
-}
+    <div className='ContactForm'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-12 text-center'>
+            <div className='contactForm'>
+              <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
+                {/* Row 1 of form */}
+                <div className='row formRow'>
+                  <div className='col-6'>
+                    <input
+                      type='text'
+                      name='name'
+                      {...register('name', {
+                        required: { value: true, message: 'Please enter your name' },
+                        maxLength: {
+                          value: 30,
+                          message: 'Please use 30 characters or less'
+                        }
+                      })}
+                      className='form-control formInput'
+                      placeholder='Name'
+                    ></input>
+                    {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
+                  </div>
+                  <div className='col-6'>
+                    <input
+                      type='email'
+                      name='email'
+                      {...register('email', {
+                        required: true,
+                        pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+                      })}
+                      className='form-control formInput'
+                      placeholder='Email address'
+                    ></input>
+                    {errors.email && (
+                      <span className='errorMessage'>Please enter a valid email address</span>
+                    )}
+                  </div>
+                </div>
+                {/* Row 2 of form */}
+                <div className='row formRow'>
+                  <div className='col'>
+                    <input
+                      type='text'
+                      name='subject'
+                      {...register('subject', {
+                        required: { value: true, message: 'Please enter a subject' },
+                        maxLength: {
+                          value: 75,
+                          message: 'Subject cannot exceed 75 characters'
+                        }
+                      })}
+                      className='form-control formInput'
+                      placeholder='Subject'
+                    ></input>
+                    {errors.subject && (
+                      <span className='errorMessage'>{errors.subject.message}</span>
+                    )}
+                  </div>
+                </div>
+                {/* Row 3 of form */}
+                <div className='row formRow'>
+                  <div className='col'>
+                    <textarea
+                      rows={3}
+                      name='message'
+                      {...register('message', {
+                        required: true
+                      })}
+                      className='form-control formInput'
+                      placeholder='Message'
+                    ></textarea>
+                    {errors.message && <span className='errorMessage'>Please enter a message</span>}
+                  </div>
+                </div>
+                <button className='submit-btn' type='submit'>
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+        {alertInfo.display && (
+          <div
+            className={`alert alert-${alertInfo.type} alert-dismissible mt-5`}
+            role='alert'
+          >
+            {alertInfo.message}
+            <button
+              type='button'
+              className='btn-close'
+              data-bs-dismiss='alert'
+              aria-label='Close'
+              onClick={() =>
+                setAlertInfo({ display: false, message: '', type: '' })
+              } // Clear the alert when close button is clicked
+            ></button>
+          </div>
+        )}
+    </div>
+  );
+};
 
-export default ContactForm
+export default ContactForm;
