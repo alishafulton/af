@@ -1,15 +1,11 @@
-
-const VITE_SERVICE_ID = process.env.VITE_SERVICE_ID 
-const VITE_TEMPLATE_ID = process.env.VITE_TEMPLATE_ID 
-const VITE_PUBLIC_KEY = process.env.VITE_PUBLIC.KEY
-
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => {
   const form = useRef();
-
+  const VITE_SERVICE_ID = process.env.VITE_SERVICE_ID; 
+  const VITE_TEMPLATE_ID = process.env.VITE_TEMPLATE_ID; 
+  const VITE_PUBLIC_KEY = process.env.VITE_PUBLIC.KEY;
   const sendEmail = (e) => {
     e.preventDefault();
 
