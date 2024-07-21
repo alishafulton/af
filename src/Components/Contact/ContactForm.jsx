@@ -23,7 +23,8 @@ const ContactForm = () => {
     };
 
     // Send the email using EmailJS
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+    emailjs
+    .sendForm(SERVICE_ID, TEMPLATE_ID, templateParams, {publicKey: PUBLIC_KEY ,})
       .then((response) => {
         console.log('Email sent successfully!', response);
         setName('');
