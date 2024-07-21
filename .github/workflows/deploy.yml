@@ -5,6 +5,14 @@ on:
     branches:
       - main
 
+env:
+  VITE_SERVICE_ID: ${{ secrets.SERVICE_ID }}
+  VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
+  VITE_PUBLIC_ID: ${{ secrets.VITE_PUBLIC_ID }}
+
+
+
+
 jobs:
   build:
     name: Build

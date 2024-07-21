@@ -1,15 +1,15 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-export default function ContactForm () {
+export default function ContactForm  () {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'TEMPLATE_ID', form.current, {
-        publicKey: 'PUBLIC_KEY',
+      .sendForm('VITE_SERVICE_ID', 'VITE_TEMPLATE_ID', form.current, {
+        publicKey: 'VITE_PUBLIC_KEY',
       })
       .then(
         () => {
