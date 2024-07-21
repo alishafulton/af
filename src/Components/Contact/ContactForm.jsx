@@ -10,9 +10,9 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const SERVICE_ID = process.env.VITE_SERVICE_ID;
-    const TEMPLATE_ID = process.env.VITE_TEMPLATE_ID;
-    const PUBLIC_KEY = process.env.VITE_PUBLIC_KEY;
+    const SERVICE_ID = secrets.VITE_SERVICE_ID;
+    const TEMPLATE_ID = secrets.VITE_TEMPLATE_ID;
+    const PUBLIC_KEY = secrets.VITE_PUBLIC_KEY;
 
 
     const templateParams = {
