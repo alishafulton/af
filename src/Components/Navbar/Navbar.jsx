@@ -11,9 +11,8 @@ export default function Navbar () {
         <ul className="nav-menu">
         <li><Link to="/af/"><h2>about me</h2></Link></li>
         <li><Link to="/af/portfolio"><h2>portfolio</h2></Link></li>
+        <li><Link to="/af/contact"><h2>contact</h2></Link></li>
         </ul>
-
-        <Link to="/af/contact"><div className="nav-connect">contact</div></Link>
         
         </div>
       
