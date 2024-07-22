@@ -10,16 +10,16 @@ import s4 from "../../assets/starbucks4.png"
 
 export default function Blurb () {
     return (
-      <div className='blurb'>
-        <img src={ selfie } alt="" className="selfie"/>
+      <div className="w-96">
+        <img src={ selfie } alt="" className="w-56 float-left"/>
         
         <Text/>
         
         <div className="photos">
-          <img src={ s1 } alt="" className="s1"/>
-          <img src={ s2 } alt="" className="s2"/>
-          <img src={ s3 } alt="" className="s3"/>
-          <img src={ s4 } alt="" className="s4"/>
+          <img src={ s1 } alt="" className="w-56"/>
+          <img src={ s2 } alt="" className="w-56"/>
+          <img src={ s3 } alt="" className="w-56"/>
+          <img src={ s4 } alt="" className="w-56"/>
         </div> 
         <div>
           <text2>
