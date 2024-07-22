@@ -1,6 +1,5 @@
 import coast1 from '../../assets/Coast1.png';
 import coast2 from '../../assets/Coast2.png';
-import '../Sprig/Sprig.css';
 import { CoastPrototype } from './CoastPrototype';
 
 

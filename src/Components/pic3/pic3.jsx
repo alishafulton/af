@@ -1,5 +1,4 @@
 import pic11 from '../../assets/IMG_0944.png'
-import '../pic1/pic1.css';
 
 export default function ComboPics () {
     return (

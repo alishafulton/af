@@ -1,5 +1,4 @@
 import girls from '../../assets/IMG_0576.png'
-import './pic1.css';
 
 export default function Pic1 () {
     return (

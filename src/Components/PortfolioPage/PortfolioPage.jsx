@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './PortfolioPage.css'
 import Sprig from "../Sprig/Sprig";
 import Coast from "../Coast/Coast";
 import Bound from "../Bound/Bound";

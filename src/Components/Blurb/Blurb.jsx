@@ -1,5 +1,4 @@
 import React from "react";
-import './Blurb.css';
 import selfie from '../../assets/CurrentPhoto.png'
 import Text from "../Text/text";
 import s1 from "../../assets/starbucks1.png"

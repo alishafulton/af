@@ -1,6 +1,5 @@
 import bound1 from '../../assets/bound1.png';
 import bound2 from '../../assets/bound2.png';
-import '../Sprig/Sprig.css';
 import { BoundPrototype } from './BoundPrototype';
 
 

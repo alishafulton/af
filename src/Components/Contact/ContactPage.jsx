@@ -1,5 +1,4 @@
 import React from 'react';
-import './ContactPage.css'
 import ContactForm from './ContactForm';
 import behance from '../../assets/behance.png'
 import linkedin from '../../assets/linkedin.png'
