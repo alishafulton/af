@@ -1,4 +1,5 @@
 import React from 'react';
+import './ContactPage.css'
 
 export default function ContactForm() {
     const [result, setResult] = React.useState("");
@@ -27,11 +28,11 @@ export default function ContactForm() {
     };
   
     return (
-      <div>
+      <div className="ContactForm">
         <form onSubmit={onSubmit}>
-          <input type="text" name="name" required/>
-          <input type="email" name="email" required/>
-          <textarea name="message" required></textarea>
+          <input type="text" name="name" required/><br/>
+          <input type="email" name="email" required/><br/>
+          <textarea name="message" required></textarea><br/>
   
           <button type="submit">Submit Form</button>
   
