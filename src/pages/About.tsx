@@ -5,7 +5,7 @@ import AboutPage from "../Components/AboutPage/AboutPage";
   export default function About () {
     return (
 
-      <div>
+      <div className="text-green-300">
         <AboutPage />
         <Outlet/>
       </div>
