@@ -1,18 +1,21 @@
+@import url("../src/assets/AppleGaramond.ttf");
+
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
 
-
+@layer base {
+    @font-face {
+    font-family: "garamond";
+    src: url("../public/fonts/AppleGaramond.ttf") format ("truetype");
+}
+};
 
 .tan-color {
     background-color: #E5E3D8;
 }
 
 
- @font-face {
-    font-family: "garamond";
-    src: local("AppleGaramond") 
-    url("../public/fonts/AppleGaramond.ttf") format ("truetype");
-}
+
