@@ -6,10 +6,11 @@ module.exports = {
 './src/components/**/*.{html,js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
     fontFamily: {
-      serif: ["Garamond"],
+      primaryGaramond: ["AppleGaramond"],
     },
-    extend: {},
+    },
   },
   variants: {
     extend: {},

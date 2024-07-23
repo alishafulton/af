@@ -7,7 +7,7 @@ export default function Navbar () {
       <div className="justify-center bg-gray-900">
         <Logo/>
 
-        <div class="min-h-screen flex place-content-start tan-color">
+        <div class="min-h-screen flex place-content-start tan-color font-primaryGaramond">
         <li><Link to="/af/"><h2>about me</h2></Link></li>
         <li><Link to="/af/portfolio"><h2>portfolio</h2></Link></li>
         <li><Link to="/af/contact"><h2>contact</h2></Link></li>
