@@ -9,3 +9,10 @@
 .tan-color {
     background-color: #E5E3D8;
 }
+
+@layer base {
+    @font-face {
+        font-family: "Garamond";
+        src: url("../public/fonts/AppleGaramond\ copy.ttf") format ("ttf");
+    }
+}

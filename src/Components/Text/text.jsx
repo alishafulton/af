@@ -4,7 +4,7 @@ import React from "react";
 export default function Text () {
     return (
     
-    <div className="text"><p><div className="first-sentence">Hi, I'm Alisha!</div> 
+    <div className="font-serif"><p><div className="first-sentence">Hi, I'm Alisha!</div> 
     From learning to read at age three, to getting my Girl Scout Bronze, 
     Silver and Gold Awards, I have always been an avid learner. In high school,
     I took two years of a Practicum Education and Training with four
