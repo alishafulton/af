@@ -12,7 +12,7 @@ const garamond = Garamond({
 export default function App () {
   return (
     <>
-      <main className={`${montserrat.variable} font-sans`}>
+      <main className={`${garamond.variable} font-sans`}>
       <Navbar/>
       <Outlet/>
       </main>
