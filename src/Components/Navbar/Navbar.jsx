@@ -7,7 +7,7 @@ export default function Navbar () {
       <div className='navbar'>
         <Logo/>
 
-        <ul className="nav-menu">
+        <ul className="">
         <li><Link to="/af/"><h2>about me</h2></Link></li>
         <li><Link to="/af/portfolio"><h2>portfolio</h2></Link></li>
         <li><Link to="/af/contact"><h2>contact</h2></Link></li>
