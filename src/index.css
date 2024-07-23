@@ -12,7 +12,6 @@
 
 
  @font-face {
-    font-family: "AppleGaramond";
-    src: local("AppleGaramond"),
-    url("../public/fonts/AppleGaramond.ttf") format ("truetype");
+    font-family: "garamond";
+    src: url("../public/fonts/AppleGaramond.ttf") format ("truetype");
 }
