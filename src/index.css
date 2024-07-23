@@ -3,3 +3,9 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+
+
+.tan-color {
+    background-color: #E5E3D8;
+}
