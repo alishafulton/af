@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        garamond: ["garamond","serif"],
-      },
+        serif: ['var(--font-garamond)'],
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
+}
 }
