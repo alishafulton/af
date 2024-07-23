@@ -7,7 +7,7 @@ export default function Navbar () {
       <div className='navbar'>
         <Logo/>
 
-        <div className="d">
+        <div className="justify-center bg-gray-900">
         <li><Link to="/af/"><h2>about me</h2></Link></li>
         <li><Link to="/af/portfolio"><h2>portfolio</h2></Link></li>
         <li><Link to="/af/contact"><h2>contact</h2></Link></li>
