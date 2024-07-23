@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import { Outlet } from "react-router-dom";
 import './index.css'
-import { garamond } from '../public/fonts/AppleGaramond.ttf'
+import { Garamond } from '../public/fonts/AppleGaramond.ttf'
  
 const garamond = Garamond({
   variable: "--font-garamond",
