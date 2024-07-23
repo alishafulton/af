@@ -4,6 +4,10 @@ import tailwindcss from 'tailwindcss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss()],
-  base: "",
-});
+  plugins: [react()],
+  css: {
+    postcss: {
+      plugins: [tailwindcss()],
+    }
+  }
+})
