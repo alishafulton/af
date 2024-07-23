@@ -1,5 +1,7 @@
+import logo from "../../assets/name.png"
+
 export default function Logo () {
     return (
-        <div class="img-logo"></div>
+        <div><img src={ logo }/></div>
     )
 }

@@ -4,8 +4,8 @@ import Logo from "../Logo/Logo";
 
 export default function Navbar () {
     return (
-      <div className="justify-center">
-        <Logo/>
+      <div className="flex justify-center">
+        <div><Logo/></div>
 
         <div class="min-h-screen flex place-content-start tan-color font-serif">
         <div className="text-lg"><Link to="/af/"><h2>about me</h2></Link></div>
