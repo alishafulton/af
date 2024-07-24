@@ -15,16 +15,16 @@ export default function Blurb () {
         
         <Text/>
 
-        <div className="font-sans text-s">
+        <div className="font-sans text-sm">
             Appreciation cards from my baristas and 
             managers at Starbucks :)
           </div>
 
-        <div className="photos">
-          <img src={ s1 } alt="" class="w-25"/>
-          <img src={ s2 } alt="" class="w-25"/>
-          <img src={ s3 } alt="" class="w-25"/>
-          <img src={ s4 } alt="" class="w-25"/>
+        <div className="flex-row">
+          <img src={ s1 } alt="" class="w-1/4"/>
+          <img src={ s2 } alt="" class="w-1/4"/>
+          <img src={ s3 } alt="" class="w-1/4"/>
+          <img src={ s4 } alt="" class="w-1/4"/>
         </div> 
 
       </div>
