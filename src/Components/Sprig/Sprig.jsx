@@ -4,8 +4,8 @@ import { SprigPrototype } from './SprigPrototype';
 
 export default function Sprig () {
     return (
-<div className="flex-col">
-        <div className="flex grow">
+<div>
+        <div className="flex-col">
         <img src={ sprig1 } alt="" className="width:100%" />
 
         
