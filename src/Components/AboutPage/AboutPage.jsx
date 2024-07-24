@@ -68,24 +68,24 @@ export default function AboutPage() {
     // this is what we're returning aka output
     // first division is our nav list as buttons
     
-      return (
-        <div className="flex justify-between grow">
-        <div className="flex-grow text-sm">
-        
-        <div className={({ isActive }) => (isActive ? activeLink : "")}  onClick={bioClick}>
+return (
+  <div >
+    <div className="flex justify-between grow text-sm">
+      <div className={({ isActive }) => (isActive ? activeLink : "")}  onClick={bioClick}>
           bio
-        </div></div>
+      </div>
     
-        <div className="flex-grow text-black text-sm" onClick={extraClick}>
+      <div className="flex-grow text-black text-sm" onClick={extraClick}>
           extracurriculars
-        </div>
+      </div>
     
-        <div className="flex-grow text-black text-sm" onClick={spotifyClick}>
+      <div className="flex-grow text-black text-sm" onClick={spotifyClick}>
           spotify
-        </div>
-    
-    
+      </div>
     <div>
+</div>
+
+
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
