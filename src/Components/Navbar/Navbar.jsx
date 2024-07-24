@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
+import portfolio from "../../assets/portfolio.png"
+import about from "../../assets/aboutme.png"
+import contact from "../../assets/contact.png"
 
 export default function Navbar () {
   
@@ -9,9 +12,9 @@ export default function Navbar () {
         <div><Logo/></div><br/>
 
         
-        <div className="text-lg"><Link to="/af/"><h2>about me</h2></Link></div>
-        <div className="text-lg"><Link to="/af/portfolio"><h2>portfolio</h2></Link></div>
-        <div className="text-lg"><Link to="/af/contact"><h2>contact</h2></Link></div>
+        <div className="text-lg"><Link to="/af/"><img src={about}/></Link></div>
+        <div className="text-lg"><Link to="/af/portfolio"><img src={portfolio}/></Link></div>
+        <div className="text-lg"><Link to="/af/contact"><img src={contact}/></Link></div>
         
         
         </div>
