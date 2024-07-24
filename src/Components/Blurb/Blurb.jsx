@@ -11,21 +11,21 @@ import s4 from "../../assets/starbucks4.png"
 export default function Blurb () {
     return (
       <div className="justify-center">
-        <img src={ selfie } alt="" class="w-56 float-left p-1"/>
+        <img src={ selfie } alt="" class="w-56 float-left p-2"/>
         
         <Text/>
         
         <div className="photos">
-          <img src={ s1 } alt="" class="w-56"/>
-          <img src={ s2 } alt="" class="w-56"/>
-          <img src={ s3 } alt="" class="w-56"/>
-          <img src={ s4 } alt="" class="w-56"/>
+          <img src={ s1 } alt="" class="w-30"/>
+          <img src={ s2 } alt="" class="w-25"/>
+          <img src={ s3 } alt="" class="w-20"/>
+          <img src={ s4 } alt="" class="w-15"/>
         </div> 
         <div>
-          <text2>
+          <div className="font-serif text-xs">
             Appreciation cards from my baristas and 
             managers at Starbucks :)
-          </text2>
+          </div>
         </div>
 
       </div>

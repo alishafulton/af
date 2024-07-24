@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Text () {
     return (
-    
+    <div className="p-2">
     <div className="font-serif"><p>Hi, I'm Alisha!
     From learning to read at age three, to getting my Girl Scout Bronze, 
     Silver and Gold Awards, I have always been an avid learner. In high school,
@@ -31,7 +31,7 @@ export default function Text () {
     intelligence that I hope to bring to any team. I am excited to find a UX/UI Design 
     role that will leverage my customer-centric experience, foster my eagerness to learn, 
     and allow me to create designs that will improve everyday user experiences.</p>
-    </div>
+    </div></div>
 
     );
 };

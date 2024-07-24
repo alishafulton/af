@@ -4,7 +4,7 @@ import Logo from "../Logo/Logo";
 
 
 export default function Navbar () {
-  const activeLink = "text-purple underline";
+  const activeLink = "text-purple";
 
     return (
       <div>
