@@ -6,12 +6,12 @@ import Dropdown from "../Dropdown/Dropdown";
 export default function Navbar () {
 
     return (
-      <div className="flex justify-center">
-        <div><Logo/></div>
-        <Dropdown/>
+      <>
+        <div className="flex justify-center"><Logo/></div>
+        <div className="flex justify-center"><Dropdown/></div>
 
         
-        </div>
+        </>
       
     )
   };
