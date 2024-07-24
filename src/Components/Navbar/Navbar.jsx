@@ -10,10 +10,10 @@ export default function Navbar () {
         <div className="flex justify-center"><Logo/></div>
 
         
-        <div className="flex flex-row">
-        <div className="flex-auto font-sans text-lg tracking-tighter"><Link to="/af/">about me</Link></div>
-        <div className="flex-auto font-sans text-lg tracking-tighter"><Link to="/af/portfolio">portfolio</Link></div>
-        <div className="flex-auto font-sans text-lg tracking-tighter"><Link to="/af/contact">contact</Link></div>
+        <div className="flex justify-between">
+        <div className="grow font-sans text-lg tracking-tighter"><Link to="/af/">about me</Link></div>
+        <div className="grow font-sans text-lg tracking-tighter"><Link to="/af/portfolio">portfolio</Link></div>
+        <div className="grow font-sans text-lg tracking-tighter"><Link to="/af/contact">contact</Link></div>
         </div>
         
         
