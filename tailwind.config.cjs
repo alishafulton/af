@@ -11,7 +11,6 @@ module.exports = {
         serif: ["Garamond", "serif"],
         sans: ["Lexend", "sans"],
         },
-      },
     colors: {
       transparent: 'transparent',
       black: '#131514',
@@ -20,7 +19,7 @@ module.exports = {
       orange: '#FF785A',
       green: '#0A8754',
       blue: '#335FCF',
-    },
+    },},
   variants: {
     extend: {},
   },
