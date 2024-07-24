@@ -11,7 +11,7 @@ import s4 from "../../assets/starbucks4.png"
 export default function Blurb () {
     return (
       <div className="justify-center p-2">
-        <img src={ selfie } alt="" class="w-50 float-left pr-4 pb-1"/>
+        <img src={ selfie } alt="" class="w-1/2 float-left pr-4 pb-1"/>
         
         <Text/>
 
