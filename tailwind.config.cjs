@@ -10,8 +10,17 @@ module.exports = {
       fontFamily: {
         serif: ["Garamond", "serif"],
         sans: ["Lexend", "sans"],
+        },
+      },
+    colors: {
+      transparent: 'transparent',
+      black: '#131514',
+      tan: '#E5E3D8',
+      pink: '#FF5666',
+      orange: '#FF785A',
+      green: '#0A8754',
+      blue: '#335FCF',
     },
-  },
   variants: {
     extend: {},
   },
