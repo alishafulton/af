@@ -4,10 +4,10 @@ import linkedin from '../../assets/linkedin.png'
 
 export default function Links() {
   return (
-    <div className="font-sans text-sm"> Additional Links: <br/>
+    <div className="flex font-sans text-sm"> Additional Links: <br/>
     <div className="flex justify-between">
-      <img className="w-6 p-4" src={ behance } alt="" />
-      <img className="w-6 p-4" src={ linkedin } alt=""  />
+      <img src={ behance } alt="" className="w-6 p-4"/>
+      <img src={ linkedin } alt="" className="w-6 p-4" />
 </div></div>
   );
 }

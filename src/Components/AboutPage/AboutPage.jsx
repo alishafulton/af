@@ -75,11 +75,11 @@ return (
           bio
       </div>
     
-      <div className="flex-grow text-black text-sm" onClick={extraClick}>
+      <div className="text-black text-sm" onClick={extraClick}>
           extracurriculars
       </div>
     
-      <div className="flex-grow text-black text-sm" onClick={spotifyClick}>
+      <div className="text-black text-sm" onClick={spotifyClick}>
           spotify
       </div>
 
