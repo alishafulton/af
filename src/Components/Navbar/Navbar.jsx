@@ -12,7 +12,7 @@ export default function Navbar () {
         <div className="flex justify-center "><Logo/></div>
 
         
-        <div className="flex flex-row justify-center gap-4">
+        <div className="flex flex-row justify-between">
         <div className="flex-auto"><Link to="/af/"><img src={about}/></Link></div>
         <Link to="/af/portfolio"><img src={portfolio}/></Link>
         <Link to="/af/contact"><img src={contact}/></Link></div>
