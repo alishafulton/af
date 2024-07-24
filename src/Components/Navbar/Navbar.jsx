@@ -12,12 +12,12 @@ export default function Navbar () {
 
         
         <div className="flex justify-between pb-2">
-        <div><NavLink to="/af/"
-         style={({ isActive,}) => {
-          return {
-            color: isActive ? "red" : "black",
-          };
-        }}
+
+        <div><NavLink to="/af/" className={({ isActive }) => [
+          "grow font-sans text-2xl tracking-tighter p-0.5",
+          isActive ? "text-black" : "text-blue"
+        ].join("") 
+      }
         >about me</NavLink></div>
         <div className="grow font-sans text-2xl tracking-tighter p-0.5 text-blue"><NavLink to="/af/portfolio">portfolio</NavLink></div>
         <div className="grow font-sans text-2xl tracking-tighter p-0.5"><NavLink to="/af/contact">contact</NavLink></div>
