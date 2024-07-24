@@ -4,3 +4,11 @@
     font-style: normal;
     src: url("./AppleGaramond.ttf") format("truetype");
 }
+
+
+@font-face {
+    font-family: 'Lexend';
+    font-display: swap;
+    font-style: normal;
+    src: url("./assetsLexend-VariableFont_wght.ttf") format("truetype");
+}

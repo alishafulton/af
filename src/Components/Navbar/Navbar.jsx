@@ -13,7 +13,7 @@ export default function Navbar () {
 
         
         <div className="flex flex-row justify-between">
-        <div className="flex-auto w-1/4"><Link to="/af/"><img src={about}/></Link></div>
+        <div className="flex-auto w-1/4 font-sans"><Link to="/af/">about me</Link></div>
         <div className="flex-auto w-1/4"><Link to="/af/portfolio"><img src={portfolio}/></Link></div>
         <div className="flex-auto w-1/4"><Link to="/af/contact"><img src={contact}/></Link></div>
         </div>

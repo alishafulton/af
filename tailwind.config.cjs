@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         serif: ["Garamond", "serif"],
+        sans: ["Lexend", "sans"],
     },
   },
   variants: {
