@@ -13,7 +13,7 @@ export default function AboutPage() {
     const [bioVisible, setBioVisibility] = useState(true);
     const [extraVisible, setExtraVisibility] = useState(false);
     const [spotifyVisible, setSpotifyVisibility] = useState(false);
-    
+    const activeLink = "text-purple";
     
     // three separate click toggles for each
     //  each one changes so true theirs and
@@ -69,11 +69,12 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
       return (
-        <div>
-            <div className="flex justify-between grow">
-        <div className="flex-grow text-black text-sm" onClick={bioClick}>
+        <div className="flex justify-between grow">
+        <div className="flex-grow text-sm">
+        
+        <div className={({ isActive }) => (isActive ? activeLink : "")}  onClick={bioClick}>
           bio
-        </div>
+        </div></div>
     
         <div className="flex-grow text-black text-sm" onClick={extraClick}>
           extracurriculars
@@ -82,8 +83,6 @@ export default function AboutPage() {
         <div className="flex-grow text-black text-sm" onClick={spotifyClick}>
           spotify
         </div>
-
-    </div>
     
     
     <div>
