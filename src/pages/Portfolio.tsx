@@ -5,7 +5,7 @@ import PortfolioPage from "../Components/PortfolioPage/PortfolioPage";
 export default function Portfolio () {
 
     return (
-      <div>
+      <div className= "content-start">
         <PortfolioPage/>
         <Outlet/>
       </div>

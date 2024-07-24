@@ -5,7 +5,7 @@ import ContactPage from "../Components/Contact/ContactPage";
 export default function Contact () {
 
     return (
-      <div>
+      <div className= "content-start">
         <ContactPage/>
         <Outlet/>
       </div>
