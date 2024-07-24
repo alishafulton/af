@@ -9,13 +9,14 @@ export default function Navbar () {
   
     return (
       <div>
-        <div className="flex justify-center "><Logo/></div>
+        <div className="flex justify-center"><Logo/></div>
 
         
         <div className="flex flex-row justify-between">
-        <div className="flex-auto"><Link to="/af/"><img src={about}/></Link></div>
-        <Link to="/af/portfolio"><img src={portfolio}/></Link>
-        <Link to="/af/contact"><img src={contact}/></Link></div>
+        <div className="flex-auto w-1/3"><Link to="/af/"><img src={about}/></Link></div>
+        <div className="flex-auto w-1/3"><Link to="/af/portfolio"><img src={portfolio}/></Link></div>
+        <div className="flex-auto w-1/3"><Link to="/af/contact"><img src={contact}/></Link></div>
+        </div>
         
         
         </div>
