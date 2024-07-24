@@ -69,8 +69,8 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
       return (
-        <div class ="entirety">
-        <div class ="nav-menu">
+        <div>
+        <div>
             <ul>
         <li><button onClick={bioClick}>
           bio

@@ -8,13 +8,14 @@ import contact from "../../assets/contact.png"
 export default function Navbar () {
   
     return (
-      <div className="flex justify-center">
-        <div><Logo/></div><br/>
+      <div>
+        <div className="flex justify-center"><Logo/></div>
 
         
-        <div className="text-lg"><Link to="/af/"><img src={about}/></Link></div>
-        <div className="text-lg"><Link to="/af/portfolio"><img src={portfolio}/></Link></div>
-        <div className="text-lg"><Link to="/af/contact"><img src={contact}/></Link></div>
+        <div className="flex justify-center">
+          <Link to="/af/"><img src={about}/></Link>
+        <Link to="/af/portfolio"><img src={portfolio}/></Link>
+        <Link to="/af/contact"><img src={contact}/></Link></div>
         
         
         </div>
