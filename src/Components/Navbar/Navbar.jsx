@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { logo } from "../../assets/name.png"
+import Logo from "../Logo/Logo";
 
 export default function Navbar () {
   
     return (
       <div className="flex justify-center">
-        <div><img src={ logo }/></div>
+        <div><Logo/></div>
 
         <div class="min-h-screen flex place-content-start tan-color font-serif">
         <div className="text-lg"><Link to="/af/"><h2>about me</h2></Link></div>
