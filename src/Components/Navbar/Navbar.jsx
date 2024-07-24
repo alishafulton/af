@@ -11,9 +11,9 @@ export default function Navbar () {
 
         
         <div className="flex justify-between pb-2">
-        <div className="grow font-sans text-2xl tracking-tighter p-0.5 text-black active:text-blue"><NavLink to="/af/">about me</Link></div>
-        <div className="grow font-sans text-2xl tracking-tighter p-0.5 text-blue"><NavLink to="/af/portfolio">portfolio</Link></div>
-        <div className="grow font-sans text-2xl tracking-tighter p-0.5"><Link to="/af/contact">contact</Link></div>
+        <div className="grow font-sans text-2xl tracking-tighter p-0.5 text-black active:text-blue"><NavLink to="/af/">about me</NavLink></div>
+        <div className="grow font-sans text-2xl tracking-tighter p-0.5 text-blue"><NavLink to="/af/portfolio">portfolio</NavLink></div>
+        <div className="grow font-sans text-2xl tracking-tighter p-0.5"><Link to="/af/contact">contact</NavLink></div>
         </div>
         
         
