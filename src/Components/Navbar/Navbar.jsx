@@ -14,7 +14,7 @@ export default function Navbar () {
         <div className="flex justify-between pb-2">
         <div className={({ isActive }) =>  ["grow font-sans text-2xl tracking-tighter p-0.5 text-black", isActive ? "bg-gray-50 text-white" : null, ]}><NavLink to="/af/">about me</NavLink></div>
         <div className="grow font-sans text-2xl tracking-tighter p-0.5 text-blue"><NavLink to="/af/portfolio">portfolio</NavLink></div>
-        <div className="grow font-sans text-2xl tracking-tighter p-0.5"><NavLink to="/af/contact">contact</Link></div>
+        <div className="grow font-sans text-2xl tracking-tighter p-0.5"><NavLink to="/af/contact">contact</NavLink></div>
         </div>
         
         
