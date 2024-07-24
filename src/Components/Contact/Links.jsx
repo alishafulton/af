@@ -6,8 +6,8 @@ export default function Links() {
   return (
     <div className="flex font-sans text-sm"> Additional Links: <br/>
     <div className="flex justify-between">
-      <img src={ behance } alt="" className="w-6 p-4"/>
-      <img src={ linkedin } alt="" className="w-6 p-4" />
+      <img src={ behance } alt="" className="w-6" />
+      <img src={ linkedin } alt="" className="w-6" />
 </div></div>
   );
 }
