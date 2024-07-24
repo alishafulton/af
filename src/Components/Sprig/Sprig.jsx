@@ -5,7 +5,7 @@ import { SprigPrototype } from './SprigPrototype';
 export default function Sprig () {
     return (
 
-        <div className="portfolio">
+        <div className="flex">
         <img src={ sprig1 } alt="" className="pimg" />
 
         

@@ -11,7 +11,7 @@ export default function Navbar () {
         <div className="flex justify-center"><Logo/></div>
 
         
-        <div className="flex justify-between pb-2 grow font-sans text-2xl tracking-tighter p-0.5 text-black">
+        <div className="flex justify-between pb-4 grow font-sans text-2xl tracking-tighter p-0.5 text-black">
 
         <NavLink to="/af/about" className={({ isActive }) => (isActive ? activeLink : "")}>about me</NavLink>
         <NavLink to="/af/portfolio" className={({ isActive }) => (isActive ? activeLink : "")}>portfolio</NavLink>
