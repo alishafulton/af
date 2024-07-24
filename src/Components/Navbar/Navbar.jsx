@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
 
 
@@ -17,8 +16,8 @@ export default function Navbar () {
           to="/af/" 
           className={({ isActive }) => (isActive ? activeLink : "")}>about me</NavLink>
 
-        <div><NavLink to="/af/portfolio">portfolio</NavLink></div>
-        <div><NavLink to="/af/contact">contact</NavLink></div>
+        <div><NavLink to="/af/portfolio" className={({ isActive }) => (isActive ? activeLink : "")}>portfolio</NavLink></div>
+        <div><NavLink to="/af/contact" className={({ isActive }) => (isActive ? activeLink : "")}>contact</NavLink></div>
         </div>
         
         
