@@ -29,11 +29,11 @@ export default function ContactForm() {
     return (
       <div className="flex grow font-sans tracking-tighter">
         <form onSubmit={onSubmit}>
-          <input type="text" name="name" required/><br/>
+          <input className="flex-grow border-2 border-black" type="text" name="name" required/><br/>
           <input type="email" name="email" required/><br/>
           <textarea name="message" required></textarea><br/>
   
-          <button type="submit" className="border-2 rounded-sm bg-orange text-white">Submit Form</button>
+          <button type="submit" className="flex-grow border-2 rounded-sm bg-orange text-white">Submit Form</button>
   
         </form>
         <span>{result}</span>

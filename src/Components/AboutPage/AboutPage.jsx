@@ -70,7 +70,7 @@ export default function AboutPage() {
     
 return (
   <div >
-    <div className="flex justify-between grow text-sm">
+    <div className="flex-row width:100% justify-between text-sm">
       <div className={({ isActive }) => (isActive ? activeLink : "")}  onClick={bioClick}>
           bio
       </div>
