@@ -58,8 +58,8 @@ export default function AboutPage() {
         function SpotifyBlurb() {
             if (spotifyVisible) {
               return  <><div className="h-2 -mt-1 flex">
-              <div className="w-fit h-full bg-transparent"></div>
-              <div className="w-1/6 h-full bg-orange"></div>
+              <div className="w-4/5 h-full bg-transparent"></div>
+              <div className="w-1/5 h-full bg-orange"></div>
             </div>
             
             <div className="flex flex-row gap-8 px-4 pt-4 pb-2">
