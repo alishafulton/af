@@ -29,7 +29,7 @@ export default function ContactForm() {
     return (
       <div className="flex justify-center pb-2">
 
-        <form onSubmit={onSubmit} className="flex w-full justify-center">
+        <form onSubmit={onSubmit} className="w-full justify-center">
 
 
           <div className="p-1">
