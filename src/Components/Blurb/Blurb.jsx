@@ -10,7 +10,7 @@ import s4 from "../../assets/starbucks4.png"
 
 export default function Blurb () {
     return (
-      <div className="justify-center pt-4 px-2">
+      <div className="justify-center pt-6 px-4">
         <img src={ selfie } alt="" class="w-1/2 float-left pr-4 pb-1"/>
         
         <Text/>
@@ -20,11 +20,11 @@ export default function Blurb () {
             managers at Starbucks :)
           </div>
 
-        <div className="flex-row">
-          <img src={ s1 } alt="" class="w-1/4"/>
-          <img src={ s2 } alt="" class="w-1/4"/>
-          <img src={ s3 } alt="" class="w-1/4"/>
-          <img src={ s4 } alt="" class="w-1/4"/>
+        <div className="flex grow justify-between">
+          <div className="flex"><img src={ s1 } alt="" /></div>
+          <div className="flex"><img src={ s2 } alt=""/></div>
+          <div className="flex"><img src={ s3 } alt="" /></div>
+          <div className="flex"><img src={ s4 } alt="" /></div>
         </div> 
 
       </div>

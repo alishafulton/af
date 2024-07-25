@@ -11,16 +11,16 @@ export default function Text () {
     internships in educational settings. I continued with a Bachelors of
     Science in Educational Studies. I developed my interpersonal skills
     in four more internships, this time focused less on traditional childhood
-    education, and instead, in and around my local community. </div> <br/>
+    education, and instead, in and around my local community.  <br/>
     
     
-    <div className="font-sans text-2xl">Working as a barista</div><div className="font-serif"> at a Starbucks in Santa Barbara, California, I 
+    <p>Working as a barista at a Starbucks in Santa Barbara, California, I 
     started taking Computer Science courses online. I used as many free or 
     inexpensive resources that I could to continue learning different coding
     languages, helpful tools and programs like Tailwind CSS and Visual Studio Code. While my head was 
     in my computer in my free time, I spent my mornings growing into a Shift 
     Supervisor at Starbucks. I moved from state to state, transferring stores
-    and re-learning an entire new group of people (both baristas and customers!)</div> <br/>
+    and re-learning an entire new group of people (both baristas and customers!)</p> <br/>
 
     <p>Spending over ten years in customer service has given me a keen ability 
     to assess customer needs and collaborate with others to achieve goals. 
@@ -30,7 +30,7 @@ export default function Text () {
     confidence in on-the-spot problem solving, as well as high levels of emotional 
     intelligence that I hope to bring to any team. I am excited to find a UX/UI Design 
     role that will leverage my customer-centric experience, foster my eagerness to learn, 
-    and allow me to create designs that will improve everyday user experiences.</p>
+    and allow me to create designs that will improve everyday user experiences.</p></div>
     </div>
 
     );
