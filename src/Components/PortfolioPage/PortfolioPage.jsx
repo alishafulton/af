@@ -86,25 +86,25 @@ export default function PortfolioPage() {
     // first division is our nav list as buttons
     
       return (
-        <div className = "entirety">
-        <div className = "nav-menu">
-            <ul>
-        <li><button onClick={sprigClick}>
-          sprig
-        </button></li>
-    
-        <li><button onClick={channelClick}>
-          channel
-        </button></li>
-    
-        <li><button onClick={coastClick}>
-          coast
-        </button></li>
+        <div className = "w-full  mx-2">
+        <div className = "flex-row justify-between text-xl tracking-tighter">
 
-        <li><button onClick={boundClick}>
+        <div className="flex" onClick={sprigClick}>
+          sprig
+        </div>
+    
+        <div className="flex" onClick={channelClick}>
+          channel
+        </div>
+    
+        <div className="flex" onClick={coastClick}>
+          coast
+        </div>
+
+        <div className="flex" onClick={boundClick}>
           bound
-        </button></li>
-        </ul>
+        </div>
+
     </div>
 
     <div>
