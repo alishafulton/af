@@ -5,7 +5,7 @@ import Links from './Links';
 export default function ContactPage() {
   return (
 
-    <div className="pt-4 justify-center">
+    <div className="flex justify-center pt-4 text-2xl tracking-tighter">
       Send me a message!
         <div className="p-2">
           <ContactForm/>
