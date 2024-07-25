@@ -7,7 +7,7 @@ export default function Links() {
   return (
     <><div className="flex justify-center font-sans text-lg tracking-tighter"> Additional Links: </div>
 
-        <div>
+        <div className="flex flex-row">
         <Linkedin/><Behance/>
         </div></>
   );
