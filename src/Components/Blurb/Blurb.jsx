@@ -18,7 +18,7 @@ export default function Blurb () {
         
 
         <div className="flex grow justify-between py-2">
-          <div className="flex rotate-20"><img src={ s1 } alt="" /></div>
+          <div className="flex -m-3"><img src={ s1 } alt="" className="rotate-20" /></div>
           <div className="flex"><img src={ s2 } alt=""/></div>
           <div className="flex"><img src={ s3 } alt="" /></div>
           <div className="flex"><img src={ s4 } alt="" /></div>
