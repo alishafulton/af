@@ -27,13 +27,13 @@ export default function ContactForm() {
     };
   
     return (
-      <div className="pb-4 justify-center">
+      <div className="flex justify-center pb-4 ">
         <form onSubmit={onSubmit} className="p-3 justify-center">
           <div className="p-1"><input className="flex-1 border-2 border-black  w-full p-2" type="text" name="name" placeholder="Name" required/></div><br/>
           <div className="p-1"><input className="flex-1 border-2 border-black w-full p-2" type="email" name="email" placeholder="Email" required/></div><br/>
           <div className="p-1 h-30"><textarea className="flex-1 h-fit border-2 border-black  w-full p-2" name="message" placeholder="Message" required></textarea></div><br/>
   
-          <div className="justify-self-center drop-shadow-lg"><button type="submit"  className="rounded w-1/2 h-10 bg-orange text-white">Submit Form</button>
+          <div className="flex justify-center drop-shadow-lg"><button type="submit"  className="drop-shadow-sm rounded w-1/2 h-10 bg-orange text-white">Submit Form</button>
           </div>
         </form>
         <span>{result}</span>
