@@ -1,7 +1,6 @@
 import React from "react";
 import selfie from '../../assets/CurrentPhoto.png'
 import Text from "../Text/text";
-
 import Compliments from "./Compliments";
 
 
