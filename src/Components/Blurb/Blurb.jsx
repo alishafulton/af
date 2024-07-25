@@ -8,7 +8,7 @@ import Compliments from "./Compliments";
 
 export default function Blurb () {
     return (
-      <div className="justify-center pt-6 px-4">
+      <div className="justify-center pt-6 px-3">
         <img src={ selfie } alt="" class="w-1/2 float-left pr-3 pb-0.5"/>
         
         <Text/>
