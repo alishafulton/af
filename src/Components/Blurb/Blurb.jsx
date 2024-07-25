@@ -24,12 +24,6 @@ export default function Blurb () {
           <div className="flex"><img src={ s4 } alt="" /></div>
         </div> 
 
-
-        <div className="font-sans text-xs">
-            Appreciation cards from my baristas and 
-            managers at Starbucks :)
-          </div>
-
       </div>
 
     );

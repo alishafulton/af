@@ -70,7 +70,7 @@ export default function AboutPage() {
     
 return (
   <div className="width:100%">
-      <div className="flex grow justify-between text-base">
+      <div className="flex grow justify-between text-lg">
           <div className="flex text-black " onClick={bioClick}>
             bio
           </div>
