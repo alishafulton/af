@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Text () {
     return (
-        <div className="text-base">
-    <div className="font-sans text-lg">Hi, I'm Alisha!</div><div className="font-serif">
+        <div >
+    <div className="font-sans text-2xl">Hi, I'm Alisha!</div><div className="font-serif">
     From learning to read at age three, to getting my Girl Scout Bronze, 
     Silver and Gold Awards, I have always been an avid learner. In high school,
     I took two years of a Practicum Education and Training with four
@@ -14,13 +14,13 @@ export default function Text () {
     education, and instead, in and around my local community. </div> <br/>
     
     
-    <p>Working as a barista at a Starbucks in Santa Barbara, California, I 
+    <div className="font-sans text-2xl">Working as a barista</div><div className="font-serif"> at a Starbucks in Santa Barbara, California, I 
     started taking Computer Science courses online. I used as many free or 
     inexpensive resources that I could to continue learning different coding
     languages, helpful tools and programs like Tailwind CSS and Visual Studio Code. While my head was 
     in my computer in my free time, I spent my mornings growing into a Shift 
     Supervisor at Starbucks. I moved from state to state, transferring stores
-    and re-learning an entire new group of people (both baristas and customers!)</p> <br/>
+    and re-learning an entire new group of people (both baristas and customers!)</div> <br/>
 
     <p>Spending over ten years in customer service has given me a keen ability 
     to assess customer needs and collaborate with others to achieve goals. 

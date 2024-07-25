@@ -4,7 +4,7 @@ import Links from './Links';
 
 export default function ContactPage() {
   return (
-    <div>
+    <div className="p-2">
       <ContactForm/>
       <Links/>
     </div>
