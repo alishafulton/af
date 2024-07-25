@@ -6,7 +6,7 @@ export default function ContactPage() {
   return (
 
     <div className="w-full justify-center pt-4"> 
-      <div className="w-full text-3xl justify-center tracking-tighter">
+      <div className="w-full justify-center text-3xl tracking-tighter">
         Send me a message!
       </div>
         
