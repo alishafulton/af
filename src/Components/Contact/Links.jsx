@@ -5,8 +5,8 @@ import linkedin from '../../assets/linkedin.png'
 export default function Links() {
   return (
     <>
-    <div className="flex justify-center font-sans text-sm"> Additional Links: </div><br/>
-        <div className="flex grow justify-between h-3">
+    <div className="flex justify-center font-sans text-base tracking-tighter"> Additional Links: </div><br/>
+        <div className="flex grow justify-between">
             <a href="https://www.behance.net/alishaf2" className=" px-4">
                 <img src={ behance } alt="" />
             </a>
