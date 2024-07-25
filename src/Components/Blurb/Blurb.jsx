@@ -15,18 +15,21 @@ export default function Blurb () {
         
         <Text/>
 
-        <div className="font-sans text-sm">
-            Appreciation cards from my baristas and 
-            managers at Starbucks :)
-          </div>
+        
 
         <div className="flex grow justify-between">
-          <div className="flex"><img src={ s1 } alt="" /></div>
+          <div className="flex rotate-12 -m-1"><img src={ s1 } alt="" /></div>
           <div className="flex"><img src={ s2 } alt=""/></div>
           <div className="flex"><img src={ s3 } alt="" /></div>
           <div className="flex"><img src={ s4 } alt="" /></div>
         </div> 
 
+
+        <div className="font-sans text-sm">
+            Appreciation cards from my baristas and 
+            managers at Starbucks :)
+          </div>
+          
       </div>
 
     );
