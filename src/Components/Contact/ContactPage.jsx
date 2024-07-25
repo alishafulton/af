@@ -7,7 +7,8 @@ export default function ContactPage() {
 
     <div className="p-4 justify-center">
       <ContactForm/>
-      <Links/>
+      <div className="p-2">
+      <Links/></div>
     </div>
 
   );
