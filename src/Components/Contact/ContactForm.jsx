@@ -32,15 +32,15 @@ export default function ContactForm() {
         <form onSubmit={onSubmit} className="w-full justify-center">
 
 
-          <div className="p-1">
+          <div className="p-0.5">
               <input className="flex-1 border-2 border-black  w-full p-2" type="text" name="name" placeholder="Name" required/>
           </div><br/>
           
-          <div className="p-1">
+          <div className="p-0.5">
             <input className="flex-1 border-2 border-black w-full p-2" type="email" name="email" placeholder="Email" required/>
           </div><br/>
 
-          <div className="p-1 h-40">
+          <div className="p-0.5 h-40">
             <textarea className="flex-1 border-2 border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
             </textarea></div><br/>
   

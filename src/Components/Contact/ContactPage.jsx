@@ -6,8 +6,8 @@ export default function ContactPage() {
   return (
 
     <div className="w-full justify-center mt-6"> 
-      <div className="w-full text-center text-2xl tracking-tighter">
-        Send me a message!
+      <div className="w-full text-center font-serif text-2xl tracking-tight">
+        Send me a message:
       </div>
         
       <div className="p-2 mb-4">
