@@ -12,7 +12,7 @@ export default function Extra () {
     return (
       <div className="extras">
         <div className="h-2 -mt-1 flex">
-          <div className="w-1/4 h-full bg-transparent"></div>
+          <div className="w-1/5 h-full bg-transparent"></div>
           <div className="w-1/2 h-full bg-orange"></div>
           <div className="grow h-full bg-transparent"></div>
         </div>
