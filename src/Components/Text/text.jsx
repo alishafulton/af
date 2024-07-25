@@ -1,10 +1,11 @@
 import React from "react";
+import Hi from "./hi";
 
 
 export default function Text () {
     return (
         <div >
-    <div className="font-sans text-5xl tracking-tighter">Hi!</div><div className="font-serif">
+    <div className="float left"><Hi/></div><div className="font-serif">
     From learning to read at age three, to getting my Girl Scout Bronze, 
     Silver and Gold Awards, I have always been an avid learner. In high school,
     I took two years of a Practicum Education and Training with four
