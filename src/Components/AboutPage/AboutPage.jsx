@@ -57,7 +57,7 @@ export default function AboutPage() {
 
         function SpotifyBlurb() {
             if (spotifyVisible) {
-              return  <div className="flex flex-row gap-8 p-2">
+              return  <div className="flex flex-row gap-8 px-4 pt-4 pb-2">
               <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" />
             </div>;
             }
@@ -70,8 +70,8 @@ export default function AboutPage() {
     
 return (
   <div className="width:100% px-1">
-      <div className="flex grow justify-between text-lg">
-          <div className="flex text-black " onClick={bioClick}>
+      <div className="flex grow justify-between text-xl bg-orange">
+          <div className="flex text-white " onClick={bioClick}>
             bio
           </div>
     
