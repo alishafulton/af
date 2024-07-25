@@ -8,7 +8,7 @@ export default function Links() {
     <>
     <div className="flex justify-center font-sans text-base tracking-tighter"> Additional Links: </div><br/>
 
-        <div className="flex justify-between content-start">
+        <div className="flex justify-between content-start mx-4">
         <Linkedin/><Behance/>
 </div></>
   );

@@ -44,7 +44,7 @@ export default function ContactForm() {
             <textarea className="flex-1 border-2 border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
             </textarea></div><br/>
   
-          <div className="flex justify-center filter drop-shadow-lg"><button type="submit"  className="drop-shadow-sm rounded-md w-1/2 h-12 bg-orange text-white">Submit</button>
+          <div className="flex justify-center filter drop-shadow-lg"><button type="submit"  className="rounded-lg w-1/2 h-12 bg-orange text-white">Submit</button>
           </div>
         
         </form>
