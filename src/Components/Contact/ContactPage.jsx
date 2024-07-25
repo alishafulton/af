@@ -10,7 +10,7 @@ export default function ContactPage() {
         Send me a message:
       </div>
         
-      <div className="p-2 mb-4">
+      <div className="m-4">
         <ContactForm/>
       </div>
         

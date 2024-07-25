@@ -27,20 +27,20 @@ export default function ContactForm() {
     };
   
     return (
-      <div className="flex justify-center pb-2">
+      <div className="flex justify-center pb-1">
 
         <form onSubmit={onSubmit} className="w-full justify-center">
 
 
-          <div className="p-0.5">
+          <div className="m-0.5">
               <input className="flex-1 border-2 border-black  w-full p-2" type="text" name="name" placeholder="Name" required/>
           </div><br/>
           
-          <div className="p-0.5">
+          <div className="m-0.5">
             <input className="flex-1 border-2 border-black w-full p-2" type="email" name="email" placeholder="Email" required/>
           </div><br/>
 
-          <div className="p-0.5 h-40">
+          <div className="m-0.5 h-40">
             <textarea className="flex-1 border-2 border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
             </textarea></div><br/>
   
