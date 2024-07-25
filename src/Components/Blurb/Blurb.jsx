@@ -11,14 +11,14 @@ import s4 from "../../assets/starbucks4.png"
 export default function Blurb () {
     return (
       <div className="justify-center pt-6 px-4">
-        <img src={ selfie } alt="" class="w-1/2 float-left pr-4 pb-1"/>
+        <img src={ selfie } alt="" class="w-1/2 float-left pr-3 pb-0.5"/>
         
         <Text/>
 
         
 
         <div className="flex grow justify-between">
-          <div className="flex rotate-12 -m-1"><img src={ s1 } alt="" /></div>
+          <div className="flex"><img src={ s1 } alt="" /></div>
           <div className="flex"><img src={ s2 } alt=""/></div>
           <div className="flex"><img src={ s3 } alt="" /></div>
           <div className="flex"><img src={ s4 } alt="" /></div>
