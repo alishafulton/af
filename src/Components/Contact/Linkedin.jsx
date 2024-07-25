@@ -3,7 +3,7 @@ import linkedin from '../../assets/linkedin.png'
 
 export default function Linkedin() {
   return (
-    <div className="p-5">
+    <div className="px-6">
         <a href="https://www.linkedin.com/in/alishafulton/">
             <img src={ linkedin } alt="" />
         </a>

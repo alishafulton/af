@@ -3,7 +3,7 @@ import behance from '../../assets/behance.png'
 
 export default function Behance() {
   return (
-    <div className="p-5">
+    <div className="px-6">
          <a href="https://www.behance.net/alishaf2">
                 <img src={ behance } alt="" />
             </a>
