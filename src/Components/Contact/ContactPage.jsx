@@ -6,8 +6,8 @@ export default function ContactPage() {
   return (
 
     <div className="pt-4 justify-center">
-      
-        <div className="py-2">
+      Send me a message!
+        <div className="p-2">
           <ContactForm/>
         </div>
         
