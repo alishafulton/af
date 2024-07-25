@@ -70,16 +70,16 @@ export default function AboutPage() {
     
 return (
 <div className="width:100% px-1">
-    <div className="flex grow justify-between text-2xl">
-          <div className="flex text-black tracking-tighter" onClick={bioClick}>
+    <div className="flex grow justify-between text-2xl tracking-tighter">
+          <div className="flex text-black" onClick={bioClick}>
             bio
           </div>
     
-          <div className="flex text-black tracking-tighter" onClick={extraClick}>
+          <div className="flex text-black" onClick={extraClick}>
             extracurriculars
           </div>
     
-         <div className="flex text-black tracking-tighter" onClick={spotifyClick}>
+         <div className="flex text-black" onClick={spotifyClick}>
             spotify
          </div>
     </div>
