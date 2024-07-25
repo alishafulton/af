@@ -14,9 +14,7 @@ export default function ContactPage() {
         <ContactForm/>
       </div>
         
-      <div className="pt-2 pb-1">
         <Links/>
-      </div>
     </div>
 
   );
