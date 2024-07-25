@@ -7,7 +7,9 @@ import './index.css'
 export default function App () {
   return (
     <div className="content-start">
-      <Navbar/>
+      <div className="sticky">
+        <Navbar/>
+      </div>
       <Outlet/>
     </div>
     
