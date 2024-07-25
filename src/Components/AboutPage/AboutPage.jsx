@@ -57,7 +57,7 @@ export default function AboutPage() {
 
         function SpotifyBlurb() {
             if (spotifyVisible) {
-              return  <div className="flex flex-row gap-8">
+              return  <div className="flex flex-row gap-8 p-2">
               <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" />
             </div>;
             }
