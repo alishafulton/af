@@ -27,7 +27,7 @@ export default function ContactForm() {
     };
   
     return (
-      <div className="flex justify-center pb-4">
+      <div className="flex justify-center pb-2">
 
         <form onSubmit={onSubmit} className="w-full justify-center">
 
