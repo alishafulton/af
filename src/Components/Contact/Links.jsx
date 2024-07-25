@@ -6,7 +6,7 @@ export default function Links() {
   return (
     <>
     <div className="flex justify-center font-sans text-sm"> Additional Links: </div><br/>
-        <div className="flex grow justify-between h-4">
+        <div className="flex grow justify-between h-3">
             <a href="https://www.behance.net/alishaf2" className=" px-4">
                 <img src={ behance } alt="" />
             </a>

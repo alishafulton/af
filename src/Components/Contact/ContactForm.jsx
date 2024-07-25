@@ -33,7 +33,7 @@ export default function ContactForm() {
           <div className="p-1"><input className="flex-1 border-2 border-black w-full p-2" type="email" name="email" placeholder="Email" required/></div><br/>
           <div className="p-1 h-30"><textarea className="flex-1 h-fit border-2 border-black  w-full p-2" name="message" placeholder="Message" required></textarea></div><br/>
   
-          <button type="submit" className="w-1/2 h-10 drop-shadow-md rounded bg-orange text-white">Submit Form</button>
+          <button type="submit" className="w-1/2 h-10 drop-shadow-lg rounded bg-orange text-white">Submit Form</button>
   
         </form>
         <span>{result}</span>
