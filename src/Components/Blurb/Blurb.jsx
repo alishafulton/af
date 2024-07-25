@@ -8,11 +8,11 @@ import Compliments from "./Compliments";
 
 export default function Blurb () {
   return (
-<div c>
-    <div className="h-2 flex py-1">
-      <div className="flex-1 bg-orange"></div>
-      <div className="flex-1 bg-green"></div>
-      <div className="flex-1 bg-green"></div>
+<div>
+    <div className="h-4 flex m-1">
+      <div className="flex-1 h-full bg-orange"></div>
+      <div className="flex-1 h-full bg-green"></div>
+      <div className="flex-1 h-full bg-green"></div>
     </div>
 
 
@@ -21,9 +21,9 @@ export default function Blurb () {
         
         <Text/>
 
-        <div className="p-2">
+        <div className="m-2">
           <Compliments/>
-        </div>
+      </div>
 
     </div>
 </div>
