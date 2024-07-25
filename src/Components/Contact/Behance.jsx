@@ -3,10 +3,10 @@ import behance from '../../assets/behance.png'
 
 export default function Behance() {
   return (
-    <div className="m-3 p-3">
+    <div className="m-2">
          <a href="https://www.behance.net/alishaf2">
-                <img src={ behance } alt="" />
-            </a>
+                <img src={ behance } alt="" className="h-2 w-2"/>
+          </a>
     </div>
   );
 }
