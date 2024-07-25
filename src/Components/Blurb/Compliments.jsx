@@ -9,7 +9,7 @@ export default function Compliments () {
     return (
         <>
         <div className="flex py-2">
-          <div className="flex"><img src={ s1 } alt=""/></div>
+          <div className="flex -m-1"><img src={ s1 } alt=""className="-m-1"/></div>
           <div className="flex"><img src={ s2 } alt=""/></div>
           <div className="flex"><img src={ s3 } alt="" /></div>
           <div className="flex"><img src={ s4 } alt="" /></div>
