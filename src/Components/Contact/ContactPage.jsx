@@ -6,7 +6,7 @@ export default function ContactPage() {
   return (
 
     <div className="justify-center pt-4"> 
-      <div className="text-2xl tracking-tighter">
+      <div className="text-3xl justify-center tracking-tighter">
         Send me a message!
       </div>
         
