@@ -11,7 +11,7 @@ export default function Text () {
     internships in educational settings. I continued with a Bachelors of
     Science in Educational Studies. I developed my interpersonal skills
     in four more internships, this time focused less on traditional childhood
-    education, and instead, in and around my local community.  </div>
+    education, and instead, in and around my local community.  </div> <br/>
     
     
     <div className="font-serif">Working as a barista at a Starbucks in Santa Barbara, California, I 

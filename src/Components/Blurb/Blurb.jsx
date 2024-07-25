@@ -25,11 +25,11 @@ export default function Blurb () {
         </div> 
 
 
-        <div className="font-sans text-sm">
+        <div className="font-sans text-xs">
             Appreciation cards from my baristas and 
             managers at Starbucks :)
           </div>
-          
+
       </div>
 
     );
