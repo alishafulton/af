@@ -5,8 +5,8 @@ import Links from './Links';
 export default function ContactPage() {
   return (
 
-    <div className="justify-center pt-4 mx-2"> 
-      <div className="text-3xl justify-center tracking-tighter">
+    <div className="w-full justify-center pt-4 mx-2"> 
+      <div className="w-full text-3xl justify-center tracking-tighter">
         Send me a message!
       </div>
         

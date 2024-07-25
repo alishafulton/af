@@ -3,9 +3,9 @@ import behance from '../../assets/behance.png'
 
 export default function Behance() {
   return (
-    <div className="m-2">
+    <div className="p-2">
          <a href="https://www.behance.net/alishaf2">
-                <img src={ behance } alt="" className="h-2 w-2"/>
+                <img src={ behance } alt="" className="h-20 w-20"/>
           </a>
     </div>
   );
