@@ -4,7 +4,7 @@ import Links from './Links';
 
 export default function ContactPage() {
   return (
-    <div className="p-2">
+    <div className="p-2 justify-items-center">
       <ContactForm/>
       <Links/>
     </div>

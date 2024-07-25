@@ -30,8 +30,8 @@ export default function ContactForm() {
       <div className="justify-items-center pb-4">
         <form onSubmit={onSubmit} className="p-2">
           <div className="p-2"><input className="flex-1 border-2 border-black  w-full p-2" type="text" name="name" placeholder="Name" required/></div><br/>
-          <input className="flex-1 border-2 border-black w-full p-2" type="email" name="email" placeholder="Email" required/><br/>
-          <textarea className="flex-1 h-16 border-2 border-black  w-full p-2" name="message" placeholder="Message" required></textarea><br/>
+          <div className="p-2"><input className="flex-1 border-2 border-black w-full p-2" type="email" name="email" placeholder="Email" required/></div><br/>
+          <div className="p-2 h-20"><textarea className="flex-1 h-fit border-2 border-black  w-full p-2" name="message" placeholder="Message" required></textarea></div><br/>
   
           <button type="submit" className="w-1/2 h-10 border-2 border-white rounded-sm bg-orange text-white">Submit Form</button>
   
