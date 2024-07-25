@@ -31,9 +31,9 @@ export default function ContactForm() {
         <form onSubmit={onSubmit}>
           <input className="flex-1 border-2 border-black  w-full" type="text" name="name" placeholder="Name" required/><br/>
           <input className="flex-1 border-2 border-black w-full" type="email" name="email" placeholder="Email" required/><br/>
-          <textarea className="flex-1 h-6 border-2 border-black  w-full " name="message" placeholder="Message" required></textarea><br/>
+          <textarea className="flex-1 h-12 border-2 border-black  w-full " name="message" placeholder="Message" required></textarea><br/>
   
-          <button type="submit" className="w-1/2 h-4 border-2 border-white rounded-sm bg-orange text-white">Submit Form</button>
+          <button type="submit" className="w-1/2 h-8 border-2 border-white rounded-sm bg-orange text-white">Submit Form</button>
   
         </form>
         <span>{result}</span>
