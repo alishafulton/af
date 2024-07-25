@@ -69,9 +69,9 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
 return (
-  <div className="width:100% px-1">
-      <div className="flex grow justify-between text-xl bg-orange">
-          <div className="flex text-white " onClick={bioClick}>
+<div className="width:100% px-1">
+    <div className="flex grow justify-between text-xl">
+          <div className="flex text-black" onClick={bioClick}>
             bio
           </div>
     
@@ -83,6 +83,7 @@ return (
             spotify
          </div>
     </div>
+    
 
     <BioBlurb /> 
     <ExtrasBlurb />
