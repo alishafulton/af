@@ -29,7 +29,7 @@ export default function ContactForm() {
     return (
       <div className="justify-center pb-4">
         <form onSubmit={onSubmit}>
-          <input className="flex-1 border-2 border-black  w-full" type="text" name="name" placeholder="Name" required/><br/>
+          <input className="flex-1 border-2 border-black  w-full p-2" type="text" name="name" placeholder="Name" required/><br/>
           <input className="flex-1 border-2 border-black w-full" type="email" name="email" placeholder="Email" required/><br/>
           <textarea className="flex-1 h-12 border-2 border-black  w-full " name="message" placeholder="Message" required></textarea><br/>
   
