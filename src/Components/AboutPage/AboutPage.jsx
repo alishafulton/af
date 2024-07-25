@@ -69,7 +69,7 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
 return (
-  <div className="width:100%">
+  <div className="width:100% px-1">
       <div className="flex grow justify-between text-lg">
           <div className="flex text-black " onClick={bioClick}>
             bio
