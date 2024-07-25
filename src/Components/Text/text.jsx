@@ -31,7 +31,7 @@ export default function Text () {
     intelligence that I hope to bring to any team. I am excited to find a UX/UI Design 
     role that will leverage my customer-centric experience, foster my eagerness to learn, 
     and allow me to create designs that will improve everyday user experiences.</p>
-    </div></div>
+    </div>
 
     );
 };
