@@ -9,7 +9,7 @@ export default function Compliments () {
     return (
         <>
         <div className="flex justify-center py-2">
-          <div className="transform rotate-20"><img src={ s1 } alt=""className="-m-1"/></div>
+          <div className="flex"><img src={ s1 } alt=""className="transform rotate-20 -m-1"/></div>
           <div className="flex"><img src={ s2 } alt=""/></div>
           <div className="flex"><img src={ s3 } alt="" /></div>
           <div className="flex"><img src={ s4 } alt="" /></div>

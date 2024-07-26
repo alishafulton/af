@@ -4,17 +4,17 @@ import { SprigPrototype } from './SprigPrototype';
 
 export default function Sprig () {
     return (
-<div>
+<>
         <div className="flex-col">
-        <img src={ sprig1 } alt="" className="width:100%" />
+        <img src={ sprig1 } alt="" className="p-2" />
 
         
               <SprigPrototype/>
             
 
-        <img src={ sprig2 } alt="" className="width:100%"/>
+        <img src={ sprig2 } alt="" className="p-2"/>
         </div>
-</div>
+</>
     );
 };
 

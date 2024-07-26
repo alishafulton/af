@@ -86,10 +86,10 @@ export default function PortfolioPage() {
     // first division is our nav list as buttons
     
       return (
-        <div className = "w-full  mx-2">
-        <div className = "flex-row justify-between text-xl tracking-tighter">
+        <>
+        <div className = "flex flex-row justify-between text-xl tracking-tighter">
 
-        <div className="flex" onClick={sprigClick}>
+        <div onClick={sprigClick}>
           sprig
         </div>
     
@@ -113,7 +113,7 @@ export default function PortfolioPage() {
     <CoastBlurb/>
     <BoundBlurb/>
     </div>
-    </div>
+    </>
 
 
     
