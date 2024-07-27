@@ -20,7 +20,7 @@ export default function Extra () {
         <BigPic />
         
         <br />
-        <div className="texte"> After spending a couple of weeks getting 
+        <div className="serif"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
         200 square foot porch. The bugs are unkind in the Texas heat 
@@ -28,10 +28,10 @@ export default function Extra () {
         only worsened the situation. </div>
         
         <br />
-        <img src={ wood } alt="" className="smallpic-v" />  
+        <img src={ wood } alt="" className="h-18" />  
         <br />
 
-        <div className="texte"> 
+        <div className="serif"> 
         Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
         shapes. It seemed more and more doable the more time we spent 
@@ -39,19 +39,19 @@ export default function Extra () {
         methods we could take and after working out how we 
         could be the most efficient, we picked a day to get started.</div><br/>
         
-        <br/><div className="texte"> Brimming with excitement, we measured 
+        <br/><div className="serif"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
         to buy on our first trip to Home Depot. 
-        <div className="rightpic"> <Pic1/> </div> 
+        <div className="h-10"> <Pic1/> </div> 
          We borrowed an SUV to go back and forth to the store and bought
         what we needed for our first section. What we assumed would be
         one of three trips ended up being more like five (or six).<br/></div>
 
-        <img src={ pic5 } alt="" className="middlepic"/>
+        <img src={ pic5 } alt="" className="h-14"/>
 
         <ComboPics/>
         
-        <br/><div className="texte"> I'm not
+        <br/><div className="serif"> I'm not
         telling you that we are secretly <a href="https://en.wikipedia.org/wiki/Sabrina_Carpenter">Master Carpenters</a> and it all
         went perfectly. Believe it or not, I even hammered myself a black eye.
         But with help from my aunt and two other cousins, a couple of
