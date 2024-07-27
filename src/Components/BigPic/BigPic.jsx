@@ -2,9 +2,9 @@ import before from '../../assets/IMG_0549.png'
 
 export default function BigPic () {
     return (
-        <div className="image-container relative mt-2">
+        <div className="image-container relative mt-3">
             <img src={before} alt="" className="w-full" />
-                <div class="text-overlay absolute left-0 top-0 p-2 font-sans text-purple text-4xl">
+                <div class="text-overlay absolute left-0 top-0 p-2 font-sans text-white text-4xl">
                     March 2024
                 </div>
         </div>

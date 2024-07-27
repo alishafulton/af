@@ -22,6 +22,7 @@ export default function Extra () {
         <BigPic />
         
         <br />
+        <img src={ wood } alt="" className="h-40 float-left ml-2 mb-1 " />  
         <div className="font-serif"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
@@ -29,8 +30,6 @@ export default function Extra () {
         (especially in the summer) and they lived across from a creek, which
         only worsened the situation. </div>
         <br/>
-        
-        <img src={ wood } alt="" className="h-20 float-left" />  
     
 
         <div className="font-serif"> 
