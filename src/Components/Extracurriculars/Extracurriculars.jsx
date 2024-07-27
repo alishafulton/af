@@ -31,7 +31,7 @@ export default function Extra () {
         <img src={ wood } alt="" className="h-18" />  
         <br />
 
-        <div className="font-erif"> 
+        <div className="font-serif"> 
         Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
         shapes. It seemed more and more doable the more time we spent 
@@ -44,12 +44,12 @@ export default function Extra () {
         to buy on our first trip to Home Depot.  
         
         <div><Pic1/> </div> 
-        
+
          We borrowed an SUV to go back and forth to the store and bought
         what we needed for our first section. What we assumed would be
         one of three trips ended up being more like five (or six).<br/></div>
 
-        <img src={ pic5 } alt="" className="h-14"/>
+        <img src={ pic5 } alt="" className="h-34"/>
 
         <ComboPics/>
         
