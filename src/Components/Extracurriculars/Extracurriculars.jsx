@@ -10,8 +10,8 @@ import ComboPics from "../pic3/pic3";
 
 export default function Extra () {
     return (
-      <div>
-        
+      <div className="mx-3">
+
         <div className="h-2 -mt-1 flex">
           <div className="w-1/5 h-full bg-transparent"></div>
           <div className="w-1/2 h-full bg-orange"></div>
@@ -28,10 +28,10 @@ export default function Extra () {
         200 square foot porch. The bugs are unkind in the Texas heat 
         (especially in the summer) and they lived across from a creek, which
         only worsened the situation. </div>
+        <br/>
         
-        <br />
-        <img src={ wood } alt="" className="h-18" />  
-        <br />
+        <img src={ wood } alt="" className="h-12 float-right" />  
+    
 
         <div className="font-serif"> 
         Their porch was already covered with a roof held up by
