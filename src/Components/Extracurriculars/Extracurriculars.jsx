@@ -23,7 +23,7 @@ export default function Extra () {
         
         <br />
         <div className="mx-3"><img src={ wood } alt="" className="h-40 float-left mr-2 mb-1 " />  
-        <div className="font-serif"> After spending a couple of weeks getting 
+        <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
         200 square foot porch. The bugs are unkind in the Texas heat 
@@ -32,7 +32,7 @@ export default function Extra () {
         <br/>
     
 
-        <div className="font-serif"> 
+        <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
         shapes. It seemed more and more doable the more time we spent 
@@ -40,7 +40,7 @@ export default function Extra () {
         methods we could take and after working out how we 
         could be the most efficient, we picked a day to get started.</div><br/>
         
-        <br/><div className="font-serif"> Brimming with excitement, we measured 
+        <br/><div className="font-serif text-lg"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
         to buy on our first trip to Home Depot.  
         
