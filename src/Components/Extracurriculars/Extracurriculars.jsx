@@ -11,11 +11,13 @@ import ComboPics from "../pic3/pic3";
 export default function Extra () {
     return (
       <div>
+        
         <div className="h-2 -mt-1 flex">
           <div className="w-1/5 h-full bg-transparent"></div>
           <div className="w-1/2 h-full bg-orange"></div>
           <div className="grow h-full bg-transparent"></div>
         </div>
+
 
         <BigPic />
         
