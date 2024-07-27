@@ -10,7 +10,7 @@ import ComboPics from "../pic3/pic3";
 
 export default function Extra () {
     return (
-      <div className="mx-3">
+      <div className="m-2">
 
         <div className="h-2 -mt-1 flex">
           <div className="w-1/5 h-full bg-transparent"></div>
@@ -30,7 +30,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
         
-        <img src={ wood } alt="" className="h-12 float-right" />  
+        <img src={ wood } alt="" className="h-20 float-right" />  
     
 
         <div className="font-serif"> 
