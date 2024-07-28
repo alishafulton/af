@@ -45,7 +45,7 @@ export default function Extra () {
         could be the most efficient, we picked a day to get started.</div>
         <br />
         
-        <img src={ pic5 } alt="" className="w-5/12 float-left border-r-4 border-purple "/>
+        <img src={ pic5 } alt="" className="w-5/12 float-left border-r-4 border-purple  mr-2 mb-1"/>
         <div className="font-serif text-lg"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
         to buy on our first trip to Home Depot. We borrowed an SUV to go back and forth to the store and bought
@@ -53,19 +53,19 @@ export default function Extra () {
         one of three trips ended up being more like five (or six).<br/></div>
 
         
-        <img src={ pic11 } alt="" className="w-5/12 float-right border-l-4 border-purple"/>
+        <br/> <img src={ pic11 } alt="" className="w-5/12 float-right border-l-4 border-purple  ml-2 mb-1"/>
 
         <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
         
         <br/><div className="font-serif text-lg"> I'm not
-        telling you that we are secretly <a href="https://en.wikipedia.org/wiki/Sabrina_Carpenter">Master Carpenters</a> and it all
+        saying that we are secretly <a href="https://en.wikipedia.org/wiki/Sabrina_Carpenter">Master Carpenters</a> and it all
         went perfectly. Believe it or not, I even hammered myself a black eye.
         But with help from my aunt and two other cousins, a couple of
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <img src={ pic10 } alt="" className="w-5/12 float-left border-r-4 border-purple "/>
+        <img src={ pic10 } alt="" className="w-5/12 float-left border-r-4 border-purple  mr-2 mr-1"/>
         
         <BigPic2/>
 
