@@ -19,9 +19,10 @@ export default function Extra () {
           <div className="grow h-full bg-transparent"></div>
       </div>
 
-  <Checkered/>
-     <BigPic />
 
+     <BigPic />
+     
+  <Checkered/>
 
     <div className="flex-col w-full mt-2 px-3 py-5">
 
