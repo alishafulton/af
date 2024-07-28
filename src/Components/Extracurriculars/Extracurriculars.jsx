@@ -36,7 +36,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-        <div className="w-1/2 bg-purple float-right pr-2 pb-4"><img src={ girls } alt="" className="w-full"/></div>
+        <div className="w-2/5 bg-purple float-right pr-5 pb-2"><img src={ girls } alt="" className="w-full ml-0"/></div>
 
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
