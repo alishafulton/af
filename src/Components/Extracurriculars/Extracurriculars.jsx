@@ -9,23 +9,22 @@ import pic11 from '../../assets/IMG_0944.png'
 
 
 export default function Extra () {
-    return (
-      <div className="flex">
+  return (
+    <div>
 
-        <div className="h-2 -mt-1 flex">
+      <div className="h-2 -mt-1 flex">
           <div className="w-1/5 h-full bg-transparent"></div>
           <div className="w-1/2 h-full bg-orange"></div>
           <div className="grow h-full bg-transparent"></div>
-        </div>
-
-
+      </div>
+      <br />
+      
+      <BigPic />
+      <br/>
         
-          
-        <BigPic />
-        
-        <div className="mx-3">
-          
-        <img src={ wood } alt="" className="w-1/2 float-left mr-2 mb-1 " />  
+      <div className="flex mx-3">
+
+        <img src={ wood } alt="" className="w-1/2 float-left mr-2 mb-1 "/>  
 
         <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
