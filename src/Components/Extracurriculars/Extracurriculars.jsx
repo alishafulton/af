@@ -17,12 +17,10 @@ export default function Extra () {
           <div className="w-1/2 h-full bg-orange"></div>
           <div className="grow h-full bg-transparent"></div>
       </div>
-      
-    // Header w Date
+
 
      <BigPic />
       
-    // TEXT 
 
     <div className="flex-col w-full mt-2 px-3 py-5">
 
