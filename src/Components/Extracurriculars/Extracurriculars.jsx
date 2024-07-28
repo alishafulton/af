@@ -10,7 +10,7 @@ import pic11 from '../../assets/IMG_0944.png'
 
 export default function Extra () {
   return (
-    <div className="flex-col mx-3">
+    <div>
 
       <div className="h-2 -mt-1 flex">
           <div className="w-1/5 h-full bg-transparent"></div>
@@ -34,7 +34,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-        <img src={ girls } alt="" className="width:50% float-right ml-2 mb-1"/>
+        <img src={ girls } alt="" className="w-1/2 float-right ml-2 mb-1"/>
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
