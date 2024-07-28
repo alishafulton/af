@@ -1,5 +1,4 @@
 import React from "react"
-import { type HTMLAttributes } from "react";
 
 
 export default function SprigPrototype () {
