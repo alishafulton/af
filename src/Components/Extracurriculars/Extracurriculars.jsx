@@ -26,7 +26,7 @@ export default function Extra () {
 
     <div className="flex-col w-full mt-2 px-3 py-5">
 
-      <img src={ wood } alt="" className="w-2/5 float-left bg-purple mr-2"/>  
+    <div className="w-1/2 bg-purple float-left pr-7 pb-3"><img src={ wood } alt="" className="w-full ml-0"/></div>
 
       <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
@@ -36,7 +36,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-        <div className="w-2/5 bg-purple float-right pr-5 pb-2"><img src={ girls } alt="" className="w-full ml-0"/></div>
+        <div className="w-2/5 bg-purple float-right pl-5 pb-2"><img src={ girls } alt="" className="w-full mr-0"/></div>
 
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
