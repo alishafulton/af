@@ -22,7 +22,7 @@ export default function Extra () {
         <BigPic />
         
         <br />
-        <div className="mx-3"><img src={ wood } alt="" className="h-46 float-left mr-2 mb-1 " />  
+        <div className="mx-3"><img src={ wood } alt="" className="h-24 float-left mr-2 mb-1 " />  
         <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
