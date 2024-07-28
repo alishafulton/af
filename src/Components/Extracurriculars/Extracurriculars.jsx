@@ -54,14 +54,14 @@ export default function Extra () {
 
         <ComboPics/>
         
-        <br/><div className="font-serif"> I'm not
+        <br/><div className="font-serif text-lg"> I'm not
         telling you that we are secretly <a href="https://en.wikipedia.org/wiki/Sabrina_Carpenter">Master Carpenters</a> and it all
         went perfectly. Believe it or not, I even hammered myself a black eye.
         But with help from my aunt and two other cousins, a couple of
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
-        
-        <img src={ pic10 } alt="" className="pic"/>
+         
+        <img src={ pic10 } alt="" className="h-30"/>
         
         <BigPic2/>
 
