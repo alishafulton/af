@@ -10,19 +10,19 @@ import pic11 from '../../assets/IMG_0944.png'
 
 export default function Extra () {
   return (
-    <div>
+    <div className="flex-col mx-3">
 
       <div className="h-2 -mt-1 flex">
           <div className="w-1/5 h-full bg-transparent"></div>
           <div className="w-1/2 h-full bg-orange"></div>
           <div className="grow h-full bg-transparent"></div>
       </div>
-      <br />
+      
       
       <BigPic />
-      <br/>
+      
         
-      <div className="flex mx-3">
+      <div className="flex w-full">
 
         <img src={ wood } alt="" className="w-1/2 float-left mr-2 mb-1 "/>  
 
