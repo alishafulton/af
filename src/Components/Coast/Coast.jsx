@@ -1,6 +1,6 @@
 import coast1 from '../../assets/Coast1.png';
 import coast2 from '../../assets/Coast2.png';
-import { CoastPrototype } from './CoastPrototype';
+import CoastPrototype from './CoastPrototype';
 
 
 export default function Coast () {

@@ -1,6 +1,6 @@
 import bound1 from '../../assets/bound1.png';
 import bound2 from '../../assets/bound2.png';
-import { BoundPrototype } from './BoundPrototype';
+import BoundPrototype from './BoundPrototype';
 
 
 export default function Bound () {
