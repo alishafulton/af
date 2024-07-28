@@ -6,6 +6,7 @@ import BigPic from "../BigPic/BigPic";
 import girls from "../../assets/IMG_0576.png"
 import BigPic2 from "../BigPic/BigPic2";
 import pic11 from '../../assets/IMG_0944.png'
+import Checkered from "../Checkered/Checkered";
 
 
 export default function Extra () {
@@ -20,16 +21,7 @@ export default function Extra () {
 
 
      <BigPic />
-     <div className="h-8 my-2 flex">
-          <div className="w-8 h-8 bg-transparent"></div>
-          <div className="w-8 h-8 bg-orange"></div>
-          <div className="w-8 h-8 bg-transparent"></div>
-          <div className="w-8 h-8 bg-orange"></div>
-          <div className="w-8 h-8 bg-transparent"></div>
-          <div className="w-8 h-8 bg-orange"></div>
-          <div className="w-8 h-8 bg-transparent"></div>
-          <div className="w-8 h-8 bg-orange"></div>
-      </div>
+  <Checkered/>
       
 
     <div className="flex-col w-full mt-2 px-3 py-5">
