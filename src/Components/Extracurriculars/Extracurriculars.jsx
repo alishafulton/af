@@ -24,9 +24,9 @@ export default function Extra () {
 
   <Checkered/>
 
-    <div className="flex-col w-full mt-2 px-3 py-5">
+    <div className="flex-col w-full mt-2 px-2.5 py-5">
 
-    <div className="w-1/2 bg-purple float-left pr-7 pb-2"><img src={ wood } alt="" className="w-full ml-0"/></div>
+    <div className="w-1/2 bg-purple float-left pr-4 pb-2 pt-1 mr-2"><img src={ wood } alt="" className="w-full ml-1"/></div>
 
       <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
@@ -36,7 +36,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-        <div className="w-2/5 bg-purple float-right pl-5 pb-2 pt-3"><img src={ girls } alt="" className="w-full mr-0"/></div>
+        <div className="w-1/2 bg-purple float-right pl-5 pb-2 pt-3"><img src={ girls } alt="" className="w-full mr-1"/></div>
 
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
@@ -56,7 +56,7 @@ export default function Extra () {
         one of three trips ended up being more like five (or six).</div><br/>
 
         
-        <div className="w-2/5 bg-purple float-right pl-2 pb-1 pt-4"><img src={ pic11 } alt="" className="w-full mr-2"/></div>
+        <div className="w-1/2 bg-purple float-right pl-2 pb-1 pt-4"><img src={ pic11 } alt="" className="w-full mr-2"/></div>
 
         <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
