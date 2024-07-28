@@ -64,7 +64,7 @@ export default function Extra () {
         one of three trips ended up being more like five (or six).<br/></div>
 
         
-        <br/> <img src={ pic11 } alt="" className="w-2/5 border-l-4 float-right bg-purple ml-2 mb-1"/>
+        <br/> <img src={ pic11 } alt="" className="w-2/5 border-l-4 border-black float-right bg-purple ml-2 mb-1"/>
 
         <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
@@ -76,7 +76,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <img src={ pic10 } alt="" className="w-2/5 float-left border-r-4 bg-purple border-purple mr-2 mb-1"/>
+        <img src={ pic10 } alt="" className="w-2/5 float-left border-r-4 border-purple bg-purple mr-2 mb-1"/>
         
         <BigPic2/>
 
