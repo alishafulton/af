@@ -24,7 +24,7 @@ export default function Extra () {
         
       <div className="flex-col w-full mt-2 px-3">
 
-        <img src={ wood } alt="" className="w-5/12 float-left mr-2 mb-1 "/>  
+        <img src={ wood } alt="" className="w-5/12 float-left mr-2 bg-green "/>  
 
         <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
@@ -64,7 +64,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <img src={ pic10 } alt="" className="w-5/12"/>
+        <img src={ pic10 } alt="" className="w-5/12 float-left"/>
         
         <BigPic2/>
 
