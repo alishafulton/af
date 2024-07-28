@@ -24,7 +24,7 @@ export default function Extra () {
         
       <div className="flex-col w-full mt-2 px-3">
 
-        <img src={ wood } alt="" className="w-5/12 float-left mr-2 bg-green "/>  
+        <img src={ wood } alt="" className="w-5/12 float-left mr-2 bg-green border-r-2 border-pink  "/>  
 
         <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
@@ -43,8 +43,9 @@ export default function Extra () {
         staring at it, swatting mosquitos. We discussed a variety of
         methods we could take and after working out how we 
         could be the most efficient, we picked a day to get started.</div>
+        <br />
         
-        <img src={ pic5 } alt="" className="w-5/12 float-left"/>
+        <img src={ pic5 } alt="" className="w-5/12 float-left border-r-2 border-pink "/>
         <div className="font-serif text-lg"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
         to buy on our first trip to Home Depot. We borrowed an SUV to go back and forth to the store and bought
@@ -64,7 +65,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <img src={ pic10 } alt="" className="w-5/12 float-left"/>
+        <img src={ pic10 } alt="" className="w-5/12 float-left border-r-2 border-pink "/>
         
         <BigPic2/>
 
