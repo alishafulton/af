@@ -19,10 +19,14 @@ export default function Extra () {
         </div>
 
 
+        
+          
         <BigPic />
         
-        <br />
-        <div className="flex mx-3"><img src={ wood } alt="" className="w-1/2 float-left mr-2 mb-1 " />  
+        <div className="flex mx-3">
+          
+        <img src={ wood } alt="" className="w-1/2 float-left mr-2 mb-1 " />  
+        
         <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
