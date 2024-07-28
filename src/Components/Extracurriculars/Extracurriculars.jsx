@@ -6,6 +6,7 @@ import BigPic from "../BigPic/BigPic";
 import girls from "../../assets/IMG_0576.png"
 import BigPic2 from "../BigPic/BigPic2";
 import ComboPics from "../pic3/pic3";
+import pic11 from '../../assets/IMG_0944.png'
 
 
 export default function Extra () {
@@ -52,8 +53,10 @@ export default function Extra () {
         one of three trips ended up being more like five (or six).<br/></div>
 
         
+        <img src={ pic11 } alt="" className="h-30 float-right"/>
 
-        <ComboPics/>
+        <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
+        what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
         
         <br/><div className="font-serif text-lg"> I'm not
         telling you that we are secretly <a href="https://en.wikipedia.org/wiki/Sabrina_Carpenter">Master Carpenters</a> and it all
