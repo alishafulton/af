@@ -53,7 +53,7 @@ return (
           <div className="w-2 h-2 bg-orange"></div>
           <div className="w-2 h-2 bg-transparent"></div>
           <div className="w-2 h-2 bg-orange"></div>
-      </div><br/>
+      </div>
     <div className="flex">
         <div className="w-2 h-2 bg-orange"></div>
           <div className="w-2 h-2 bg-transparent"></div>
@@ -102,7 +102,7 @@ return (
           <div className="w-2 h-2 bg-orange"></div>
           <div className="w-2 h-2 bg-transparent"></div>
           <div className="w-2 h-2 bg-orange"></div>
-    </div><br/>
+    </div>
     <div className="flex">
           <div className="w-2 h-2 bg-transparent"></div>
           <div className="w-2 h-2 bg-orange"></div>
