@@ -22,7 +22,7 @@ export default function Extra () {
 
      <BigPic />
 
-  <Checkered/>
+  <div className="-mt-4"><Checkered/></div>
 
     <div className="flex-col w-full mt-2 px-2.5 pt-5">
 
