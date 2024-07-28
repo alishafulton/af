@@ -22,7 +22,7 @@ export default function Extra () {
       <BigPic />
       
         
-      <div className="flex-col w-full mt-2 px-3">
+      <div className="flex-col w-full mt-2 px-3 py-5 ">
 
         <img src={ wood } alt="" className="w-5/12 float-left mr-2 bg-green border-r-4 border-purple  "/>  
 
