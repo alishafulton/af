@@ -24,7 +24,7 @@ export default function Extra () {
 
   <Checkered/>
 
-    <div className="flex-col w-full mt-2 px-2.5 py-5">
+    <div className="flex-col w-full mt-2 px-2.5 pt-5">
 
     <div className="w-1/2 bg-purple float-left pr-4 pb-2 mr-2 -mb-1"><img src={ wood } alt="" className="w-full ml-0"/></div>
 
