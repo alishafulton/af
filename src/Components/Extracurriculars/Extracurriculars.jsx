@@ -74,7 +74,7 @@ export default function Extra () {
           worse than the bugs in the summer, so we had to take a 
           small sabbatical until Texas cools off!</div>
 
-        <div className="mt-3"><img src={ pic13 } alt="" className="w-full"/></div>
+        <div className="pt-3"><img src={ pic13 } alt="" className="w-full"/></div>
 
         </div>
         <br/>
