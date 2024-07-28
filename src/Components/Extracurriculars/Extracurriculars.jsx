@@ -24,7 +24,7 @@ export default function Extra () {
 
     <div className="flex-col w-full mt-2 px-3 py-5">
 
-      <img src={ wood } alt="" className="w-2/5 float-left border-r-6 border-purple bg-purple mr-2"/>  
+      <img src={ wood } alt="" className="w-2/5 float-left bg-purple mr-2"/>  
 
       <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
@@ -34,7 +34,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-        <img src={ girls } alt="" className="w-2/5 float-right border-l-6 border-purple bg-purple ml-2 mb-1"/>
+        <img src={ girls } alt="" className="w-2/5 float-right bg-purple ml-2 mb-1"/>
 
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
@@ -45,7 +45,7 @@ export default function Extra () {
         could be the most efficient, we picked a day to get started.</div>
         <br />
         
-        <img src={ pic5 } alt="" className="w-2/5 float-left border-r-6 border-purple bg-purple mr-2 mb-1"/>
+        <img src={ pic5 } alt="" className="w-2/5 float-left bg-purple mr-2 mb-1"/>
 
         <div className="font-serif text-lg"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
@@ -54,7 +54,7 @@ export default function Extra () {
         one of three trips ended up being more like five (or six).<br/></div>
 
         
-        <br/> <img src={ pic11 } alt="" className="w-2/5 float-right border-l-6 bg-purple border-purple ml-2 mb-1"/>
+        <br/> <img src={ pic11 } alt="" className="w-2/5 border-l-4 float-right bg-purple ml-2 mb-1"/>
 
         <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
@@ -66,7 +66,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <img src={ pic10 } alt="" className="w-5/12 float-left border-r-4 bg-purple border-purple mr-2 mb-1"/>
+        <img src={ pic10 } alt="" className="w-2/5 float-left border-r-4 bg-purple border-purple mr-2 mb-1"/>
         
         <BigPic2/>
 
