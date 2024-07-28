@@ -3,7 +3,7 @@ import wood from '../../assets/IMG_0556.png'
 import pic5 from '../../assets/IMG_0573.png'
 import pic10 from '../../assets/IMG_0940.png';
 import BigPic from "../BigPic/BigPic";
-import Pic1 from "../pic1/pic1";
+import girls from "../../assets/IMG_0576.png"
 import BigPic2 from "../BigPic/BigPic2";
 import ComboPics from "../pic3/pic3";
 
@@ -31,26 +31,27 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-
+        <img src={ girls } alt="" className="h-40 float-right ml-2 mb-1"/>
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
         shapes. It seemed more and more doable the more time we spent 
         staring at it, swatting mosquitos. We discussed a variety of
         methods we could take and after working out how we 
-        could be the most efficient, we picked a day to get started.</div><br/>
+        could be the most efficient, we picked a day to get started.</div>
         
-        <br/><div className="font-serif text-lg"> Brimming with excitement, we measured 
+        <img src={ pic5 } alt="" className="h-40"/>
+        <div className="font-serif text-lg"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
         to buy on our first trip to Home Depot.  
         
-        <div><Pic1/> </div> 
+        
 
-         We borrowed an SUV to go back and forth to the store and bought
+        We borrowed an SUV to go back and forth to the store and bought
         what we needed for our first section. What we assumed would be
         one of three trips ended up being more like five (or six).<br/></div>
 
-        <img src={ pic5 } alt="" className="h-34"/>
+        
 
         <ComboPics/>
         
