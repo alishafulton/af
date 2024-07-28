@@ -5,7 +5,6 @@ import pic10 from '../../assets/IMG_0940.png';
 import BigPic from "../BigPic/BigPic";
 import girls from "../../assets/IMG_0576.png"
 import BigPic2 from "../BigPic/BigPic2";
-import ComboPics from "../pic3/pic3";
 import pic11 from '../../assets/IMG_0944.png'
 
 
@@ -23,7 +22,7 @@ export default function Extra () {
         <BigPic />
         
         <br />
-        <div className="mx-3"><img src={ wood } alt="" className="h-40 float-left mr-2 mb-1 " />  
+        <div className="mx-3"><img src={ wood } alt="" className="h-46 float-left mr-2 mb-1 " />  
         <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
@@ -32,7 +31,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-        <img src={ girls } alt="" className="h-40 float-right ml-2 mb-1"/>
+        <img src={ girls } alt="" className="h-50 float-right ml-2 mb-1"/>
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
@@ -53,7 +52,7 @@ export default function Extra () {
         one of three trips ended up being more like five (or six).<br/></div>
 
         
-        <img src={ pic11 } alt="" className="h-30 float-right"/>
+        <img src={ pic11 } alt="" className="h-40 float-right"/>
 
         <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
@@ -65,7 +64,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <img src={ pic10 } alt="" className="h-30"/>
+        <img src={ pic10 } alt="" className="h-40"/>
         
         <BigPic2/>
 
