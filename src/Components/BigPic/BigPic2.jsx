@@ -10,8 +10,9 @@ export default function BigPic2 () {
             had to take a small sabbatical 
             until Texas cools off!
         </div></div>
+        <br/>
 
-        <img src={ pic13 } alt="" />
+        <img src={ pic13 } alt="" className="mt-2"/>
         
         </div>
     );
