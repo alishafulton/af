@@ -6,7 +6,6 @@ import BigPic from "../BigPic/BigPic";
 import girls from "../../assets/IMG_0576.png"
 import pic13 from '../../assets/IMG_0967.png'
 import pic11 from '../../assets/IMG_0944.png'
-import Checkered from "../Checkered/Checkered";
 
 
 export default function Extra () {
@@ -21,8 +20,6 @@ export default function Extra () {
 
 
      <BigPic />
-
-  <div className="-mt-4"><Checkered/></div>
 
     <div className="flex-col w-full mt-2 px-2.5 pt-5">
 
