@@ -68,13 +68,13 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <img src={ pic10 } alt="" className="w-1/2 float-left border-r-8 border-b-8 border-purple bg-purple mr-2 mb-1"/>
+        <div className="w-1/2 bg-purple float-left pr-1 pb-3 pt-2"><img src={ pic10 } alt="" className="w-full ml-3"/></div>
         
         <div className="font-serif text-lg">Unfortunately, the heat is 
           worse than the bugs in the summer, so we had to take a 
           small sabbatical until Texas cools off!</div>
 
-        <img src={ pic13 } alt="" className="w-full mt-2"/>
+        <div className="mt-3"><img src={ pic13 } alt="" className="w-full"/></div>
 
         </div>
         <br/>
