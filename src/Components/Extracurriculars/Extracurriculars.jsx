@@ -20,6 +20,16 @@ export default function Extra () {
 
 
      <BigPic />
+     <div className="h-8 my-2 flex">
+          <div className="w-8 h-8 bg-transparent"></div>
+          <div className="w-8 h-8 bg-orange"></div>
+          <div className="w-8 h-8 bg-transparent"></div>
+          <div className="w-8 h-8 bg-orange"></div>
+          <div className="w-8 h-8 bg-transparent"></div>
+          <div className="w-8 h-8 bg-orange"></div>
+          <div className="w-8 h-8 bg-transparent"></div>
+          <div className="w-8 h-8 bg-orange"></div>
+      </div>
       
 
     <div className="flex-col w-full mt-2 px-3 py-5">
