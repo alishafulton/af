@@ -36,7 +36,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-        <img src={ girls } alt="" className="w-2/5 float-right bg-purple ml-2 mb-1"/>
+        <img src={ girls } alt="" className="w-2/5 float-right border-b-8 border-l-8 border-purple bg-purple ml-2 mb-1"/>
 
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
@@ -47,7 +47,7 @@ export default function Extra () {
         could be the most efficient, we picked a day to get started.</div>
         <br />
         
-        <img src={ pic5 } alt="" className="w-1/2 float-left border-r-8 border-purple bg-purple mr-2 mb-1"/>
+        <img src={ pic5 } alt="" className="w-1/2 float-left border-r-8 border-b-8 border-purple bg-purple mr-2 mb-1"/>
 
         <div className="font-serif text-lg"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
@@ -56,7 +56,7 @@ export default function Extra () {
         one of three trips ended up being more like five (or six).<br/></div>
 
         
-        <br/> <img src={ pic11 } alt="" className="w-2/5 border-l-8 border-purple float-right bg-purple ml-2 mb-1"/>
+        <br/> <img src={ pic11 } alt="" className="w-2/5 border-l-8 border-b-8 border-purple float-right bg-purple ml-2 mb-1"/>
 
         <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
