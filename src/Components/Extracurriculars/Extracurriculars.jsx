@@ -4,7 +4,7 @@ import pic5 from '../../assets/IMG_0573.png'
 import pic10 from '../../assets/IMG_0940.png';
 import BigPic from "../BigPic/BigPic";
 import girls from "../../assets/IMG_0576.png"
-import BigPic2 from "../BigPic/BigPic2";
+import pic13 from '../../assets/IMG_0967.png'
 import pic11 from '../../assets/IMG_0944.png'
 import Checkered from "../Checkered/Checkered";
 
@@ -70,7 +70,11 @@ export default function Extra () {
          
         <img src={ pic10 } alt="" className="w-1/2 float-left border-r-8 border-b-8 border-purple bg-purple mr-2 mb-1"/>
         
-        <BigPic2/>
+        <div className="font-serif text-lg">Unfortunately, the heat is 
+          worse than the bugs in the summer, so we had to take a 
+          small sabbatical until Texas cools off!</div>
+
+        <img src={ pic13 } alt="" className="w-full mt-2"/>
 
         </div>
         <br/>
