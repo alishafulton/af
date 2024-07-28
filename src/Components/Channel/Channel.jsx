@@ -8,21 +8,16 @@ import { ChannelPrototypeiOS } from './ChannelPrototypeiOS';
 export default function Channel () {
     return (
 
-        <div className="portfolio">
-        <img src={ channel1 } alt="" className="pimg" />
+        <div className="flex-col">
+          <img src={ channel1 } alt="" className="p-2" />
 
-
-         <div className="flex flex-row gap-8">
               <ChannelPrototypeiOS />
-            </div>
 
-            <img src={ channel2 } alt="" className="pimg" />
+            <img src={ channel2 } alt="" className="p-2" />
 
-            <div className="flex flex-row gap-8">
               <ChannelPrototypeAnd />
-            </div>
 
-            <img src={ channel3 } alt="" className="pimg" />
+            <img src={ channel3 } alt="" className="p-2" />
         </div>
 
     );

@@ -6,15 +6,12 @@ import { BoundPrototype } from './BoundPrototype';
 export default function Bound () {
     return (
 
-        <div className="portfolio">
-        <img src={ bound1 } alt="" className="pimg" />
+        <div className="flex-col">
+            <img src={ bound1 } alt="" className="p-2" />
 
+            <BoundPrototype />
 
-         <div className="flex flex-row gap-8">
-              <BoundPrototype />
-        </div>
-
-            <img src={ bound2 } alt="" className="pimg" />
+            <img src={ bound2 } alt="" className="p-2" />
 
         </div>
 

@@ -5,16 +5,12 @@ import { CoastPrototype } from './CoastPrototype';
 
 export default function Coast () {
     return (
+        <div className="flex-col">
+        <img src={ coast1 } alt="" className="p-2" />
 
-        <div className="portfolio">
-        <img src={ coast1 } alt="" className="pimg" />
-
-
-         <div className="flex flex-row gap-8">
               <CoastPrototype />
-        </div>
 
-            <img src={ coast2 } alt="" className="pimg" />
+            <img src={ coast2 } alt="" className="p-2" />
 
         </div>
 
