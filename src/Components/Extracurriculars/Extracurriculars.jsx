@@ -22,7 +22,7 @@ export default function Extra () {
         <BigPic />
         
         <br />
-        <div className="mx-3"><img src={ wood } alt="" className="h-24 float-left mr-2 mb-1 " />  
+        <div className="mx-3"><img src={ wood } alt="" className="width:50% float-left mr-2 mb-1 " />  
         <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
@@ -31,7 +31,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-        <img src={ girls } alt="" className="h-50 float-right ml-2 mb-1"/>
+        <img src={ girls } alt="" className="width:50% float-right ml-2 mb-1"/>
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
@@ -40,7 +40,7 @@ export default function Extra () {
         methods we could take and after working out how we 
         could be the most efficient, we picked a day to get started.</div>
         
-        <img src={ pic5 } alt="" className="h-40"/>
+        <img src={ pic5 } alt="" className="width:50%"/>
         <div className="font-serif text-lg"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
         to buy on our first trip to Home Depot.  
@@ -52,7 +52,7 @@ export default function Extra () {
         one of three trips ended up being more like five (or six).<br/></div>
 
         
-        <img src={ pic11 } alt="" className="h-40 float-right"/>
+        <img src={ pic11 } alt="" className="width:50% float-right"/>
 
         <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
@@ -64,7 +64,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <img src={ pic10 } alt="" className="h-40"/>
+        <img src={ pic10 } alt="" className="width:50%"/>
         
         <BigPic2/>
 
