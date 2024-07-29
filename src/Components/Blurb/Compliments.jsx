@@ -40,7 +40,7 @@ export default function Compliments () {
 
 
            <div className="flex justify-center items-center h-screen bg-green">
-              <div className="max-w-lg">
+              <div className="max-w-lg -mt-4">
                 <Carousel autoSlide={false} >
                    {[...slides.map((s) => (
                     <img src={s} />
