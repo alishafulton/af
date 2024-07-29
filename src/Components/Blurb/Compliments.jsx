@@ -38,8 +38,7 @@ export default function Compliments () {
 
           <Overlay isOpen={isOpen} onClose={toggleOverlay}>
 
-           <div className="flex justify-center items-start h-screen ">
-              <div className="w-fit bg-orange ">
+           <div className="flex justify-center items-start h-screen">
 
                 <Carousel autoSlide={false} >
                    {[...slides.map((s) => (
@@ -47,7 +46,6 @@ export default function Compliments () {
                    )),]}
               </Carousel>
 
-             </div>
            </div>
 
 
