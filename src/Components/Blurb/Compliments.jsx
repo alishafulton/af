@@ -46,6 +46,7 @@ export default function Compliments () {
                     <img src={s} />
                    )),]}
               </Carousel>
+              
              </div>
            </div>
 
