@@ -6,10 +6,26 @@ import s4 from "../../assets/starbucks4.png"
 
 
 export default function Compliments () {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleOverlay = () => {
+    setIsOpen(!isOpen);
+  };
+
+
     return (
         <>
         <div className="flex justify-center py-4">
-          <div className="flex"><img src={ s1 } alt="" className="transform rotate-20"/></div>
+
+        <button onClick={toggleOverlay}>
+          <div className="flex"><img src={ s1 } alt="" className=""/></div>
+        </button>
+
+          <Overlay isOpen={isOpen} onClose={toggleOverlay}>
+            <h1>Content in Overlay</h1>
+          </Overlay>
+
+         
           <div className="flex"><img src={ s2 } alt=""/></div>
           <div className="flex"><img src={ s3 } alt="" /></div>
           <div className="flex"><img src={ s4 } alt="" /></div>
