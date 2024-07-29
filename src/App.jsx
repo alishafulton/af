@@ -8,7 +8,7 @@ export default function App () {
   return (
     <div className="content-center">
         <Navbar/>
-      <Outlet/>
+        <Outlet/>
     </div>
     
   )
