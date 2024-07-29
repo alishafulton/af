@@ -1,5 +1,5 @@
 import before from '../../assets/IMG_0549.png'
-import Checkered from '../Checkered/Checkered';
+
 
 export default function BigPic () {
     return (
@@ -10,7 +10,6 @@ export default function BigPic () {
                     March 2024
                 
                 </div>
-            <div className="-mt-3"><Checkered /></div>
         </div>
     );
 };
