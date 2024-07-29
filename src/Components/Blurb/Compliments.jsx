@@ -18,10 +18,10 @@ export default function Compliments () {
 
 
   const slides = [
-    "../../assets/starbucks1.png",
-    "../../assets/starbucks2.png",
-    "../../assets/starbucks3.png",
-    "../../assets/starbucks4.png",
+    "./starbucks1.png",
+    "./starbucks2.png",
+    "./starbucks3.png",
+    "./starbucks4.png",
   ]
 
 
