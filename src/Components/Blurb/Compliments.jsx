@@ -4,7 +4,8 @@ import s2 from "../../assets/starbucks2.png"
 import s3 from "../../assets/starbucks3.png"
 import s4 from "../../assets/starbucks4.png"
 import Overlay from "../ComplimentPhotos/Overlay.jsx";
-import EmblaCarousel from "./EmblaCarousel.jsx";
+
+
 
 
 export default function Compliments () {
@@ -13,6 +14,14 @@ export default function Compliments () {
   const toggleOverlay = () => {
     setIsOpen(!isOpen);
   };
+
+
+  const slides = [
+    "../../assets/starbucks1.png",
+    "../../assets/starbucks2.png",
+    "../../assets/starbucks3.png",
+    "../../assets/starbucks4.png",
+  ]
 
 
     return (
@@ -24,7 +33,19 @@ export default function Compliments () {
         </button>
 
           <Overlay isOpen={isOpen} onClose={toggleOverlay}>
-            <EmblaCarousel/>
+
+
+          <div className="flex justify-center items-center h-screen bg-black">
+      <div className="max-w-lg">
+        <Carousel autoSlide={false} >
+          {[...slides.map((s) => (
+            <img src={s} />
+          )),]}
+        </Carousel>
+      </div>
+    </div>
+
+
           </Overlay>
 
          
