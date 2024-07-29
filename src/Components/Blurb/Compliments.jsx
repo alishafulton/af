@@ -3,7 +3,7 @@ import s1 from "../../assets/starbucks1.png"
 import s2 from "../../assets/starbucks2.png"
 import s3 from "../../assets/starbucks3.png"
 import s4 from "../../assets/starbucks4.png"
-import Overlay from "../ComplimentPhotos/Overlay";
+import Overlay from "../ComplimentPhotos/Overlay.jsx";
 
 
 export default function Compliments () {
