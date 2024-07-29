@@ -4,6 +4,7 @@ import s2 from "../../assets/starbucks2.png"
 import s3 from "../../assets/starbucks3.png"
 import s4 from "../../assets/starbucks4.png"
 import Overlay from "../ComplimentPhotos/Overlay.jsx";
+import EmblaCarousel from "./EmblaCarousel.jsx";
 
 
 export default function Compliments () {
@@ -23,7 +24,7 @@ export default function Compliments () {
         </button>
 
           <Overlay isOpen={isOpen} onClose={toggleOverlay}>
-            <h1>Content in Overlay</h1>
+            <EmblaCarousel/>
           </Overlay>
 
          
