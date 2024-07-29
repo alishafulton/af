@@ -38,14 +38,24 @@ export default function Compliments () {
 
           <Overlay isOpen={isOpen} onClose={toggleOverlay}>
 
+- put "CAROUSEL" inside of 
+OVERLAY which is placed 
+onto the compliments page
+
+-yes touch
 
            <div className="flex justify-center items-center h-screen bg-green">
               <div className="max-w-lg -mt-4">
+
+
+- no touch
                 <Carousel autoSlide={false} >
                    {[...slides.map((s) => (
                     <img src={s} />
                    )),]}
               </Carousel>
+
+----------------
              </div>
            </div>
 
