@@ -26,34 +26,30 @@ export default function Compliments () {
 
 
     return (
-        <>
-        <div className="flex justify-center py-4">
-
+      <>
         <button onClick={toggleOverlay}>
-          <div className="flex"><img src={ s1 } alt="" className=""/></div>
+          <div className="flex justify-center py-4">
+            <div className="flex"><img src={ s1 } alt="" className=""/></div>
+            <div className="flex"><img src={ s2 } alt=""/></div>
+            <div className="flex"><img src={ s3 } alt="" /></div>
+            <div className="flex"><img src={ s4 } alt="" /></div>
+          </div>
         </button>
 
           <Overlay isOpen={isOpen} onClose={toggleOverlay}>
 
+          <div className="flex justify-center items-center h-screen bg-transparent ">
+            <div className="max-w-lg">
+              <Carousel autoSlide={false} >
+                 {[...slides.map((s) => (
+                  <img src={s} />
+                 )),]}
+             </Carousel>
+           </div>
+         </div>
 
-          <div className="flex justify-center items-center h-screen bg-black">
-      <div className="max-w-lg">
-        <Carousel autoSlide={false} >
-          {[...slides.map((s) => (
-            <img src={s} />
-          )),]}
-        </Carousel>
-      </div>
-    </div>
+         </Overlay>
 
-
-          </Overlay>
-
-         
-          <div className="flex"><img src={ s2 } alt=""/></div>
-          <div className="flex"><img src={ s3 } alt="" /></div>
-          <div className="flex"><img src={ s4 } alt="" /></div>
-        </div>
-        </>
+      </>
     );
 }
