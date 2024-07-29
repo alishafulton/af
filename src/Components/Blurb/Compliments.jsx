@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import s1 from "../../assets/starbucks1.png"
 import s2 from "../../assets/starbucks2.png"
 import s3 from "../../assets/starbucks3.png"
