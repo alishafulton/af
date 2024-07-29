@@ -38,7 +38,7 @@ export default function Compliments () {
 
           <Overlay isOpen={isOpen} onClose={toggleOverlay}>
 
-           <div className="flex justify-center items-center h-screen bg-transparent">
+           <div className="flex justify-center items-center h-screen bg-purple">
               <div className="max-w-lg -mt-4">
 
                 <Carousel autoSlide={false} >
@@ -46,8 +46,6 @@ export default function Compliments () {
                     <img src={s} />
                    )),]}
               </Carousel>
-
-----------------
              </div>
            </div>
 
