@@ -44,7 +44,7 @@ onto the compliments page
 
 -yes touch
 
-           <div className="flex justify-center items-center h-screen bg-green">
+           <div className="flex justify-center items-center h-screen bg-transparent">
               <div className="max-w-lg -mt-4">
 
 
