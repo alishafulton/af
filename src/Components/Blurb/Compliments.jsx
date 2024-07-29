@@ -38,7 +38,7 @@ export default function Compliments () {
 
           <Overlay isOpen={isOpen} onClose={toggleOverlay}>
 
-           <div className="flex justify-center items-center h-screen bg-purple">
+           <div className="flex justify-center items-start h-screen">
               <div className="max-w-lg -mt-4">
 
                 <Carousel autoSlide={false} >
