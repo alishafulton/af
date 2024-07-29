@@ -21,7 +21,6 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
                 {slides}
             </div>
 
-
             <div className="absolute inset-0 flex items-center justify-between p-1 -m-1">
                 <button onClick={prev} className='p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white'>
                     <ChevronLeft />
@@ -30,7 +29,6 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
                     <ChevronRight />
                 </button>
             </div>
-
 
             <div className='absolute bottom-2 right-0 left-0'>
                 <div className='flex items-start justify-center gap-2'>
