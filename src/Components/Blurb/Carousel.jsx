@@ -40,4 +40,4 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
     )
 }
 
-export default Carousel
+export default Carousel;
