@@ -37,8 +37,8 @@ export default function Compliments () {
         </button>
 
           <Overlay isOpen={isOpen} onClose={toggleOverlay}>
-          <div className="flex justify-center items-start bg-transparent ">
-          <div className="max-w-lg">
+          <div className="flex justify-center items-start bg-purple ">
+          <div className="max-w-lg bg-green">
                 <Carousel autoSlide={false}>
                    {[...slides.map((s) => (<img src={s} />)),]}
                 </Carousel>
