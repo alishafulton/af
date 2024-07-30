@@ -30,7 +30,7 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
                 </button>
             </div>
 
-            <div className='absolute bottom-2 right-0 left-0'>
+            <div className=''>
                 <div className='flex items-start justify-center gap-2'>
                     {slides.map((s, i) => (
                         <div key={i} className={`transition-all w-1.5 h-1.5 bg-white rounded-full  ${curr === i ? "p-0.5" : "bg-opacity-50"}`} />
