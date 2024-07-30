@@ -40,7 +40,7 @@ export default function Compliments () {
           <div className="flex max-h-full justify-center items-start bg-purple ">
           <div className="max-h-full bg-green">
                 <Carousel autoSlide={false}>
-                   {[...slides.map((s) => (<img src={s} className="p-2 m-2 bg-blue" />)),]}
+                   {[...slides.map((s) => (<img src={s} className="p-2 my-6 mx-2 bg-blue" />)),]}
                 </Carousel>
                 </div></div>
          </Overlay>
