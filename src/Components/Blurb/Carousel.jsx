@@ -16,7 +16,7 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
 
 
     return (
-        <div className='flex overflow-hidden bg-yellow-300 '>
+        <div className='flex max-w-36 overflow-hidden bg-yellow-300 '>
             <div className='flex w-full transition-transform ease-out duration-500 ' style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {slides}
             </div>
