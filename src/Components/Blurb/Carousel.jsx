@@ -17,7 +17,7 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
 
     return (
         <div className='overflow-hidden  flex bg-transparent '>
-            <div className='flex w-1/2 transition-transform ease-out duration-500' style={{ transform: `translateX(-${curr * 100}%)` }}>
+            <div className='flex w-5/6 transition-transform ease-out duration-500' style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {slides}
             </div>
 
@@ -30,7 +30,7 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
                 </button>
             </div>
 
-            <div className='absolute bottom-0 right-0 left-0'>
+            <div className='absolute bottom-2 right-0 left-0'>
                 <div className='flex items-start justify-center gap-2'>
                     {slides.map((s, i) => (
                         <div key={i} className={`transition-all w-1.5 h-1.5 bg-white rounded-full  ${curr === i ? "p-0.5" : "bg-opacity-50"}`} />
