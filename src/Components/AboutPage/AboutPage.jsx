@@ -74,7 +74,7 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
 return (
-<div className="width:100% px-1">
+<div className="width:100% px-1 grid grid-cols-1 lg:grid-cols-2">
 
   
     <div className="flex grow justify-between mx-2 text-2xl tracking-tighter">
@@ -91,11 +91,11 @@ return (
          </div>
     </div>
     
-
+  <>
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
-  
+  </>
 </div>
    
 
