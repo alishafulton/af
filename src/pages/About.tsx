@@ -5,7 +5,7 @@ import AboutPage from "../Components/AboutPage/AboutPage";
   export default function About () {
     return (
 
-      <div className= "flex">
+      <div className= "flex w-screen justify-center">
         <AboutPage />
         <Outlet/>
       </div>
