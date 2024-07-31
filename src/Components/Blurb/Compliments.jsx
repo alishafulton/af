@@ -28,11 +28,11 @@ export default function Compliments () {
     return (
       <>
         <button onClick={toggleOverlay}>
-          <div className="flex justify-center py-4">
-            <div className="flex"><img src={ s1 } alt="" className=""/></div>
-            <div className="flex"><img src={ s2 } alt=""/></div>
-            <div className="flex"><img src={ s3 } alt="" /></div>
-            <div className="flex"><img src={ s4 } alt="" /></div>
+          <div className="grid grid-cols-4 py-4">
+            <div><img src={ s1 } alt="" className=""/></div>
+            <div><img src={ s2 } alt=""/></div>
+            <div><img src={ s3 } alt="" /></div>
+            <div><img src={ s4 } alt="" /></div>
           </div>
         </button>
 
