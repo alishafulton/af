@@ -92,7 +92,7 @@ return (
     </div>
     
 
-  <div className="flex">
+  <div>
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
