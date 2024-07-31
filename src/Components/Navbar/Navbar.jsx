@@ -7,12 +7,13 @@ export default function Navbar () {
   const activeLink = "text-purple";
 
     return (
-      <div className="flex-col justify-center m-1 font-sans text-3xl lg:text-5xl tracking-tighter text-black">
+      <div className="grid grid-cols-1 lg:grid-cols-5">
 
-        <div className="flex mt-3 w-full justify-center"><Logo/></div>
+        <div className="w-full  lg:col-span-3 lg:col-start-2"><Logo/></div>
 
         
-        <div className="grid grid-cols-3 justify-items-center">
+        <div className="lg:col-span-3 lg:col-start-2">
+          <div className="grid grid-cols-3 justify-items-center font-sans text-3xl lg:text-5xl tracking-tighter text-black">
 
         <NavLink to="/af/about" className={({ isActive }) => (isActive ? activeLink : "")}>about me</NavLink>
         <NavLink to="/af/portfolio" className={({ isActive }) => (isActive ? activeLink : "")}>portfolio</NavLink>
@@ -20,7 +21,7 @@ export default function Navbar () {
         </div>
         
         
-        </div>
+        </div></div>
       
     )
   };
