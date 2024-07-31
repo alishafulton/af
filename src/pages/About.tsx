@@ -5,7 +5,7 @@ import AboutPage from "../Components/AboutPage/AboutPage";
   export default function About () {
     return (
 
-      <div className= " flex w-full justify-center">
+      <div className= "flex">
         <AboutPage />
         <Outlet/>
       </div>
