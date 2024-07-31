@@ -74,7 +74,7 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
 return (
-<div className="width:100% px-1 grid grid-cols-1 lg:grid-cols-2">
+<div className="width:100% px-1 grid grid-cols-1 lg:grid-cols-30/70 lg:gap-4">
 
   
     <div className="flex lg:flex-col grow justify-between lg:justify-start mx-2 text-2xl lg:text-3xl tracking-tighter">
