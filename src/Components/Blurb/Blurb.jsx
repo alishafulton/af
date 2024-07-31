@@ -1,7 +1,7 @@
 import React from "react";
-import selfie from '../../assets/CurrentPhoto.png'
 import Text from "../Text/text";
 import Compliments from "./Compliments";
+import Selfie from "./Selfie";
 
 
 
@@ -12,7 +12,7 @@ export default function Blurb () {
 
 
     <div className="justify-center">
-      <img src={ selfie } alt="" class="w-1/2 float-left pr-3 pb-0.5"/>
+      <Selfie className="w-1/2 float-left pr-3 pb-0.5"/>
         
       <Text/>
 
