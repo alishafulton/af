@@ -9,10 +9,10 @@ export default function Navbar () {
     return (
       <div className="grid grid-cols-1 lg:grid-cols-5">
 
-        <div className="w-full  lg:col-span-3 lg:col-start-2"><Logo/></div>
+        <div className="w-full justify-center lg:col-span-3 lg:col-start-2 mb-1"><Logo/></div>
 
         
-        <div className="lg:col-span-3 lg:col-start-2">
+        <div className="lg:col-span-3 lg:col-start-2 my-3">
           <div className="grid grid-cols-3 font-sans text-3xl lg:text-5xl tracking-tighter text-black">
 
         <div className="justify-self-start"><NavLink to="/af/about" className={({ isActive }) => (isActive ? activeLink : "")}>about me</NavLink></div>

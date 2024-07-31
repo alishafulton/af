@@ -74,19 +74,19 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
 return (
-<div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2 ">
+<div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2 mt-2">
 
   
     <div className="flex lg:flex-col lg:col-start-2 text-2xl lg:text-3xl tracking-tighter">
-          <div className="flex text-black" onClick={bioClick}>
+          <div className="flex justify-self-start text-black" onClick={bioClick}>
             bio
           </div>
     
-          <div className="flex text-black" onClick={extraClick}>
+          <div className="flex justify-self-middle text-black" onClick={extraClick}>
             extracurriculars
           </div>
     
-         <div className="flex text-black" onClick={spotifyClick}>
+         <div className="flex justify-self-end text-black" onClick={spotifyClick}>
             spotify
          </div>
     </div>
