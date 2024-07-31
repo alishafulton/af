@@ -77,16 +77,16 @@ return (
 <div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2 mt-2">
 
   
-    <div className="lg:col-start-2 lg:grid-cols-1 grid grid-cols-3     ">
+    <div className="lg:col-start-2 lg:grid-cols-1 grid grid-cols-3 content-start">
           <div className="flex justify-self-start text-2xl lg:text-3xl tracking-tighter text-black" onClick={bioClick}>
             bio
           </div>
     
-          <div className="flex justify-self-middle text-2xl lg:text-3xl tracking-tighter text-black" onClick={extraClick}>
+          <div className="flex justify-self-middle lg:justify-self-start text-2xl lg:text-3xl tracking-tighter text-black" onClick={extraClick}>
             extracurriculars
           </div>
     
-         <div className="flex justify-self-end text-2xl lg:text-3xl tracking-tighter text-black" onClick={spotifyClick}>
+         <div className="flex justify-self-end lg:justify-self-start text-2xl lg:text-3xl tracking-tighter text-black" onClick={spotifyClick}>
             spotify
          </div>
     </div>
