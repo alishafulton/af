@@ -6,7 +6,7 @@ import './index.css'
 
 export default function App () {
   return (
-    <div className="flex w-full justify-center">
+    <div className="justify-center">
         <Navbar className="mt-6"/>
         <Outlet/>
     </div>
