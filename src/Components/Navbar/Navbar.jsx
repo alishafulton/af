@@ -12,7 +12,7 @@ export default function Navbar () {
         <div className="flex mt-3 w-full justify-center"><Logo/></div>
 
         
-        <div className="flex justify-between ">
+        <div className="grid-cols-3">
 
         <NavLink to="/af/about" className={({ isActive }) => (isActive ? activeLink : "")}>about me</NavLink>
         <NavLink to="/af/portfolio" className={({ isActive }) => (isActive ? activeLink : "")}>portfolio</NavLink>
