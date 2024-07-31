@@ -82,11 +82,11 @@ return (
             bio
           </div>
     
-          <div className="flex justify-self-middle lg:justify-self-start text-2xl xl:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer lg:my-2" onClick={extraClick}>
+          <div className="flex justify-self-middle md:justify-self-start text-2xl xl:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer lg:my-2" onClick={extraClick}>
             extracurriculars
           </div>
     
-         <div className="flex justify-self-end lg:justify-self-start text-2xl xl:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer lg:my-2" onClick={spotifyClick}>
+         <div className="flex justify-self-end md:justify-self-start text-2xl xl:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer lg:my-2" onClick={spotifyClick}>
             spotify
          </div>
     </div>
