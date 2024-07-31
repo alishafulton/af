@@ -9,7 +9,7 @@ export default function Navbar () {
     return (
       <div className="flex-col w-full justify-center mx-1">
 
-        <div className="flex mt-3 w-full lg:w-2/3 justify-center"><Logo/></div>
+        <div className="flex mt-3 w-full justify-center"><Logo/></div>
 
         
         <div className="flex grow justify-between pb-4 font-sans text-3xl lg:text-5xl tracking-tighter text-black px-1 ">
