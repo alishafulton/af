@@ -74,7 +74,7 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
 return (
-<div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2 mt-2">
+<div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2 m-1">
 
   
     <div className="lg:col-start-2 lg:grid-cols-1 grid grid-cols-3 content-start">
