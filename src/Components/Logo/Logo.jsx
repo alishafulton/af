@@ -4,7 +4,7 @@ import logo from "../../assets/name.png"
 export default function Logo () {
     return (
 <>
-<img src={logo} className="h-full max-h-72 my-2 mx-1"/>
+<img src={logo} className="h-full max-h-64 my-2 mx-1"/>
 </>
     );
 }
