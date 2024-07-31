@@ -12,7 +12,7 @@ export default function Blurb () {
 
 
     <div className="justify-center flex">
-      <Selfie className="w-1/2 float-left pr-3 pb-0.5"/>
+      <div className="w-1/2 float-left pr-3 pb-0.5"><Selfie /></div>
         
       <Text/>
 
