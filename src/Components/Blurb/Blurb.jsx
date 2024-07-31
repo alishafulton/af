@@ -8,10 +8,7 @@ import Compliments from "./Compliments";
 export default function Blurb () {
   return (
 <div>
-    <div className="h-2 -mt-1 flex">
-      <div className="w-1/6 h-full bg-orange"></div>
-      <div className="grow h-full bg-transparent"></div>
-    </div>
+
 
 
     <div className="justify-center mt-6 mx-3 md:mx-20 lg:mx-60 ">
