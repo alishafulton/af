@@ -14,15 +14,14 @@ export default function Blurb () {
     </div>
 
 
-      <div className="justify-center mt-6 mx-3 md:mx-20 lg:mx-60 ">
-        <img src={ selfie } alt="" class="w-1/2 float-left pr-3 pb-0.5"/>
+    <div className="justify-center mt-6 mx-3 md:mx-20 lg:mx-60 ">
+      <img src={ selfie } alt="" class="w-1/2 float-left pr-3 pb-0.5"/>
         
-        <Text/>
+      <Text/>
 
-        <div className="m-2">
-          <Compliments/>
+      <div className="m-2">
+        <Compliments/>
       </div>
-
     </div>
 </div>
   );

@@ -91,7 +91,8 @@ return (
          </div>
     </div>
     
-  <div className="lg:w-1/2">
+
+  <div className="flex">
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
