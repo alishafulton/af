@@ -5,17 +5,17 @@ import Links from './Links';
 export default function ContactPage() {
   return (
 
-    <div className="w-full justify-center mt-6"> 
-      <div className="w-full text-center font-serif text-2xl tracking-tight">
+    <div className="grid grid-cols-5 mt-6 justify-center"> 
+      <div className="col-start-2 col-span-3 text-center font-serif text-3xl tracking-tight">
         Send me a message:
-      </div>
+      
         
-      <div className="m-4">
+      <div className="m-2">
         <ContactForm/>
       </div>
         
         <Links/>
     </div>
-
+</div>
   );
 }
