@@ -6,8 +6,8 @@ import './index.css'
 
 export default function App () {
   return (
-    <div className="h-screen content-center justify-center">
-        <Navbar className="self-auto"/>
+    <div className=" justify-center">
+        <Navbar c/>
         <Outlet/>
     </div>
     
