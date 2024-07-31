@@ -15,9 +15,9 @@ export default function Navbar () {
         <div className="lg:col-span-3 lg:col-start-2">
           <div className="grid grid-cols-3 font-sans text-3xl lg:text-5xl tracking-tighter text-black">
 
-        <div className="justify-start"><NavLink to="/af/about" className={({ isActive }) => (isActive ? activeLink : "")}>about me</NavLink></div>
-        <div className="justify-center"><NavLink to="/af/portfolio" className={({ isActive }) => (isActive ? activeLink : "")}>portfolio</NavLink></div>
-        <div className="justify-end"><NavLink to="/af/contact" className={({ isActive }) => (isActive ? activeLink : "")}>contact</NavLink></div>
+        <div className="justify-self-start"><NavLink to="/af/about" className={({ isActive }) => (isActive ? activeLink : "")}>about me</NavLink></div>
+        <div className="justify-self-center"><NavLink to="/af/portfolio" className={({ isActive }) => (isActive ? activeLink : "")}>portfolio</NavLink></div>
+        <div className="justify-self-end"><NavLink to="/af/contact" className={({ isActive }) => (isActive ? activeLink : "")}>contact</NavLink></div>
         </div>
         
         
