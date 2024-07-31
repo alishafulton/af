@@ -74,19 +74,19 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
 return (
-<div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2">
+<div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2 mt-2">
 
   
     <div className="lg:col-start-2 lg:grid-cols-1 grid grid-cols-3 content-start">
-          <div className="flex justify-self-start text-2xl lg:text-3xl tracking-tighter text-black cursor-pointer hover:text-pink active:text-pink " onClick={bioClick}>
+          <div className="flex justify-self-start text-2xl lg:text-3xl tracking-tighter text-black cursor-pointer hover:text-pink active:text-pink lg:my-2" onClick={bioClick}>
             bio
           </div>
     
-          <div className="flex justify-self-middle lg:justify-self-start text-2xl lg:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer" onClick={extraClick}>
+          <div className="flex justify-self-middle lg:justify-self-start text-2xl lg:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer lg:my-2" onClick={extraClick}>
             extracurriculars
           </div>
     
-         <div className="flex justify-self-end lg:justify-self-start text-2xl lg:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer" onClick={spotifyClick}>
+         <div className="flex justify-self-end lg:justify-self-start text-2xl lg:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer lg:my-2" onClick={spotifyClick}>
             spotify
          </div>
     </div>
