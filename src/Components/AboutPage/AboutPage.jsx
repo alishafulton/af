@@ -77,7 +77,7 @@ return (
 <div className="width:100% px-1 grid grid-cols-1 lg:grid-cols-2">
 
   
-    <div className="flex grow justify-between mx-2 text-2xl tracking-tighter">
+    <div className="flex-col grow justify-between mx-2 text-2xl tracking-tighter">
           <div className="flex text-black" onClick={bioClick}>
             bio
           </div>
@@ -91,11 +91,11 @@ return (
          </div>
     </div>
     
-  <>
+  <div>
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
-  </>
+  </div>
 </div>
    
 
