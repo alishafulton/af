@@ -8,7 +8,7 @@ export default function Navbar () {
 
     return (
       <div>
-        <div className="flex content-start justify-center"><Logo/></div>
+        <div className="flex content-start justify-center lg:max-w-2/3"><Logo/></div>
 
         
         <div className="flex justify-between pb-4 grow font-sans text-3xl tracking-tighter text-black px-1 ">
