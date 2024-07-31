@@ -9,16 +9,13 @@ export default function Blurb () {
   return (
 <div>
 
-
-
     <div className="justify-center">
-      <img src={ selfie } alt="" className="w-1/2 float-left pr-3 pb-0.5"/>
-        
+      <img src={ selfie } alt="" className="w-1/2 lg:w-1/3 float-left pr-3 pb-0.5"/>    
       <Text/>
-
-      <div className="m-2">
-        <Compliments/>
-      </div>
+    </div>
+    
+    <div className="m-2">
+      <Compliments/>
     </div>
 </div>
   );
