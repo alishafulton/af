@@ -74,10 +74,10 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
 return (
-<div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2 mt-1 lg:mt-4 ">
+<div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-2 mt-1 lg:mt-4 ">
 
   
-    <div className="lg:col-start-2 lg:grid-cols-1 grid grid-cols-3 content-start">
+    <div className="grid grid-cols-3 content-start md:grid-cols-1 lg:col-start-2 ">
           <div className="flex justify-self-start text-2xl xl:text-3xl tracking-tighter text-black cursor-pointer hover:text-pink active:text-pink lg:my-2" onClick={bioClick}>
             bio
           </div>
@@ -92,7 +92,7 @@ return (
     </div>
     
 
-  <div className="flex justify-center lg:col-start-3 lg:col-span-2 mt-2 lg:mt-4 ">
+  <div className="flex justify-center lg:col-start-3 md:col-span-2 mt-2 lg:mt-4 ">
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
