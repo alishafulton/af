@@ -77,7 +77,7 @@ return (
 <div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2 ">
 
   
-    <div className=" flex lg:flex-col lg:col-start-2 text-2xl lg:text-3xl tracking-tighter">
+    <div className="flex justify-between lg:justify-normal lg:flex-col lg:col-start-2 text-2xl lg:text-3xl tracking-tighter">
           <div className="flex text-black" onClick={bioClick}>
             bio
           </div>
