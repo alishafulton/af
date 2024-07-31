@@ -78,11 +78,11 @@ return (
 
   
     <div className="lg:col-start-2 lg:grid-cols-1 grid grid-cols-3 content-start">
-          <div className="flex justify-self-start text-2xl lg:text-3xl tracking-tighter text-black cursor-pointer " onClick={bioClick}>
+          <div className="flex justify-self-start text-2xl lg:text-3xl tracking-tighter text-black cursor-pointer hover:text-pink active:text-pink " onClick={bioClick}>
             bio
           </div>
     
-          <div className="flex justify-self-middle lg:justify-self-start text-2xl lg:text-3xl tracking-tighter text-black cursor-pointer" onClick={extraClick}>
+          <div className="flex justify-self-middle lg:justify-self-start text-2xl lg:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer" onClick={extraClick}>
             extracurriculars
           </div>
     
