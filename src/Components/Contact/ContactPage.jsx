@@ -6,8 +6,8 @@ export default function ContactPage() {
   return (
 
     <div className="grid grid-cols-5 mt-6 justify-center"> 
-      <div className="col-start-2 col-span-3 text-center font-serif text-3xl tracking-tight">
-        Send me a message:
+      <div className="col-start-2 col-span-3 ">
+        <div className="text-center font-serif text-3xl tracking-tight">Send me a message:</div>
       
         
       <div className="m-2">
