@@ -77,7 +77,7 @@ return (
 <div className="w-full grid grid-cols-1 lg:grid-cols-5 lg:gap-2 ">
 
   
-    <div className="col-start-2 flex lg:flex-col text-2xl lg:text-3xl tracking-tighter">
+    <div className=" flex lg:flex-col lg:col-start-2 text-2xl lg:text-3xl tracking-tighter">
           <div className="flex text-black" onClick={bioClick}>
             bio
           </div>
@@ -92,7 +92,7 @@ return (
     </div>
     
 
-  <div className="col-start-3 col-span-2 justify-center">
+  <div className="flex justify-center lg:col-start-3 lg:col-span-2 ">
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
