@@ -6,7 +6,7 @@ import './index.css'
 
 export default function App () {
   return (
-    <div className="justify-center">
+    <div className="h-screen content-center justify-center">
         <Navbar className="self-auto"/>
         <Outlet/>
     </div>
