@@ -92,7 +92,7 @@ return (
     </div>
     
 
-  <div className="flex min-w-1/3">
+  <div className="flex">
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
