@@ -12,7 +12,7 @@ export default function Blurb () {
 
 
     <div className="justify-center">
-      <img src={ selfie } alt="" class="w-1/2 float-left pr-3 pb-0.5"/>
+      <img src={ selfie } alt="" class="w-1/2 max-h-32 float-left pr-3 pb-0.5"/>
         
       <Text/>
 

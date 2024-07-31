@@ -29,7 +29,7 @@ export default function Compliments () {
       <>
         <button onClick={toggleOverlay}>
           <div className="grid grid-cols-4 py-4">
-            <div><img src={ s1 } alt="" className=""/></div>
+            <div><img src={ s1 } alt="" className="-rotate-12"/></div>
             <div><img src={ s2 } alt=""/></div>
             <div><img src={ s3 } alt="" /></div>
             <div><img src={ s4 } alt="" /></div>
