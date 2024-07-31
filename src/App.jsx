@@ -7,7 +7,7 @@ import './index.css'
 export default function App () {
   return (
     <div className=" justify-center">
-        <Navbar c/>
+        <Navbar />
         <Outlet/>
     </div>
     

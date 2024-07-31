@@ -7,7 +7,7 @@ export default function Navbar () {
   const activeLink = "text-purple";
 
     return (
-      <div className="w-full">
+      <div className="w-full lg:w-2/3">
         <div className="flex content-start mt-3 justify-center lg:max-w-2/3"><Logo/></div>
 
         
