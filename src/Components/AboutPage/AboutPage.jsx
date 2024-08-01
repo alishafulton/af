@@ -100,15 +100,15 @@ return (
   
     <div className="grid grid-cols-3 content-start md:grid-cols-1 lg:col-start-2 ">
 
-          <div className="flex w-1/3 justify-self-start cursor-pointer md:my-2" onClick={bioClick}>
+          <div className="flex justify-self-start cursor-pointer md:my-2" onClick={bioClick}>
             <BioColor/>
           </div>
     
-          <div className="flex w-1/3 justify-self-middle md:justify-self-start cursor-pointer md:my-2" onClick={extraClick}>
+          <div className="flex justify-self-middle md:justify-self-start cursor-pointer md:my-2" onClick={extraClick}>
             <ExtraColor/>
           </div>
     
-         <div className="flex w-1/3 justify-self-end md:justify-self-start cursor-pointer md:my-2" onClick={spotifyClick} >
+         <div className="flex justify-self-end md:justify-self-start cursor-pointer md:my-2" onClick={spotifyClick} >
             <SpotifyColor/>
          </div>
     </div>
