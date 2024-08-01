@@ -18,9 +18,9 @@ export default function Extra () {
 
     <div className="flex-col w-full mt-2 px-2.5 pt-5">
 
-    <div className="w-56 bg-purple float-left pr-4 pb-2 mr-2 mb-2"><img src={ wood } alt="" className="w-full ml-0"/></div>
+    <div className="w-52 bg-purple float-left pr-4 pb-2 mr-2 mb-2"><img src={ wood } alt="" className="w-full ml-0"/></div>
 
-      <div className="font-serif text-lg"> After spending a couple of weeks getting 
+      <div className="font-serif text-lg lg:text-xl"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
         200 square foot porch. The bugs are unkind in the Texas heat 
@@ -66,7 +66,7 @@ export default function Extra () {
           worse than the bugs in the summer, so we had to take a 
           small sabbatical until Texas cools off!</div>
 
-        <div className="pt-3"><img src={ pic13 } alt="" className="w-full"/></div>
+        <div className="mt-2"><img src={ pic13 } alt="" className="w-full"/></div>
 
         </div>
         <br/>

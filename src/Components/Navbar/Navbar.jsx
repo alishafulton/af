@@ -7,7 +7,7 @@ export default function Navbar () {
   const activeLink = "text-purple";
 
     return (
-      <div className="grid grid-cols-1 lg:grid-cols-5">
+      <div className="grid grid-cols-1 xl:grid-cols-5">
 
         <div className="w-full justify-center lg:col-span-3 lg:col-start-2 mb-1"><Logo/></div>
 

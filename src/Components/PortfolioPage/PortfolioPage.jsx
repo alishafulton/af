@@ -120,19 +120,19 @@ export default function PortfolioPage() {
         <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-2 mt-1 lg:mt-4 ">
         <div className = "grid grid-cols-4 content-start md:grid-cols-1 lg:col-start-2 ">
 
-        <div className="flex justify-self-start cursor-pointer md:my-2" onClick={sprigClick}>
+        <div className="flex justify-start cursor-pointer md:my-2" onClick={sprigClick}>
           <SprigColor/>
         </div>
     
-        <div className="flex justify-self-middle md:justify-self-start cursor-pointer md:my-2" onClick={channelClick}>
+        <div className="flex justify-center md:justify-self-start cursor-pointer md:my-2" onClick={channelClick}>
           <ChannelColor/>
         </div>
     
-        <div className="flex justify-self-middle md:justify-self-start cursor-pointer md:my-2" onClick={coastClick}>
+        <div className="flex justify-center md:justify-self-start cursor-pointer md:my-2" onClick={coastClick}>
           <CoastColor/>
         </div>
 
-        <div className="flex justify-self-end md:justify-self-start cursor-pointer md:my-2" onClick={boundClick}>
+        <div className="flex justify-end md:justify-self-start cursor-pointer md:my-2" onClick={boundClick}>
           <BoundColor/>
         </div>
 
