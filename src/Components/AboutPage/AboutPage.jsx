@@ -98,7 +98,7 @@ return (
 <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-2 mt-1 xl:mt-4 ">
 
   
-    <div className="grid grid-cols-3 content-start lg:grid-cols-1 lg:col-start-2">
+    <div className="grid grid-cols-3 content-start md:grid-cols-1 lg:col-start-2">
 
           <div className="flex justify-start cursor-pointer lg:my-2" onClick={bioClick}>
             <BioColor/>
