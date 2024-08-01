@@ -18,7 +18,7 @@ export default function Extra () {
 
     <div className="flex-col w-full mt-2 px-2.5 pt-5">
 
-    <div className="w-1/2 bg-purple float-left pr-4 pb-2 mr-2 mb-2"><img src={ wood } alt="" className="w-full ml-0"/></div>
+    <div className="w-64 bg-purple float-left pr-4 pb-2 mr-2 mb-2"><img src={ wood } alt="" className="w-full ml-0"/></div>
 
       <div className="font-serif text-lg"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
@@ -28,7 +28,7 @@ export default function Extra () {
         only worsened the situation. </div>
         <br/>
     
-        <div className="w-5/12 bg-purple float-right pl-3 pb-4 ml-2 my-2 "><img src={ girls } alt="" className="w-full mr-0"/></div>
+        <div className="w-64 bg-purple float-right pl-3 pb-4 ml-2 my-2 "><img src={ girls } alt="" className="w-full mr-0"/></div>
 
         <div className="font-serif text-lg"> 
         Their porch was already covered with a roof held up by
@@ -39,7 +39,7 @@ export default function Extra () {
         could be the most efficient, we picked a day to get started.</div>
         <br />
         
-        <div className="w-1/2 bg-purple float-left pr-5 pb-2 mr-2 my-2"><img src={ pic5 } alt="" className="w-full ml-0"/></div>
+        <div className="w-64 bg-purple float-left pr-5 pb-2 mr-2 my-2"><img src={ pic5 } alt="" className="w-full ml-0"/></div>
 
         <div className="font-serif text-lg"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
@@ -48,7 +48,7 @@ export default function Extra () {
         one of three trips ended up being more like five (or six).</div><br/>
 
         
-        <div className="w-5/12 bg-purple float-right pl-2 pb-1 ml-4 my-2"><img src={ pic11 } alt="" className="w-full mr-0"/></div>
+        <div className="w-64 bg-purple float-right pl-2 pb-1 ml-4 my-2"><img src={ pic11 } alt="" className="w-full mr-0"/></div>
 
         <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
@@ -60,7 +60,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <div className="w-7/12 bg-purple float-left pr-6 pb-3 mr-2 mt-2 mb-5"><img src={ pic10 } alt="" className="w-full ml-0"/></div>
+        <div className="w-64 bg-purple float-left pr-6 pb-3 mr-2 mt-2 mb-5"><img src={ pic10 } alt="" className="w-full ml-0"/></div>
         
         <div className="font-serif text-lg">Unfortunately, the heat is 
           worse than the bugs in the summer, so we had to take a 
