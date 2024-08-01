@@ -95,7 +95,7 @@ export default function AboutPage() {
     // first division is our nav list as buttons
     
 return (
-<div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-2 mt-1 lg:mt-4 ">
+<div className="w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-5 md:gap-2 mt-1 xl:mt-4 ">
 
   
     <div className="grid grid-cols-3 content-start md:grid-cols-1 lg:col-start-2 ">
@@ -114,7 +114,7 @@ return (
     </div>
     
 
-  <div className="flex justify-center lg:col-start-3 md:col-span-2 mt-1 lg:mt-4 ">
+  <div className="flex justify-center xl:col-start-3 md:col-span-2 mt-1 lg:mt-4 ">
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
