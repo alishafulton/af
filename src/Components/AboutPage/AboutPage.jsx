@@ -70,23 +70,23 @@ export default function AboutPage() {
 
     function BioColor() {
       if (bioVisible) {
-        return <div className="text-pink text-2xl xl:text-3xl tracking-tighter">bio</div>;
+        return <div className="text-pink hover:text-indigo-400 text-2xl xl:text-3xl tracking-tighter">bio</div>;
       }
-      return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+      return <div className="text-black hover:text-indigo-400 text-2xl xl:text-3xl tracking-tighter">bio</div>;
     }
 
     function ExtraColor() {
       if (extraVisible) {
-        return <div className="text-pink text-2xl xl:text-3xl tracking-tighter">extracurriculars</div>;
+        return <div className="text-pink hover:text-indigo-400 text-2xl xl:text-3xl tracking-tighter">extracurriculars</div>;
       }
-      return <div className="text-black text-2xl xl:text-3xl tracking-tighter">extracurriculars</div>;
+      return <div className="text-black hover:text-indigo-400 text-2xl xl:text-3xl tracking-tighter">extracurriculars</div>;
     }
 
     function SpotifyColor() {
       if (spotifyVisible) {
-        return <div className="text-pink text-2xl xl:text-3xl tracking-tighter">spotify</div>;
+        return <div className="text-pink hover:text-indigo-400 text-2xl xl:text-3xl tracking-tighter">spotify</div>;
       }
-      return <div className="text-black text-2xl xl:text-3xl tracking-tighter">spotify</div>;
+      return <div className="text-black thover:text-indigo-400 ext-2xl xl:text-3xl tracking-tighter">spotify</div>;
     }
 
     
@@ -100,15 +100,15 @@ return (
   
     <div className="grid grid-cols-3 content-start md:grid-cols-1 lg:col-start-2 ">
 
-          <div className="flex justify-self-start cursor-pointer md:my-2" onClick={bioClick}>
+          <div className="flex justify-start cursor-pointer md:my-2" onClick={bioClick}>
             <BioColor/>
           </div>
     
-          <div className="flex justify-self-middle md:justify-self-start cursor-pointer md:my-2" onClick={extraClick}>
+          <div className="flex justify-center md:justify-start cursor-pointer md:my-2" onClick={extraClick}>
             <ExtraColor/>
           </div>
     
-         <div className="flex justify-self-end md:justify-self-start cursor-pointer md:my-2" onClick={spotifyClick} >
+         <div className="flex justify-end md:justify-start cursor-pointer md:my-2" onClick={spotifyClick} >
             <SpotifyColor/>
          </div>
     </div>

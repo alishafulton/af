@@ -83,32 +83,32 @@ export default function PortfolioPage() {
 
         function SprigColor() {
           if (sprigVisible) {
-            return <div className="text-green text-2xl xl:text-3xl tracking-tighter">sprig</div>;
+            return <div className="text-green hover:text-yellow-600 text-2xl xl:text-3xl tracking-tighter">sprig</div>;
           }
-          return <div className="text-black text-2xl xl:text-3xl tracking-tighter">sprig</div>;
+          return <div className="text-black hover:text-yellow-600 text-2xl xl:text-3xl tracking-tighter">sprig</div>;
         }
     
     
         function ChannelColor() {
         if (channelVisible) {
-          return <div className="text-green text-2xl xl:text-3xl tracking-tighter">channel</div>;
+          return <div className="text-green hover:text-yellow-600 text-2xl xl:text-3xl tracking-tighter">channel</div>;
         }
-        return <div className="text-black text-2xl xl:text-3xl tracking-tighter">channel</div>;
+        return <div className="text-black hover:text-yellow-600 text-2xl xl:text-3xl tracking-tighter">channel</div>;
       }
     
     
         function CoastColor() {
             if (coastVisible) {
-              return <div className="text-green text-2xl xl:text-3xl tracking-tighter">coast</div>;
+              return <div className="text-green hover:text-yellow-600 text-2xl xl:text-3xl tracking-tighter">coast</div>;
             }
-            return <div className="text-black text-2xl xl:text-3xl tracking-tighter">coast</div>;
+            return <div className="text-black hover:text-yellow-600 text-2xl xl:text-3xl tracking-tighter">coast</div>;
           }
     
         function BoundColor() {
             if (boundVisible) {
-              return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bound</div>;
+              return <div className="text-green hover:text-yellow-600 text-2xl xl:text-3xl tracking-tighter">bound</div>;
             }
-            return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bound</div>;
+            return <div className="text-black hover:text-yellow-600 text-2xl xl:text-3xl tracking-tighter">bound</div>;
           }
 
     
@@ -124,15 +124,15 @@ export default function PortfolioPage() {
           <SprigColor/>
         </div>
     
-        <div className="flex justify-center md:justify-self-start cursor-pointer md:my-2" onClick={channelClick}>
+        <div className="flex justify-center md:justify-start cursor-pointer md:my-2" onClick={channelClick}>
           <ChannelColor/>
         </div>
     
-        <div className="flex justify-center md:justify-self-start cursor-pointer md:my-2" onClick={coastClick}>
+        <div className="flex justify-center md:justify-start cursor-pointer md:my-2" onClick={coastClick}>
           <CoastColor/>
         </div>
 
-        <div className="flex justify-end md:justify-self-start cursor-pointer md:my-2" onClick={boundClick}>
+        <div className="flex justify-end md:justify-start cursor-pointer md:my-2" onClick={boundClick}>
           <BoundColor/>
         </div>
 
