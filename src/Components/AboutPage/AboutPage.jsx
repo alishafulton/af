@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Blurb from "../Blurb/Blurb";
 import Extra from "../Extracurriculars/Extracurriculars";
+import { Spotify } from "react-spotify-embed";
 
 
 
