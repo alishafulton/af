@@ -80,40 +80,71 @@ export default function PortfolioPage() {
         }
             return null;
         }
+
+        function SprigColor() {
+          if (sprigVisible) {
+            return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bio</div>;
+          }
+          return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+        }
+    
+    
+        function ChannelColor() {
+        if (channelVisible) {
+          return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bio</div>;
+        }
+        return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+      }
+    
+    
+        function CoastColor() {
+            if (coastVisible) {
+              return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bio</div>;
+            }
+            return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+          }
+    
+        function BoundColor() {
+            if (boundVisible) {
+              return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bio</div>;
+            }
+            return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+          }
+
     
     
     // this is what we're returning aka output
     // first division is our nav list as buttons
     
       return (
-        <>
-        <div className = "flex flex-row justify-between text-xl tracking-tighter">
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-2 mt-1 lg:mt-4 ">
+        <div className = "grid grid-cols-4 content-start md:grid-cols-1 lg:col-start-2 ">
 
-        <div onClick={sprigClick}>
-          sprig
+        <div className="flex justify-self-start cursor-pointer md:my-2" onClick={sprigClick}>
+          <SprigColor/>
         </div>
     
-        <div className="flex" onClick={channelClick}>
-          channel
+        <div className="flex justify-self-middle md:justify-self-start cursor-pointer md:my-2" onClick={channelClick}>
+          <ChannelColor/>
         </div>
     
-        <div className="flex" onClick={coastClick}>
-          coast
+        <div className="flex justify-self-middle md:justify-self-start cursor-pointer md:my-2" onClick={coastClick}>
+          <CoastColor/>
         </div>
 
-        <div className="flex" onClick={boundClick}>
-          bound
+        <div className="flex justify-self-end md:justify-self-start cursor-pointer md:my-2" onClick={boundClick}>
+          <BoundColor/>
         </div>
 
     </div>
 
-    <div>
+    <div className="flex justify-center lg:col-start-3 md:col-span-2 mt-2 lg:mt-4 ">
     <SprigBlurb/> 
     <ChannelBlurb/>
     <CoastBlurb/>
     <BoundBlurb/>
     </div>
-    </>
+    </div>
 
 
     
