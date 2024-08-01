@@ -61,8 +61,8 @@ export default function AboutPage() {
   function SpotifyBlurb() {
    if (spotifyVisible) {
      return  <>
-          <div className="flex flex-row gap-8 px-4 pt-4 pb-2">
-              <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" />
+          <div className="flex w-full px-4 pt-4 pb-2">
+              <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" className="w-full h-80"/>
             </div></>;
       }
      return null;
@@ -86,7 +86,7 @@ export default function AboutPage() {
       if (spotifyVisible) {
         return <div className="text-pink hover:text-indigo-400 text-2xl xl:text-3xl tracking-tighter">spotify</div>;
       }
-      return <div className="text-black thover:text-indigo-400 ext-2xl xl:text-3xl tracking-tighter">spotify</div>;
+      return <div className="text-black hover:text-indigo-400 ext-2xl xl:text-3xl tracking-tighter">spotify</div>;
     }
 
     
