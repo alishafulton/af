@@ -8,63 +8,67 @@ import Extra from "../Extracurriculars/Extracurriculars";
 export default function AboutPage() {
 
     
-    // set constants with a name, toSet and true or false
-    // bio starts as visible first 
-    const [bioVisible, setBioVisibility] = useState(true);
-    const [extraVisible, setExtraVisibility] = useState(false);
-    const [spotifyVisible, setSpotifyVisibility] = useState(false);
+  // set constants with a name, toSet and true or false
+  // bio starts as visible first 
+  const [bioVisible, setBioVisibility] = useState(true);
+  const [extraVisible, setExtraVisibility] = useState(false);
+  const [spotifyVisible, setSpotifyVisibility] = useState(false);
 
     
-    // three separate click toggles for each
-    //  each one changes so true theirs and
-    //  false to the others
+  // three separate click toggles for each
+  //  each one changes so true theirs and
+  //  false to the others
     
-      function bioClick() {
-        setBioVisibility(true)
-        setExtraVisibility(false)
-        setSpotifyVisibility(false)
+  function bioClick() {
+    setBioVisibility(true)
+    setExtraVisibility(false)
+    setSpotifyVisibility(false)
+  }
+
+  function extraClick() {
+    setBioVisibility(false)
+    setExtraVisibility(true)
+    setSpotifyVisibility(false)
+  }
+
+  function spotifyClick() {
+    setBioVisibility(false)
+    setExtraVisibility(false)
+    setSpotifyVisibility(true)
+  }
+
+
+
+
+
+  // each button click brings a different result
+  function BioBlurb() {
+    if (bioVisible) {
+      return <Blurb/>;
+      }
+    return null;
+    }
+
+
+  function ExtrasBlurb() {
+    if (extraVisible) {
+      return <Extra/>;
+      }
+    return null;
+    }
+
+
+  function SpotifyBlurb() {
+   if (spotifyVisible) {
+     return  <>
+      <div className="flex">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1GvMJmqjMIttENpQpH68MD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div></>;
+      }
+     return null;
       }
 
-      function extraClick() {
-        setBioVisibility(false)
-        setExtraVisibility(true)
-        setSpotifyVisibility(false)
-      }
 
-      function spotifyClick() {
-        setBioVisibility(false)
-        setExtraVisibility(false)
-        setSpotifyVisibility(true)
-      }
-
-
-      // each button click brings a different result
-    function BioBlurb() {
-      if (bioVisible) {
-        return <Blurb/>;
-      }
-        return null;
-      }
-
-
-      function ExtrasBlurb() {
-        if (extraVisible) {
-          return <Extra/>;
-        }
-          return null;
-        }
-
-
-        function SpotifyBlurb() {
-            if (spotifyVisible) {
-              return  <>
-            
-            <div className="flex flex-row gap-8 px-4 pt-4 pb-2">
-              <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" />
-            </div></>;
-            }
-              return null;
-            }
     
     
     // this is what we're returning aka output
@@ -83,7 +87,7 @@ return (
             extracurriculars
           </div>
     
-         <div className="flex justify-self-end md:justify-self-start text-2xl xl:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer md:my-2" onClick={spotifyClick}>
+         <div className="flex justify-self-end md:justify-self-start text-2xl xl:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer md:my-2" onClick={spotifyClick} >
             spotify
          </div>
     </div>
