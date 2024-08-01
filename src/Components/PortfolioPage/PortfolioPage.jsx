@@ -128,7 +128,7 @@ export default function PortfolioPage() {
           <ChannelColor/>
         </div>
     
-        <div className="flex justify-center md:justify-start cursor-pointer md:my-2" onClick={coastClick}>
+        <div className="flex justify-end md:justify-start cursor-pointer md:my-2" onClick={coastClick}>
           <CoastColor/>
         </div>
 

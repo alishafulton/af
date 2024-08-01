@@ -9,7 +9,7 @@ export default function Navbar () {
     return (
       <div className="grid grid-cols-1 lg:grid-cols-5">
 
-        <div className="w-full justify-center lg:col-span-3 lg:col-start-2 mb-1"><Logo/></div>
+        <div className="w-full justify-center mb-1"><Logo/></div>
 
         
         <div className="lg:col-span-3 lg:col-start-2 my-1 lg:my-2 ">
