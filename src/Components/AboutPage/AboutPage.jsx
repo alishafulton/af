@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Blurb from "../Blurb/Blurb";
-import { Spotify } from "../Spotify/Spotify";
 import Extra from "../Extracurriculars/Extracurriculars";
 
 
@@ -68,6 +67,11 @@ export default function AboutPage() {
      return null;
       }
 
+    function BioColor() {
+      if (bioVisible) {
+        return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+      }
+    }
 
     
     
@@ -79,15 +83,16 @@ return (
 
   
     <div className="grid grid-cols-3 content-start md:grid-cols-1 lg:col-start-2 ">
-          <div className="flex justify-self-start text-2xl xl:text-3xl tracking-tighter text-black cursor-pointer hover:text-pink active:text-pink md:my-2" onClick={bioClick}>
-            bio
+
+          <div className="flex justify-self-start cursor-pointer md:my-2" onClick={bioClick}>
+            <BioColor/>
           </div>
     
-          <div className="flex justify-self-middle md:justify-self-start text-2xl xl:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer md:my-2" onClick={extraClick}>
+          <div className="flex justify-self-middle md:justify-self-start cursor-pointer md:my-2" onClick={extraClick}>
             extracurriculars
           </div>
     
-         <div className="flex justify-self-end md:justify-self-start text-2xl xl:text-3xl tracking-tighter text-black hover:text-pink active:text-pink cursor-pointer md:my-2" onClick={spotifyClick} >
+         <div className="flex justify-self-end md:justify-self-startcursor-pointer md:my-2" onClick={spotifyClick} >
             spotify
          </div>
     </div>
