@@ -4,7 +4,9 @@ interface SpotifyProps extends HTMLAttributes<HTMLIFrameElement> {
   [key: string]: any
 
   link: string
+  wide?: boolean
   width?: number | string
+  height?: number | string
   frameBorder?: number | string
   allow?: string
 }
@@ -13,6 +15,8 @@ export const Spotify = ({
   link,
   style = {},
   frameBorder = 0,
+  width = 810,
+  height = 600,
   allow = "encrypted-media",
   ...props
 }: SpotifyProps) => {
@@ -24,6 +28,8 @@ export const Spotify = ({
     <iframe
       title="Spotify Web Player"
       src={`https://open.spotify.com/embed${url.pathname}`}
+      width={width}
+      height={height}
       frameBorder={frameBorder}
       allow={allow}
       style={{
