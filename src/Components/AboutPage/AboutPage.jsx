@@ -61,7 +61,7 @@ export default function AboutPage() {
   function SpotifyBlurb() {
    if (spotifyVisible) {
      return  <>
-          <div className="flex w-full h-80 px-4 pt-4 pb-2">
+          <div className="flex w-full px-4 pt-4 pb-2">
               <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" className="w-full h-full"/>
             </div></>;
       }

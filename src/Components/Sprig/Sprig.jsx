@@ -6,13 +6,13 @@ export default function Sprig () {
     return (
 <>
         <div className="flex-col">
-        <img src={ sprig1 } alt="" className="p-2" />
+        <img src={ sprig1 } alt="" className="p-2 lg:p-1" />
 
         
               <SprigPrototype/>
             
 
-        <img src={ sprig2 } alt="" className="p-2"/>
+        <img src={ sprig2 } alt="" className="p-2 lg:p-1"/>
         </div>
 </>
     );
