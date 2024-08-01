@@ -83,32 +83,32 @@ export default function PortfolioPage() {
 
         function SprigColor() {
           if (sprigVisible) {
-            return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bio</div>;
+            return <div className="text-green text-2xl xl:text-3xl tracking-tighter">sprig</div>;
           }
-          return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+          return <div className="text-black text-2xl xl:text-3xl tracking-tighter">sprig</div>;
         }
     
     
         function ChannelColor() {
         if (channelVisible) {
-          return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bio</div>;
+          return <div className="text-green text-2xl xl:text-3xl tracking-tighter">channel</div>;
         }
-        return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+        return <div className="text-black text-2xl xl:text-3xl tracking-tighter">channel</div>;
       }
     
     
         function CoastColor() {
             if (coastVisible) {
-              return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bio</div>;
+              return <div className="text-green text-2xl xl:text-3xl tracking-tighter">coast</div>;
             }
-            return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+            return <div className="text-black text-2xl xl:text-3xl tracking-tighter">coast</div>;
           }
     
         function BoundColor() {
             if (boundVisible) {
-              return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bio</div>;
+              return <div className="text-green text-2xl xl:text-3xl tracking-tighter">bound</div>;
             }
-            return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+            return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bound</div>;
           }
 
     

@@ -60,7 +60,7 @@ export default function Extra () {
         patient Home Depot employees, and our iPhone calculators,
         we did it and we did it well. </div><br/>
          
-        <div className="w-76 bg-purple float-left pr-6 pb-3 mr-2 mt-2 mb-5"><img src={ pic10 } alt="" className="w-full ml-0"/></div>
+        <div className="w-72 bg-purple float-left pr-6 pb-3 mr-2 mt-2 mb-5"><img src={ pic10 } alt="" className="w-full ml-0"/></div>
         
         <div className="font-serif text-lg">Unfortunately, the heat is 
           worse than the bugs in the summer, so we had to take a 
