@@ -86,7 +86,7 @@ export default function AboutPage() {
       if (spotifyVisible) {
         return <div className="text-pink hover:text-indigo-400 text-2xl xl:text-3xl tracking-tighter">spotify</div>;
       }
-      return <div className="text-black hover:text-indigo-400 ext-2xl xl:text-3xl tracking-tighter">spotify</div>;
+      return <div className="text-black hover:text-indigo-400 text-2xl xl:text-3xl tracking-tighter">spotify</div>;
     }
 
     
