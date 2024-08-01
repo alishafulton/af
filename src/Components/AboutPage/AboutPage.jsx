@@ -60,9 +60,9 @@ export default function AboutPage() {
   function SpotifyBlurb() {
    if (spotifyVisible) {
      return  <>
-      <div className="flex">
-      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1GvMJmqjMIttENpQpH68MD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div></>;
+     <div className="flex">
+     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1GvMJmqjMIttENpQpH68MD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+     </div></>;
       }
      return null;
       }
@@ -107,7 +107,7 @@ return (
             <ExtraColor/>
           </div>
     
-         <div className="flex justify-self-end md:justify-self-startcursor-pointer md:my-2" onClick={spotifyClick} >
+         <div className="flex justify-self-end md:justify-self-start cursor-pointer md:my-2" onClick={spotifyClick} >
             <SpotifyColor/>
          </div>
     </div>
