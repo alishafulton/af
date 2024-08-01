@@ -60,9 +60,9 @@ export default function AboutPage() {
   function SpotifyBlurb() {
    if (spotifyVisible) {
      return  <>
-     <div className="flex">
-     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1GvMJmqjMIttENpQpH68MD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-     </div></>;
+     <div className="flex flex-row gap-8 px-4 pt-4 pb-2">
+              <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" />
+            </div></>;
       }
      return null;
       }
