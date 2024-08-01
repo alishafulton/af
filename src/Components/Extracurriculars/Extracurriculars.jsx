@@ -16,7 +16,7 @@ export default function Extra () {
      <BigPic />
      <div className="flex px-2.5"><Checkered/></div>
 
-    <div className="flex-col w-full mt-2 px-2.5 pt-5">
+    <div className="flex-col w-full mt-2 px-2 pt-5">
 
     <div className="w-52 bg-purple float-left pr-4 pb-2 mr-2 mb-2"><img src={ wood } alt="" className="w-full ml-0"/></div>
 
