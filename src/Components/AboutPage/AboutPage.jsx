@@ -69,8 +69,23 @@ export default function AboutPage() {
 
     function BioColor() {
       if (bioVisible) {
-        return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+        return <div className="text-pink text-2xl xl:text-3xl tracking-tighter">bio</div>;
       }
+      return <div className="text-black text-2xl xl:text-3xl tracking-tighter">bio</div>;
+    }
+
+    function ExtraColor() {
+      if (extraVisible) {
+        return <div className="text-pink text-2xl xl:text-3xl tracking-tighter">extracurriculars</div>;
+      }
+      return <div className="text-black text-2xl xl:text-3xl tracking-tighter">extracurriculars</div>;
+    }
+
+    function SpotifyColor() {
+      if (spotifyVisible) {
+        return <div className="text-pink text-2xl xl:text-3xl tracking-tighter">spotify</div>;
+      }
+      return <div className="text-black text-2xl xl:text-3xl tracking-tighter">spotify</div>;
     }
 
     
@@ -89,11 +104,11 @@ return (
           </div>
     
           <div className="flex justify-self-middle md:justify-self-start cursor-pointer md:my-2" onClick={extraClick}>
-            extracurriculars
+            <ExtraColor/>
           </div>
     
          <div className="flex justify-self-end md:justify-self-startcursor-pointer md:my-2" onClick={spotifyClick} >
-            spotify
+            <SpotifyColor/>
          </div>
     </div>
     
