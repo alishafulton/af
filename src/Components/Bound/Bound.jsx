@@ -3,6 +3,10 @@ import bound2 from '../../assets/bound2.png';
 import BoundPrototype from './BoundPrototype';
 
 
+// i imported all of my sections of my portfolio
+// separately as components 
+// all have prototypes in them
+
 export default function Bound () {
     return (
 

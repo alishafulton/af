@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight } from "react-feather"
 
+// oh this was a fun one to figure out
+// my carousel of compliments....
+
+// first we declare the constants, like our hook
+// i made autoslide false right now but it's 
+// there just in case
+
+
 const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 3000 }) => {
     const [curr, setCurr] = useState(0)
 
@@ -14,6 +22,10 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
         return () => clearInterval(slideInterval)
     }, [])
 
+
+    // now for what we're returning here
+    // our slides in the carousel,
+    // and the buttons to move em
 
     return (
         <div className='flex w-full overflow-hidden bg-transparent'>

@@ -1,6 +1,9 @@
 import React from 'react';
 import behance from '../../assets/behance.png'
 
+// my cute little behance logo button!
+// a drop shadow, the link, then the icon!
+
 export default function Behance() {
   return (
     <div className="p-3 filter drop-shadow-lg">

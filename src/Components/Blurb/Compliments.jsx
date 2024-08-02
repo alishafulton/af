@@ -6,7 +6,9 @@ import s4 from "../../assets/starbucks4.png"
 import Carousel from "./Carousel.jsx";
 import Overlay from "../ComplimentPhotos/Overlay.jsx";
 
-
+// another useState hook, this time to
+// open up our lil overlay that contains
+// a carousel! lots of nesting 
 
 
 export default function Compliments () {
@@ -16,6 +18,7 @@ export default function Compliments () {
     setIsOpen(!isOpen);
   };
 
+  // these are my compliments!!!
 
   const slides = [
     "./starbucks1.png",
@@ -23,6 +26,14 @@ export default function Compliments () {
     "./starbucks3.png",
     "./starbucks4.png",
   ]
+
+
+
+// first section is just my four compliments on my about page
+// displayed easily, but wrapped in a button so the overlay opens
+
+// when overlay open = true 
+// the overlay contains the carousel object
 
 
     return (
@@ -35,6 +46,7 @@ export default function Compliments () {
             <div><img src={ s4 } alt="" /></div>
           </div>
         </button>
+
 
           <Overlay isOpen={isOpen} onClose={toggleOverlay}>
           <div className="flex justify-center items-start">

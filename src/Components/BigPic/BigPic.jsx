@@ -1,5 +1,7 @@
 import before from '../../assets/IMG_0549.png'
 
+// this is my main picture on my extracurriculars page
+// just imported it here to put the month/year over
 
 export default function BigPic () {
     return (

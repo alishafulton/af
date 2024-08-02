@@ -2,6 +2,11 @@ import { Fragment } from "react";
 
 export function Overlay({ isOpen, onClose, children }) {
   return (
+ 
+    // when the overlay=isopen, the overlay appears!
+    // a 60% opacity black background that can be clicked to close
+    // and my children (the carousel)
+    
     <Fragment>
       {isOpen && (
         <div className="flex">

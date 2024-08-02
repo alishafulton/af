@@ -2,6 +2,11 @@ import React from 'react';
 import ContactForm from './ContactForm';
 import Links from './Links';
 
+// the contact PAGE holds the contact FORM!
+
+//and also my links!
+
+
 export default function ContactPage() {
   return (
 

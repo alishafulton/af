@@ -4,6 +4,10 @@ import channel3 from '../../assets/3.png';
 import ChannelPrototypeAnd from './ChannelPrototypeAnd';
 import ChannelPrototypeiOS  from './ChannelPrototypeiOS';
 
+// i imported all of my sections of my portfolio
+// separately as components 
+// all have prototypes in them
+
 
 export default function Channel () {
     return (

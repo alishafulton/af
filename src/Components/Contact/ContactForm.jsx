@@ -1,5 +1,15 @@
 import React from 'react';
 
+// good golly this one was a doozy
+
+// so first as always, we declare our constants
+// like our hook, and also we had to give the
+// public keys to make sure the email goes to me
+// without using my email address
+
+// then, an if else statement that lets the user
+// know that it either sent or did not send (error)
+
 export default function ContactForm() {
     const [result, setResult] = React.useState("");
   
@@ -26,6 +36,11 @@ export default function ContactForm() {
       }
     };
   
+
+    // now for what we return
+    // thankfully the placeholders tell us what is what
+    // and finally a beautiful orange submit button :)
+
     return (
       <div className="flex justify-center my-2">
 
@@ -44,7 +59,7 @@ export default function ContactForm() {
             <textarea className="flex-1 border-2 border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
             </textarea></div><br/>
   
-          <div className="flex justify-center filter drop-shadow-lg"><button type="submit"  className="rounded-lg w-1/3 h-12 bg-orange text-white">Submit</button>
+          <div className="flex justify-center filter drop-shadow-lg"><button type="submit"  className="rounded-lg w-1/2 h-12 bg-orange text-white">Submit</button>
           </div>
         
         </form>

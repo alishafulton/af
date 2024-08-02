@@ -2,6 +2,7 @@ import React from 'react';
 import Linkedin from './Linkedin';
 import Behance from './Behance';
 
+// Just a container for my links to keep em cute n together
 
 export default function Links() {
   return (

@@ -8,12 +8,20 @@ import pic13 from '../../assets/IMG_0967.png'
 import pic11 from '../../assets/IMG_0944.png'
 import Checkered from "../Checkered/Checkered";
 
+// my extra curriculars page!
+// prob gonna redo this one so it works a little better
+// bc the purple was all spur of the moment and
+// i couldnt decide how to lay it all out
+
+// it works for now!
+
 
 export default function Extra () {
   return (
     <div>
-
+      
      <BigPic />
+
      <div className="flex px-2.5"><Checkered/></div>
 
     <div className="flex-col w-full mt-2 px-2 pt-5">
