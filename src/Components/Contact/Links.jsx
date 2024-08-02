@@ -7,12 +7,14 @@ import Github from './Github';
 
 export default function Links() {
   return (
-    <><div className="flex justify-center font-serif text-lg lg:text-xl tracking-tight py-2"> Additional Links: </div>
+    <div className="flex"><div className="flex justify-center font-serif text-lg lg:text-xl tracking-tight py-2"> Additional Links: </div>
 
-        <div className="grid grid-cols-3 justify-center">
+        <div className="grid grid-cols-3 justify-items-center">
         <Linkedin/>
         <Behance/>
         <Github/>
-        </div></>
+        </div>
+
+    </div>
   );
 }
