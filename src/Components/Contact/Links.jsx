@@ -13,9 +13,9 @@ export default function Links() {
 
 {/* for the life of me i cant understand why my github icon is not participating  */}
         <div className="justify-center grid grid-cols-3  w-80">
-        <div className="flex"><Linkedin/></div>
-        <div className="flex"><Behance/></div>
-        <div className="flex"><Github/></div>
+<Linkedin/>
+<Behance/>
+<Github/>
         </div>
 
     </div>
