@@ -11,9 +11,9 @@ export default function Links() {
       <div className="flex justify-center font-serif text-lg lg:text-xl tracking-tight py-2"> Hi, it's me, just readjusting some things here! </div><br/>
 
         <div className="grid grid-cols-3 justify-items-center">
-        <Linkedin/>
-        <Behance/>
-        <Github/>
+        <div className="flex"><Linkedin/></div>
+        <div className="flex"><Behance/></div>
+        <div className="flex"><Github/></div>
         </div>
 
     </div>
