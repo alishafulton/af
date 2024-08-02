@@ -6,7 +6,7 @@ import github from '../../assets/github.png'
 
 export default function Github() {
   return (
-    <div className="p-1 filter drop-shadow-lg">
+    <div className="flex p-1 filter drop-shadow-lg">
         <a href="https://github.com/alishafulton/af">
             <img src={ github } alt="" className="h-full w-full" />
         </a>
