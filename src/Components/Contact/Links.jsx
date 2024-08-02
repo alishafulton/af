@@ -7,7 +7,8 @@ import Github from './Github';
 
 export default function Links() {
   return (
-    <div className="flex"><div className="flex justify-center font-serif text-lg lg:text-xl tracking-tight py-2"> Hi, it's me, just readjusting some things here! </div><br/>
+    <div className="flex flex-col justify-center">
+      <div className="flex justify-center font-serif text-lg lg:text-xl tracking-tight py-2"> Hi, it's me, just readjusting some things here! </div><br/>
 
         <div className="grid grid-cols-3 justify-items-center">
         <Linkedin/>
