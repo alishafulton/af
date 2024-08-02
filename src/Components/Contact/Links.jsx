@@ -12,7 +12,7 @@ export default function Links() {
 
 
 {/* for the life of me i cant understand why my github icon is not participating  */}
-        <div className="justify-center grid grid-cols-3  w-80">
+        <div className="grid grid-cols-3 w-full m-16">
 <Linkedin/>
 <Behance/>
 <Github/>
