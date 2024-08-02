@@ -1,5 +1,6 @@
 import React from "react";
 
+// this is just my text for my about me page 
 
 export default function Text () {
     return (

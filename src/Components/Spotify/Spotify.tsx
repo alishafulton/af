@@ -1,5 +1,11 @@
 import { type HTMLAttributes } from "react";
 
+// had to get this one from the internet 
+// cause i could not get this to embed the way i wanted 
+// under the return is the html component 
+
+// would love some help or info on this component 
+
 interface SpotifyProps extends HTMLAttributes<HTMLIFrameElement> {
   [key: string]: any
 

@@ -115,6 +115,8 @@ export default function PortfolioPage() {
     
     // this is what we're returning aka output
     // first division is our nav list as buttons
+    // the second is our output which is the diff
+    // sections of my about page
     
       return (
         <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-2 mt-1 lg:mt-4 ">
