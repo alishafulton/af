@@ -19,7 +19,7 @@ import Checkered from "../Checkered/Checkered";
 export default function Extra () {
   return (
     <div>
-      
+
      <BigPic />
 
      <div className="flex px-2.5"><Checkered/></div>
@@ -38,7 +38,7 @@ export default function Extra () {
     
         <div className="w-56 bg-purple float-right pl-3 pb-4 ml-2 my-2 "><img src={ girls } alt="" className="w-full mr-0"/></div>
 
-        <div className="font-serif text-lg"> 
+        <div className="font-serif text-lg lg:text-xl"> 
         Their porch was already covered with a roof held up by
         pillars, essentially dividing our wall sections into neat and tidy
         shapes. It seemed more and more doable the more time we spent 
@@ -49,7 +49,7 @@ export default function Extra () {
         
         <div className="w-56 bg-purple float-left pr-5 pb-2 mr-2 my-2"><img src={ pic5 } alt="" className="w-full ml-0"/></div>
 
-        <div className="font-serif text-lg"> Brimming with excitement, we measured 
+        <div className="font-serif text-lg lg:text-xl"> Brimming with excitement, we measured 
         everything three times and wrote down exactly what we needed 
         to buy on our first trip to Home Depot. We borrowed an SUV to go back and forth to the store and bought
         what we needed for our first section. What we assumed would be
@@ -58,10 +58,10 @@ export default function Extra () {
         
         <div className="w-56 bg-purple float-right pl-2 pb-3 ml-4 my-2"><img src={ pic11 } alt="" className="w-full mr-0"/></div>
 
-        <div className="font-serif text-lg">Now, this would normally be the part of the story where I tell you
+        <div className="font-serif text-lg lg:text-xl">Now, this would normally be the part of the story where I tell you
         what an absolute mess it was and we all laugh... except it wasn't a mess.</div>
         
-        <br/><div className="font-serif text-lg"> I'm not
+        <br/><div className="font-serif text-lg lg:text-xl"> I'm not
         saying that we are secretly <a href="https://en.wikipedia.org/wiki/Sabrina_Carpenter">Master Carpenters</a> and it all
         went perfectly. Believe it or not, I even hammered myself a black eye.
         But with help from my aunt and two other cousins, a couple of
@@ -70,7 +70,7 @@ export default function Extra () {
          
         <div className="w-72 bg-purple float-left pr-6 pb-3 mr-2 mt-2 mb-5"><img src={ pic10 } alt="" className="w-full ml-0"/></div>
         
-        <div className="font-serif text-lg">Unfortunately, the heat is 
+        <div className="font-serif text-lg lg:text-xl">Unfortunately, the heat is 
           worse than the bugs in the summer, so we had to take a 
           small sabbatical until Texas cools off!</div>
 
