@@ -29,11 +29,12 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
 
     return (
         <div className='flex w-full overflow-hidden justify-center bg-black'>
-            <div className='flex w-full -p-3 transition-transform ease-out duration-500 ' style={{ transform: `translateX(-${curr * 100}%)` }}>
+
+            <div className='flex w-full transition-transform ease-out duration-500 ' style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {slides}
             </div>
 
-            <div className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-between p-2 mx-0">
+            <div className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-between p-2 ">
                 <button onClick={prev} className='p-3 rounded-full shadow bg-white/70 text-gray-800 hover:bg-white'>
                     <ChevronLeft />
                 </button>
