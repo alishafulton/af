@@ -7,12 +7,13 @@ import Github from './Github';
 
 export default function Links() {
   return (
-    <div className="flex flex-col justify-center pt-2">
-      <div className="flex justify-center font-serif text-lg lg:text-xl tracking-tight"> Hi, it's me, just readjusting some things here! </div>
+    <div className="flex flex-col justify-center">
+      <div className="flex justify-center font-serif text-lg lg:text-xl tracking-tight"> 
+        Hi, it's me, just readjusting some things here! </div>
 
 
 {/* for the life of me i cant understand why my github icon is not participating  */}
-        <div className="grid grid-cols-3 m-16 gap-2 w-60">
+        <div className="justify-center w-60">
 <Linkedin/>
 <Behance/>
 <Github/>

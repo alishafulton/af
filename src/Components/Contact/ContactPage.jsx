@@ -19,7 +19,7 @@ export default function ContactPage() {
         <ContactForm/>
       </div>
         
-        <div className="col-start-3">
+        <div className="col-start-3 mt-2 ">
         <Links/>
     </div>
     </div>

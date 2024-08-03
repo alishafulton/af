@@ -22,7 +22,7 @@ export const Spotify = ({
   style = {},
   frameBorder = 0,
   width = 810,
-  height = 600,
+  height = 800,
   allow = "encrypted-media",
   ...props
 }: SpotifyProps) => {
