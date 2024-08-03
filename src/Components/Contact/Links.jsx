@@ -13,7 +13,7 @@ export default function Links() {
 
 
 {/* for the life of me i cant understand why my github icon is not participating  */}
-        <div className="flex w-48">
+        <div className="flex w-60 mx-10">
 <Linkedin/>
 <Behance/>
 <Github/>
