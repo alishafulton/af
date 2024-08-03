@@ -3,6 +3,8 @@ import Carousel from "./Carousel.jsx";
 import Overlay from "../ComplimentPhotos/Overlay.jsx";
 import Starbucks1 from "./starbucks1.jsx";
 import Starbucks2 from "./starbucks2.jsx";
+import Starbucks3 from "./starbucks3.jsx";
+import Starbucks4 from "./starbucks4.jsx";
 
 // another useState hook, this time to
 // open up our lil overlay that contains
