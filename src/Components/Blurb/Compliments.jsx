@@ -5,6 +5,7 @@ import s3 from "../../assets/starbucks3.png"
 import s4 from "../../assets/starbucks4.png"
 import Carousel from "./Carousel.jsx";
 import Overlay from "../ComplimentPhotos/Overlay.jsx";
+import Starbucks1 from "./starbucks1.jsx";
 
 // another useState hook, this time to
 // open up our lil overlay that contains
@@ -40,7 +41,7 @@ export default function Compliments () {
       <>
         <button onClick={toggleOverlay}>
           <div className="grid grid-cols-4 py-4">
-            <div><img src={ s1 } alt="" className="-rotate-12"/></div>
+            <div><Starbucks1/></div>
             <div><img src={ s2 } alt=""/></div>
             <div><img src={ s3 } alt="" /></div>
             <div><img src={ s4 } alt="" /></div>
