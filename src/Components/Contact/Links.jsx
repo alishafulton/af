@@ -7,7 +7,7 @@ import Github from './Github';
 
 export default function Links() {
   return (
-    <div className="justify-center w-full mt-3">
+    <div className="justify-center w-full pt-3">
 
 
 
