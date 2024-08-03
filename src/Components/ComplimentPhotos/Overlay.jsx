@@ -13,7 +13,7 @@ export function Overlay({ isOpen, onClose, children }) {
           <div className="bg-black opacity-60 w-screen h-screen fixed top-0 left-0 z-9 cursor-pointer" onClick={onClose}/>
 
           <div className="fixed top-0 left-24  content-start justify-center z-10 bg-white w-96 ">
-            <div className="bg-gray-300 " >
+            <div className="bg-transparent " >
               {children}
             </div>
           </div>
