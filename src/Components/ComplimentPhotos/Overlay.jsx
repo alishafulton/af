@@ -12,8 +12,8 @@ export function Overlay({ isOpen, onClose, children }) {
         <div className="flex">
           <div className="bg-black opacity-60 w-screen h-screen fixed top-0 left-0 z-9 cursor-pointer" onClick={onClose}/>
 
-          <div className="fixed top-0 left-0 content-start justify-center z-10 bg-white">
-            <div className="w-48 bg-gray-500"  >
+          <div className="fixed top-0 left-0 content-start justify-items-center z-10 bg-white">
+            <div className="bg-gray-300 w-1/3" >
               {children}
             </div>
           </div>
