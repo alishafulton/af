@@ -28,7 +28,7 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
     // and the buttons to move em
 
     return (
-        <div className='flex w-full overflow-hidden bg-black'>
+        <div className='flex w-full overflow-hidden justify-center bg-black'>
             <div className='flex w-full -mx-3 transition-transform ease-out duration-500 ' style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {slides}
             </div>
