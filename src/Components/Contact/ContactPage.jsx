@@ -18,7 +18,7 @@ export default function ContactPage() {
       <div className="m-2">
         <ContactForm/>
       </div>
-        <br/><div className=" justify-center font-serif m-1">Additional Links:  <br/>
+        <br/><div className=" text-center font-serif m-1">Additional Links:  <br/>
         <div className="col-start-3 m-1">
         <Links/></div>
     </div>
