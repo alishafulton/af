@@ -33,11 +33,11 @@ const Carousel = ({ children: slides, autoSlide = false, autoSlideInterval = 300
                 {slides}
             </div>
 
-            <div className="absolute top-0 bottom-4 left-1 right-1 flex items-center justify-between p-2 mx-8">
-                <button onClick={prev} className='p-3 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white'>
+            <div className="absolute top-0 bottom-4 left-3 right-3 flex items-center justify-between p-2 mx-8">
+                <button onClick={prev} className='p-3 rounded-full shadow bg-white/70 text-gray-800 hover:bg-white'>
                     <ChevronLeft />
                 </button>
-                <button onClick={next} className='p-3 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white'>
+                <button onClick={next} className='p-3 rounded-full shadow bg-white/70 text-gray-800 hover:bg-white'>
                     <ChevronRight />
                 </button>
             </div>
