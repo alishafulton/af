@@ -11,14 +11,14 @@ export default function ContactPage() {
   return (
 
     <div className="grid grid-cols-5 xl:grid-cols-7 mt-6 justify-center"> 
-      <div className="col-start-2 xl:col-start-3 col-span-3 ">
+      <div className="col-start-2 xl:col-start-3 col-span-3 justify-center">
       
       <div className="text-center font-serif text-3xl tracking-tight">Send me a message:</div><br/>
       
       <div className="m-2">
         <ContactForm/>
       </div>
-        <br/> Additional Links: <br/>
+        <br/><div className="w-full justify-center font-serif">Additional Links: </div> <br/>
         <div className="col-start-3 mt-2 ">
         <Links/>
     </div>
