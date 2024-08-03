@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import s1 from "../../assets/starbucks1.png"
-import s2 from "../../assets/starbucks2.png"
-import s3 from "../../assets/starbucks3.png"
-import s4 from "../../assets/starbucks4.png"
 import Carousel from "./Carousel.jsx";
 import Overlay from "../ComplimentPhotos/Overlay.jsx";
 import Starbucks1 from "./starbucks1.jsx";
+import Starbucks2 from "./starbucks2.jsx";
 
 // another useState hook, this time to
 // open up our lil overlay that contains
@@ -42,9 +39,9 @@ export default function Compliments () {
         <button onClick={toggleOverlay}>
           <div className="grid grid-cols-4 py-4">
             <div><Starbucks1/></div>
-            <div><img src={ s2 } alt=""/></div>
-            <div><img src={ s3 } alt="" /></div>
-            <div><img src={ s4 } alt="" /></div>
+            <div><Starbucks2/></div>
+            <div><Starbucks3 /></div>
+            <div><Starbucks4 /></div>
           </div>
         </button>
 
