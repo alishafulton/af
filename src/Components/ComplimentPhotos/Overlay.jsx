@@ -9,12 +9,12 @@ export function Overlay({ isOpen, onClose, children }) {
 
     <Fragment>
       {isOpen && (
-        <div className="flex">
+        <div className="h-screen w-screen">
           <div className="bg-black opacity-60 w-screen h-screen fixed top-0 left-0 z-9 cursor-pointer" onClick={onClose}/>
-
-          <div className="bg-white fixed top-0 bottom-0 left-0 right-0 m-auto z-10 " >
+          <div className="grid grid-cols-3">
+          <div className="bg-white col-start-2 col-span-1 m-auto z-10 " >
             {children}
-          </div>
+          </div></div>
         </div>
       )} 
     </Fragment>
