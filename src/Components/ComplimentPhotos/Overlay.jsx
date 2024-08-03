@@ -9,7 +9,7 @@ export function Overlay({ isOpen, onClose, children }) {
 
     <Fragment>
       {isOpen && (
-        <div className="flex">
+        <div className="flex justify-items-center justify-center">
           <div className="bg-black opacity-60 w-screen h-screen fixed top-0 left-0 z-9 cursor-pointer" onClick={onClose}/>
 
           <div className="fixed top-0 left-0 content-start justify-center z-10 bg-white w-1/2">
