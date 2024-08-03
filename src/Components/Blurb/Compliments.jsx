@@ -40,10 +40,10 @@ export default function Compliments () {
       <>
         <button onClick={toggleOverlay}>
           <div className="grid grid-cols-4 py-4">
-            <div><Starbucks1/></div>
-            <div><Starbucks2/></div>
-            <div><Starbucks3 /></div>
-            <div><Starbucks4 /></div>
+            <div className="-mx-1"><Starbucks1/></div>
+            <div className="-mx-1"><Starbucks2/></div>
+            <div className="-mx-1"><Starbucks3/></div>
+            <div className="-mx-1"><Starbucks4/></div>
           </div>
         </button>
 
