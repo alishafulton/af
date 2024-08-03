@@ -8,7 +8,7 @@ export default function Github() {
   return (
     <div className="flex p-1 filter drop-shadow-lg">
         <a href="https://github.com/alishafulton/af">
-            <img src={ github } alt="" className="w-full h-full " />
+            <img src={ github } alt="" className="w-20  h-20 " />
         </a>
 
     </div>
