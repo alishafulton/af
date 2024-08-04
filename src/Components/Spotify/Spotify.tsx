@@ -11,8 +11,8 @@ interface SpotifyProps extends HTMLAttributes<HTMLIFrameElement> {
 
   link: string
   wide?: boolean
-  width?: number | string
   height?: number | string
+  width?: number | string
   frameBorder?: number | string
   allow?: string
 }
@@ -21,8 +21,8 @@ export const Spotify = ({
   link,
   style = {},
   frameBorder = 0,
-  width=800,
   height=800,
+  width=400,
   allow = "encrypted-media",
   ...props
 }: SpotifyProps) => {
@@ -36,8 +36,8 @@ export const Spotify = ({
       src={`https://open.spotify.com/embed${url.pathname}`}
       frameBorder={frameBorder}
       allow={allow}
-      width={width}
       height={height}
+      width={width}
       style={{
         borderRadius: 8,
         ...style
