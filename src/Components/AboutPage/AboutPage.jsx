@@ -57,7 +57,7 @@ export default function AboutPage() {
 
   function SpotifyBlurb() {
    if (spotifyVisible) {
-     return  <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" width={full}/>
+     return  <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" height={600}/>
       }
     return null;
   }
