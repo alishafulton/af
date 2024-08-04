@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import Blurb from "../Blurb/Blurb";
 import Extra from "../Extracurriculars/Extracurriculars";
-import { Spotify } from "react-spotify-embed";
+import Spotify2 from "../Spotify/Spotify2";
 
 
 
 export default function AboutPage() {
 
     
-  // we start by seting constants with a name, 
+  // we start by setting constants with a name, 
   // toSet and true or false
   // bio starts as visible first 
 
@@ -57,10 +57,7 @@ export default function AboutPage() {
 
   function SpotifyBlurb() {
    if (spotifyVisible) {
-     return  <>
-        <div className="flex flex-row gap-8 px-4 pt-4 pb-2 ">
-          <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" />
-        </div></>;
+     return  <Spotify2/>
       }
     return null;
   }
