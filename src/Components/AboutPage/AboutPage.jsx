@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Blurb from "../Blurb/Blurb";
 import Extra from "../Extracurriculars/Extracurriculars";
-import Spotify2 from "../Spotify/Spotify2";
+import { Spotify } from "react-spotify-embed";
 
 
 
@@ -57,7 +57,7 @@ export default function AboutPage() {
 
   function SpotifyBlurb() {
    if (spotifyVisible) {
-     return  <Spotify2/>
+     return  <Spotify link="https://open.spotify.com/playlist/1GvMJmqjMIttENpQpH68MD?si=e83766c8fd694dbf" />
       }
     return null;
   }
