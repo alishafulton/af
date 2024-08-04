@@ -109,7 +109,7 @@ return (
     </div>
     
 
-  <div className="flex justify-center w-full md:col-span-2 lg:col-start-3  mt-1 lg:mt-4 ">
+  <div className="flex justify-center w-full md:col-span-2 lg:col-start-3  mt-2 lg:mt-4 ">
     <BioBlurb /> 
     <ExtrasBlurb />
     <SpotifyBlurb />
