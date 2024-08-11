@@ -28,7 +28,7 @@ export default function Extra () {
 
     <div className="w-52 bg-purple float-left pr-4 pb-2 mr-2 mb-2"><img src={ wood } alt="" className="w-full ml-0"/></div>
 
-      <div className="font-serif text-lg lg:text-xl"> After spending a couple of weeks getting 
+      <div className="font-serif text-lg lg:text-xl 2xl:text-3xl"> After spending a couple of weeks getting 
         swarmed by crane flies, my cousin and I started 
         seriously considering the idea of screening in their
         200 square foot porch. The bugs are unkind in the Texas heat 
