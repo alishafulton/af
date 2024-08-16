@@ -119,7 +119,7 @@ export default function PortfolioPage() {
     // sections of my about page
     
       return (
-        <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 md:gap-2 mt-1 lg:mt-4 ">
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-7 md:gap-2 mt-1 lg:mt-3 ">
         <div className = "grid grid-cols-4 content-start md:grid-cols-1 lg:col-start-2 ">
 
         <div className="flex justify-start cursor-pointer md:my-2" onClick={sprigClick}>
@@ -140,7 +140,7 @@ export default function PortfolioPage() {
 
     </div>
 
-    <div className="flex justify-center lg:col-start-3 md:col-span-2 mt-2 lg:mt-4 ">
+    <div className="flex justify-center lg:col-start-3 md:col-span-2 lg:col-span-4 mt-2 lg:mt-4 ">
     <SprigBlurb/> 
     <ChannelBlurb/>
     <CoastBlurb/>

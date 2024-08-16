@@ -10,11 +10,11 @@ import CoastPrototype from './CoastPrototype';
 export default function Coast () {
     return (
         <div className="flex-col">
-        <img src={ coast1 } alt="" className="p-2" />
+        <img src={ coast1 } alt="" className="p-0" />
 
               <CoastPrototype />
 
-            <img src={ coast2 } alt="" className="p-2" />
+            <img src={ coast2 } alt="" className="p-0" />
 
         </div>
 

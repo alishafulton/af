@@ -11,11 +11,11 @@ export default function Bound () {
     return (
 
         <div className="flex-col">
-            <img src={ bound1 } alt="" className="p-2" />
+            <img src={ bound1 } alt="" className="p-0" />
 
             <BoundPrototype />
 
-            <img src={ bound2 } alt="" className="p-2" />
+            <img src={ bound2 } alt="" className="p-0" />
 
         </div>
 
