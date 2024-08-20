@@ -17,22 +17,18 @@ export default function Navbar () {
 
 // then all three of my links, with if else statements to change to active color
 
-    return (
-      <div className="grid grid-cols-1 lg:grid-cols-5">
+return (
+  <div className="flex-col">
+   <div className="w-full justify-center mb-1"><Logo/></div>
 
-        <div className="w-full justify-center mb-1"><Logo/></div>
-
-        
-
-          <div className="grid grid-cols-3 font-sans text-3xl md:text-4xl xl:text-5xl tracking-tighter text-black">
-
+    <div className="grid grid-cols-3 font-sans text-3xl md:text-4xl xl:text-5xl tracking-tighter text-black">
         <div className="justify-self-start"><NavLink to="/af/about" className={({ isActive }) => (isActive ? activeLink : "")}>about me</NavLink></div>
         <div className="justify-self-center"><NavLink to="/af/portfolio" className={({ isActive }) => (isActive ? activeLink : "")}>portfolio</NavLink></div>
         <div className="justify-self-end"><NavLink to="/af/contact" className={({ isActive }) => (isActive ? activeLink : "")}>contact</NavLink></div>
-        </div>
+    </div>
         
         
-        </div>
+ </div>
       
     )
   };
