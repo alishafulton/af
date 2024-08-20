@@ -13,7 +13,7 @@ import AboutPage from "../Components/AboutPage/AboutPage";
   export default function About () {
     return (
 
-      <div className= "flex max-w-5xl justify-center">
+      <div className= "flex w-screen max-w-5xl justify-center items-center">
         <AboutPage />
         <Outlet/>
       </div>
