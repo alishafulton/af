@@ -18,8 +18,8 @@ export default function Navbar () {
 // then all three of my links, with if else statements to change to active color
 
 return (
-  <div className="flex-col">
-   <div className="w-full max-w-5xl justify-center lg:col-span-3 lg:col-start-2 mb-1"><Logo/></div>
+  <div className="flex-col w-full max-w-xl justify-center ">
+   <div className="w-full justify-center lg:col-span-3 lg:col-start-2 mb-1"><Logo/></div>
 
 
    <div className="lg:col-span-3 lg:col-start-2 my-1 lg:my-2 ">
