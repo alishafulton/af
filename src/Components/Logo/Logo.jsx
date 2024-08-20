@@ -7,7 +7,7 @@ export default function Logo () {
     return (
 
 <>
-<img src={logo} className="flex w-full max-w-5xl"/>
+<img src={logo} className="flex w-full max-w-6xl"/>
 </>
 
 );
