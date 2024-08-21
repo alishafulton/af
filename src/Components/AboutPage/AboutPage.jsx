@@ -94,7 +94,7 @@ export default function AboutPage() {
 // first division is our nav list as buttons
     
 return (
-  <div className="w-full justify-center">
+  <div className="w-full justify-center items-center">
 
 <div className="max-w-5xl grid grid-cols-1 md:grid-cols-3 md:gap-2 mt-2">
 
