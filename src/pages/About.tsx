@@ -13,12 +13,11 @@ import AboutPage from "../Components/AboutPage/AboutPage";
   export default function About () {
     return (
 
-      <>
        <div className= "w-screen justify-items-center ">
          <AboutPage />
          <Outlet/>
         </div>
-      </>
+
       
     )
   };
