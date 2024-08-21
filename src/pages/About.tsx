@@ -13,10 +13,12 @@ import AboutPage from "../Components/AboutPage/AboutPage";
   export default function About () {
     return (
 
-      <div className= " justify-center items-center">
-        <AboutPage />
+      <>
+       <div className= "justify-center items-center">
+         <AboutPage />
         <Outlet/>
-      </div>
+        </div>
+      </>
       
     )
   };
