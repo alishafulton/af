@@ -14,7 +14,7 @@ import AboutPage from "../Components/AboutPage/AboutPage";
     return (
 
       <>
-       <div className= "justify-center items-center">
+       <div className= "w-screen justify-items-center ">
          <AboutPage />
          <Outlet/>
         </div>
