@@ -8,7 +8,7 @@ export default function App () {
   return (
     <div className="justify-center items-center ">
        <Navbar/>
-        <Outlet/>
+       <Outlet/>
     </div>
     
   )
