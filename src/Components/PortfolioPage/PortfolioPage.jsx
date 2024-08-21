@@ -141,7 +141,7 @@ export default function PortfolioPage() {
 
     </div>
 
-    <div className="flex justify-center lg:col-start-3 md:col-span-2 lg:col-span-4 mt-2 lg:mt-4 ">
+    <div className="flex justify-center md:col-span-2 mt-2 ">
     <SprigBlurb/> 
     <ChannelBlurb/>
     <CoastBlurb/>
