@@ -16,7 +16,7 @@ import AboutPage from "../Components/AboutPage/AboutPage";
       <>
        <div className= "justify-center items-center">
          <AboutPage />
-        <Outlet/>
+         <Outlet/>
         </div>
       </>
       
