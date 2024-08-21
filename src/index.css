@@ -9,6 +9,11 @@
 
 .tan-color {
     background-color: #E5E3D8;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 
