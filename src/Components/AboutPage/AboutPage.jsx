@@ -94,9 +94,7 @@ export default function AboutPage() {
 // first division is our nav list as buttons
     
 return (
-  <div className="w-full justify-center items-center">
-
-<div className="max-w-5xl grid grid-cols-1 md:grid-cols-3 md:gap-2 mt-2">
+<div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 md:gap-2 mt-2">
 
     <div className="grid grid-cols-3 content-start md:grid-cols-1 p-1">
           <div className="flex justify-start cursor-pointer lg:my-2" onClick={bioClick}>
@@ -118,8 +116,7 @@ return (
   </div>
   
 </div>
-   
-</div>
+
     
       );
 };
