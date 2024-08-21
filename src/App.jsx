@@ -6,7 +6,7 @@ import './index.css'
 
 export default function App () {
   return (
-    <div className="justify-center items-center p-5">
+    <div className="justify-items-center p-5">
        <Navbar/>
        <Outlet/>
     </div>
