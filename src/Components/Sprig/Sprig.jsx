@@ -10,7 +10,7 @@ import SprigPrototype from './SprigPrototype';
 export default function Sprig () {
     return (
 <>
-        <div className="flex-col">
+        <div className="flex flex-col justify-items-center">
         <img src={ sprig1 } alt="" className="p-0 lg:p-1" />
         
               <SprigPrototype/>
