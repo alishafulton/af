@@ -12,7 +12,7 @@ export default function Links() {
 
 
 {/* for the life of me i cant understand why my github icon is not participating  */}
-        <div className="flex w-full justify-center ">
+        <div className="grid grid-cols-3">
 <Linkedin/>
 <Behance/>
 <Github/>
