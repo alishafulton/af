@@ -15,11 +15,11 @@ export default function Channel () {
         <div className="flex-col">
           <img src={ channel1 } alt="" className="p-0" />
 
-              <ChannelPrototypeiOS />
+             
 
             <img src={ channel2 } alt="" className="p-0" />
 
-              <ChannelPrototypeAnd />
+              
 
             <img src={ channel3 } alt="" className="p-0" />
         </div>
