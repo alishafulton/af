@@ -66,7 +66,7 @@ export default function PortfolioPage() {
 
     function CoastBlurb() {
         if (coastVisible) {
-            return <></> ;
+            return <> </> ;
         }
             return null;
         }
