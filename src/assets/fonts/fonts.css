@@ -7,10 +7,10 @@
 
 
 @font-face {
-    font-family: 'Lexend';
+    font-family: 'SFDisplay';
     font-display: swap;
     font-style: normal;
-    src: url("./assetsLexend-VariableFont_wght.ttf") format("truetype");
+    src: url("./SF-Pro-Display-Regular.otf") format("opentype");
 }
 
 @font-face {

@@ -52,11 +52,11 @@ export default function ContactForm() {
           </div><br/>
           
           <div className="m-0.5">
-            <input className="flex-1 border border-black w-full p-2" type="email" name="email" placeholder="Email" required/>
+            <input className="flex-1 border rounded border-black w-full p-2" type="email" name="email" placeholder="Email" required/>
           </div><br/>
 
           <div className="m-0.5 h-40">
-            <textarea className="flex-1 border border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
+            <textarea className="flex-1 border rounded border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
             </textarea></div><br/>
   
           <div className="flex justify-center filter drop-shadow-lg"><button type="submit"  className="rounded-lg w-1/2 h-12 bg-orange text-white">Submit</button>
