@@ -6,7 +6,7 @@ import './index.css'
 
 export default function App () {
   return (
-    <div className="justify-items-center p-5 cursor-crosshair">
+    <div className="flex w-full justify-items-center p-5 cursor-crosshair">
        <Navbar/>
        <Outlet/>
     </div>
