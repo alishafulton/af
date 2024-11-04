@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Mockup from "./mock1";
 import Project1 from "./project1";
+import Project2 from "./project2"
 
 
 
