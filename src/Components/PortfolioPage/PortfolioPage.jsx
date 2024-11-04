@@ -13,7 +13,7 @@ export default function PortfolioPage() {
           <Project1 className="m-2" />
           <Project2 className="m-2" />
         </div>
-        <div className="flex flex-row my-2">
+        <div className="flex flex-row space-x-6 my-2">
           <Project3 className="m-2" />
         </div>
       </div>
