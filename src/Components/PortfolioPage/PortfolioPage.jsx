@@ -9,6 +9,7 @@ export default function PortfolioPage() {
       return (
         <div className="w-full">
           <Project1/>
+          <Project2/>
         </div>
 
       );
