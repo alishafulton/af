@@ -4,7 +4,6 @@ import ContactForm from './ContactForm';
 
 // the contact PAGE holds the contact FORM!
 
-//and also my links!
 
 
 export default function ContactPage() {
