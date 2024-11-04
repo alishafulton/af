@@ -10,11 +10,12 @@ module.exports = {
       fontFamily: {
         serif: ["Garamond", "serif"],
         sans: ["Lexend", "sans"],
+        mono: ["Andale", "mono"]
         },
     colors: {
       transparent: 'transparent',
       black: '#131514',
-      tan: '#E5E3D8',
+      tan: '#FAFAFA',
       pink: '#FF5666',
       orange: '#FF785A',
       green: '#0A8754',
