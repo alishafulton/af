@@ -9,8 +9,8 @@ export default function PortfolioPage() {
       return (
         <div className="w-full">
           <div className="flex flex-row">
-          <Project1/>
-          <Project2/>
+          <Project1 className="m-2" />
+          <Project2 className="m-2" />
         </div>
       </div>
       );
