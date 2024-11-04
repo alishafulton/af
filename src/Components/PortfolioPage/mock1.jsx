@@ -4,6 +4,6 @@ import mock1 from "./../../assets/MOCK1.png";
 export default function mockup() {
     
     return (
-        <><mock1/></>
+        <div className="w-auto h-auto"><mock1/></div>
     );
 }
