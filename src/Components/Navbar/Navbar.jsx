@@ -20,9 +20,9 @@ export default function Navbar () {
 return (
   <div className="flex flex-col justify-center items-center">
       
-      <div className="w-full max-w-5xl">
-        <div className="grid grid-cols-3 font-sans text-3xl md:text-4xl xl:text-5xl tracking-tighter text-black">
-          <div className="justify-self-center"><NavLink to="/" className={({ isActive }) => (isActive ? activeLink : "")}>portfolio</NavLink></div>
+      <div className="w-full max-w-3xl">
+        <div className="flex font-mono text-xl text-black">
+          <div className="justify-self-start"><NavLink to="/" className={({ isActive }) => (isActive ? activeLink : "")}>portfolio</NavLink></div>
           <div className="justify-self-end"><NavLink to="/contact/" className={({ isActive }) => (isActive ? activeLink : "")}>contact</NavLink></div>
         </div>
     </div>
