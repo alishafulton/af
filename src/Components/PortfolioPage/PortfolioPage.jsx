@@ -10,11 +10,11 @@ export default function PortfolioPage() {
     
       return (
         <div className="w-full">
-          <div className="flex flex-row space-x-6 my-2">
+          <div className="flex flex-row space-x-6 my-6">
           <Project1 className="m-2" />
           <Project2 className="m-2" />
         </div>
-        <div className="flex flex-row space-x-6 my-2">
+        <div className="flex flex-row space-x-6 my-6">
           <Project3 className="m-2" />
           <Project4 className="m-2" />
         </div>
