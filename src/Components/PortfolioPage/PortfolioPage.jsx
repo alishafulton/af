@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import mock1 from "./../../assets/MOCK1.png";
+import mockup from "./mock1";
 
 
 
 export default function PortfolioPage() {
     
       return (
-        <div className = "w-full cursor-crosshair "><div className="w-8"><mock1/></div></div>
+        <div className = "w-full cursor-crosshair "><div className="w-8"><mockup/></div></div>
 
       );
 }
