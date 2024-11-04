@@ -8,7 +8,7 @@ import ContactForm from './ContactForm';
 
 export default function ContactPage() {
   return (
-<div className = "cursor-crosshair ">
+<div className = "w-full cursor-crosshair ">
   <ContactForm/>
 </div>
   );

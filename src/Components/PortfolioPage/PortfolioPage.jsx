@@ -7,7 +7,7 @@ export default function PortfolioPage() {
     
       return (
         <div className="w-full">
-        <div className="w-32">
+        <div className="w-60 ">
           <Mockup/>
         </div>
         </div>
