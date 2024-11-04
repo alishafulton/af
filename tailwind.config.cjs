@@ -10,7 +10,7 @@ module.exports = {
       fontFamily: {
         serif: ["Garamond", "serif"],
         sans: ["Lexend", "sans"],
-        mono: ["Andale", "mono"]
+        mono: ["Andale", "mono"],
         },
     colors: {
       transparent: 'transparent',
