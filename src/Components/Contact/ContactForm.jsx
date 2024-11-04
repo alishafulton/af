@@ -48,7 +48,7 @@ export default function ContactForm() {
 
 
           <div className="m-0.5">
-              <input className="flex-1 border-2 border-black  w-full p-2" type="text" name="name" placeholder="Name" required/>
+              <input className="flex-1 border-1 rounded border-black  w-full p-2" type="text" name="name" placeholder="Name" required/>
           </div><br/>
           
           <div className="m-0.5">
