@@ -8,11 +8,9 @@ import { NavLink } from "react-router-dom";
 export default function Navbar () {
   const activeLink = "text-green ";
 
-
-
 return (
       
-      <div className="">
+      <div className="flex justify-center">
         <div className="font-mono text-xs tracking-tighter text-black">
           <div className="p-2"><NavLink to="/" className={({ isActive }) => (isActive ? activeLink : "")}>PORTFOLIO</NavLink></div>
           <div className="p-2 "><NavLink to="/contact/" className={({ isActive }) => (isActive ? activeLink : "")}>CONTACT</NavLink></div>
