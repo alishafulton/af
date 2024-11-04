@@ -7,7 +7,6 @@ import PortfolioPage from './Components/PortfolioPage/PortfolioPage.jsx';
 import ContactPage from './Components/Contact/ContactPage.jsx';
 import './index.css'
 
-
 const router = createBrowserRouter([
   {
     path: "/af/",
