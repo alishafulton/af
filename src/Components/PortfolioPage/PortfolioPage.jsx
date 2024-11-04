@@ -7,8 +7,8 @@ export default function PortfolioPage() {
     
       return (
         <div className="w-full">
-          <div className="w-64 border border-gray-200">
-          <div className="w-52 justify-items-center">
+          <div className="w-64 border border-gray-200 justify-items-center">
+          <div className="w-52 ">
             <Mockup/>
           </div>
           </div>
