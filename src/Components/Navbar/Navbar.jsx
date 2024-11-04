@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../Logo/Logo";
+
 
 // my navbar! 
 // only constant is to make the active link purple
@@ -19,7 +19,6 @@ export default function Navbar () {
 
 return (
   <div className="flex flex-col justify-center items-center">
-      <Logo/>
       
       <div className="w-full max-w-5xl">
         <div className="grid grid-cols-3 font-sans text-3xl md:text-4xl xl:text-5xl tracking-tighter text-black">
