@@ -13,7 +13,7 @@ export default function Navbar () {
 return (
       
       <div className="w-full max-w-3xl">
-        <div className="font-mono text-xs tracking-tight text-black">
+        <div className="flex-row font-mono text-xs tracking-tight text-black">
           <div className="justify-self-start"><NavLink to="/" className={({ isActive }) => (isActive ? activeLink : "")}>PORTFOLIO</NavLink></div>
           <div className="justify-self-end"><NavLink to="/contact/" className={({ isActive }) => (isActive ? activeLink : "")}>CONTACT</NavLink></div>
         </div>
