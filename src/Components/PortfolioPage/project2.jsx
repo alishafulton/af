@@ -12,7 +12,7 @@ export default function Project2() {
             <Mockup2/>
           </div>
           </div>
-          Coast
+          Channel
 </div>
 
       );
