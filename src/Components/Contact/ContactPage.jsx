@@ -8,7 +8,7 @@ import React from 'react';
 
 export default function ContactPage() {
   return (
-<div>
+<div className = "cursor-cell ">
 </div>
   );
 }
