@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import Sprig from "../Sprig/Sprig";
-import Coast from "../Coast/Coast";
-import Bound from "../Bound/Bound";
-import Channel from "../Channel/Channel";
+
 
 
 
@@ -53,7 +50,7 @@ export default function PortfolioPage() {
       // each button click brings a different result
     function SprigBlurb() {
       if (sprigVisible) {
-        return <Sprig/>;
+        return <></>;
       }
         return null;
       }
@@ -61,7 +58,7 @@ export default function PortfolioPage() {
 
     function ChannelBlurb() {
     if (channelVisible) {
-        return <Channel/>;
+        return <></>;
     }
         return null;
     }
@@ -69,14 +66,14 @@ export default function PortfolioPage() {
 
     function CoastBlurb() {
         if (coastVisible) {
-            return <Coast/> ;
+            return <></> ;
         }
             return null;
         }
 
     function BoundBlurb() {
         if (boundVisible) {
-            return <Bound/> ;
+            return <></> ;
         }
             return null;
         }
@@ -119,35 +116,7 @@ export default function PortfolioPage() {
     // sections of my about page
     
       return (
-        <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 md:gap-2 mt-1 justify-center">
-
-        <div className = "grid grid-cols-4 content-start md:grid-cols-1 ">
-
-        <div className="flex justify-start cursor-pointer md:my-2" onClick={sprigClick}>
-          <SprigColor/>
-        </div>
-    
-        <div className="flex justify-center md:justify-start cursor-pointer md:my-2" onClick={channelClick}>
-          <ChannelColor/>
-        </div>
-    
-        <div className="flex justify-end md:justify-start cursor-pointer md:my-2" onClick={coastClick}>
-          <CoastColor/>
-        </div>
-
-        <div className="flex justify-end md:justify-start cursor-pointer md:my-2" onClick={boundClick}>
-          <BoundColor/>
-        </div>
-
-    </div>
-
-    <div className="flex justify-center md:col-span-2 mt-2 ">
-    <SprigBlurb/> 
-    <ChannelBlurb/>
-    <CoastBlurb/>
-    <BoundBlurb/>
-    </div>
-    </div>
+        <></>
 
 
     
