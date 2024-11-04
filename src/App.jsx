@@ -6,12 +6,12 @@ import './index.css'
 
 export default function App () {
   return (
-    <div className="flex justify-center ">
+    <>
       <div className="flex flex-col">
-       <Navbar/><br/>
+       <Navbar/>
        <Outlet/>
        </div>
-    </div>
+    </>
     
   )
 };
