@@ -7,6 +7,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      letterSpacing: {
+        tightest: '-0.1em',
+      },
       fontSize: {
         '2xs': '0.5rem',
         'xs': '0.625rem',
