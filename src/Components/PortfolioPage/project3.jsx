@@ -9,7 +9,7 @@ export default function Project3() {
       return (
 <div>
         <div className="w-42 md:w-56 justify-self-center border border-gray-200">
-          <div className="w-30 md:w-42 mx-6 backdrop-filter hover:backdrop-blur-sm">
+          <div className="w-30 md:w-42 mx-6">
             <Mockup3/>
           </div>
           </div>
