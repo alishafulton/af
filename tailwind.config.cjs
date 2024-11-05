@@ -29,7 +29,7 @@ module.exports = {
     },},
   variants: {
     extend: {
-      blur: ['group-hover', 'hover'],
+      blur: ['group-hover']
     },
   },
   plugins: [],
