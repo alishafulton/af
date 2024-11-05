@@ -7,6 +7,9 @@ import './index.css'
 import PortfolioPage from './Components/PortfolioPage/PortfolioPage.jsx';
 import AboutPage from './Components/AboutPage/AboutPage.jsx';
 import Coast from './Components/Coast/Coast.jsx';
+import Sprig from './Components/Sprig/Sprig.jsx';
+import Channel from './Components/Channel/Channel.jsx';
+import LaLaLand from './Components/LaLaLand/lalaland.jsx';
 
 
 
@@ -30,7 +33,19 @@ const router = createBrowserRouter([
       {
         path: "/coast",
         element: <Coast />
-      }
+      },
+      {
+        path: "/channel",
+        element: <Channel />
+      },
+      {
+        path: "/sprig",
+        element: <Sprig />
+      },
+      {
+        path: "/lalaland",
+        element: <LaLaLand />
+      },
     ],
   },
 ]);
