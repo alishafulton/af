@@ -7,8 +7,8 @@ export default function Compliments() {
     
       return (
         <div className = "flex flex-row space-x-2">
-            <img src={ starbucks1 } alt="" />
-            <img src={ starbucks2 } alt="" />
+            <img src={ starbucks1 } alt="" className="w-14" />
+            <img src={ starbucks2 } alt="" className="w-14" />
         </div>
       );
     }
