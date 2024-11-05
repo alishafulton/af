@@ -8,9 +8,9 @@ export default function Project1() {
     
       return (
 <div>
-            <div className="w-42 md:w-56 justify-self-center border border-gray-200 group">
-              <div className="w-30 md:w-42 mx-6 group-hover:blur-lg transition-all duration-200 ease-out">
-                 <Mockup className=" group-hover:blur-lg transition-all duration-200 ease-out"/>
+            <div className="w-42 md:w-56 justify-self-center border border-gray-200">
+              <div className="w-30 md:w-42 mx-6">
+                 <Mockup/>
               </div>
             </div>
         
