@@ -10,7 +10,7 @@ export default function Project2() {
 <div >
         <div className="w-42 md:w-56 justify-self-center border border-gray-200">
           <div className="w-30 md:w-42 mx-6">
-            <Mockup2 className="blur hover:blur-md "/>
+            <Mockup2 className=" backdrop-blur-none hover:backdrop-blur-md"/>
           </div>
           </div>
           

@@ -5,7 +5,7 @@ export default function Mockup4() {
     
     return (
         <>
-            <img src={ mock4 } alt="" className="w-full h-full blur hover:blur-md " />
+            <img src={ mock4 } alt="" className="w-full h-full backdrop-blur-none hover:backdrop-blur-md " />
         </>
     );
 }
