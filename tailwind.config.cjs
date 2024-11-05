@@ -7,6 +7,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontSize: {
+        xs: '0.5rem',
+      },
       fontFamily: {
         serif: ["Garamond", "serif"],
         sans: ["SFDisplay", "sans"],
