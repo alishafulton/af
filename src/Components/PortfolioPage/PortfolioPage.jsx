@@ -16,7 +16,7 @@ export default function PortfolioPage() {
           <NavLink to="/channel/" className="group"><Project2 className="m-2" /></NavLink>
         </div>
         <div className="flex flex-row space-x-6 md:space-x-14 my-6 md:my-12">
-        <NavLink to="/sprig/" className={({ isActive }) => (isActive ? activeLink : "")}><Project3 className="m-2" /></NavLink>
+        <NavLink to="/sprig/" className="group"><Project3 className="m-2" /></NavLink>
           <Project4 className="m-2" />
         </div>
       </div>

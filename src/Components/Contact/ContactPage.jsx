@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from './ContactForm';
-
+import Header from './header';
 
 // the contact PAGE holds the contact FORM!
 
@@ -9,6 +9,7 @@ import ContactForm from './ContactForm';
 export default function ContactPage() {
   return (
 <div className = "w-full cursor-crosshair ">
+  <Header/>
   <ContactForm/>
 </div>
   );
