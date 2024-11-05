@@ -26,13 +26,6 @@ module.exports = {
       purple: '#BEA7E5',
       white: '#FAFAFA',
     },},
-  variants: {
-    extend: {
-      blur: ['hover', 'group-hover'],
-      filter: ['hover', 'group-hover'],
-      backdropBlur: ['hover'],
-    },
-  },
   corePlugins: []
 }
 }                     

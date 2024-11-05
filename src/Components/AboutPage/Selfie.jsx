@@ -7,7 +7,7 @@ export default function Selfie() {
 
       return (
         <div className="group">
-        <img src ={ selfie } alt="" className="h-full w-full"/>
+        <img src ={ selfie } alt="" className="h-full w-full "/>
         </div>
       );
     }
