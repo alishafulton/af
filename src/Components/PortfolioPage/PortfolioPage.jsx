@@ -12,7 +12,7 @@ export default function PortfolioPage() {
       return (
         <div className="w-full">
           <div className="flex flex-row space-x-6 md:space-x-14 my-6 md:my-12 ">
-          <NavLink to="/coast/" className=" backdrop-blur-none hover:bg-white hover:opacity-20 hover:backdrop-blur-[4px] hover:blur-lg duration-300 ease-in-out "><Project1 className="m-2 " /></NavLink>
+          <NavLink to="/coast/" className="blur backdrop-blur-none hover:bg-white hover:opacity-20 hover:backdrop-blur-[4px] hover:blur-lg duration-300 ease-in-out "><Project1 className="m-2 " /></NavLink>
           <NavLink to="/channel/" className={({ isActive }) => (isActive ? activeLink : "")}><Project2 className="m-2" /></NavLink>
         </div>
         <div className="flex flex-row space-x-6 md:space-x-14 my-6 md:my-12">
