@@ -13,7 +13,7 @@ export default function PortfolioPage() {
         <div className="w-full">
           <div className="flex flex-row space-x-6 md:space-x-14 my-6 md:my-12 ">
           <NavLink to="/coast/" className="group"><Project1 className="m-2 " /></NavLink>
-          <NavLink to="/channel/" className={({ isActive }) => (isActive ? activeLink : "")}><Project2 className="m-2" /></NavLink>
+          <NavLink to="/channel/" className=""><Project2 className="m-2" /></NavLink>
         </div>
         <div className="flex flex-row space-x-6 md:space-x-14 my-6 md:my-12">
         <NavLink to="/sprig/" className={({ isActive }) => (isActive ? activeLink : "")}><Project3 className="m-2" /></NavLink>

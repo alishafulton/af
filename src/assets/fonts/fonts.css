@@ -19,3 +19,10 @@
     font-style: normal;
     src: url("./AndaleMono.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: 'Inter';
+    font-display: swap;
+    font-style: normal;
+    src: url("./InterBlackItalic.ttf") format("truetype");
+}

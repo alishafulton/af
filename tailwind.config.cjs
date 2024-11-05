@@ -16,6 +16,7 @@ module.exports = {
         serif: ["Garamond", "serif"],
         sans: ["SFDisplay", "sans"],
         mono: ["Andale", "mono"],
+        fancy: ["Inter", "fancy"],
         },
     colors: {
       transparent: 'transparent',
