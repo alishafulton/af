@@ -5,7 +5,7 @@ export default function Mockup() {
     
     return (
         <>
-            <img src={ mock1 } alt="" className="w-full h-full filter blur-md " />
+            <img src={ mock1 } alt="" className="w-full h-full " />
         </>
     );
 }
