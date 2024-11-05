@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       fontSize: {
         '2xs': '0.5rem',
+        'xs': '0.625rem',
+        'md': '0.75rem'
       },
       fontFamily: {
         serif: ["Garamond", "serif"],
