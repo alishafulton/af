@@ -27,7 +27,9 @@ module.exports = {
       purple: '#BEA7E5',
     },},
   variants: {
-    extend: {},
+    extend: {
+      blur: ['group-hover', 'hover'],
+    },
   },
   plugins: [],
 }
