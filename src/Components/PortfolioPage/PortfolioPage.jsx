@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 export default function PortfolioPage() {
     
       return (
-        <div className="w-full">
+        <div className="w-full mx-2">
           <div className="flex flex-row space-x-6 my-6">
           <NavLink to="/coast/" className={({ isActive }) => (isActive ? activeLink : "")}><Project1 className="m-2" /></NavLink>
           <NavLink to="/channel/" className={({ isActive }) => (isActive ? activeLink : "")}><Project2 className="m-2" /></NavLink>
