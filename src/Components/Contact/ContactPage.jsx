@@ -8,7 +8,7 @@ import Header from './header';
 
 export default function ContactPage() {
   return (
-<div className = "w-full justify-items-center cursor-crosshair ">
+<div className = "w-full justify-center cursor-crosshair ">
   <Header/>
   <ContactForm/>
 </div>
