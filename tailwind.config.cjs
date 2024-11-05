@@ -29,6 +29,8 @@ module.exports = {
   variants: {
     extend: {
       blur: ['group-hover', 'hover'],
+      filter: ['group-hover', 'hover'],
+      backdropBlur: ['group-hover', 'hover']
     },
   },
   plugins: [],
