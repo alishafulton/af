@@ -28,7 +28,8 @@ module.exports = {
     },},
   variants: {
     extend: {
-      blur: ['group-hover']
+      blur: ['hover'],
+      filter: ['hover'],
     },
   },
   plugins: [],
