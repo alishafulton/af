@@ -15,7 +15,7 @@ import CoastPrototype from './CoastPrototype';
 
 export default function Coast () {
     return (
-        <div className="flex-col max-w-6xl justify-items-center ">
+        <div className="flex-col max-w-6xl justify-center ">
         <img src={ coast1 } alt="" className="p-0" />
         <img src={ coast2 } alt="" className="p-0" />
         <img src={ coast3 } alt="" className="p-0" />
