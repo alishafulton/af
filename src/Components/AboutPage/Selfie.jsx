@@ -6,7 +6,7 @@ export default function Selfie() {
     
       return (
         <>
-        <img src ={ selfie } alt="" className="h-full w-full "/>
+        <img src ={ selfie } alt="a picture of me in paris!" className="h-full w-full "/>
         </>
       );
     }
