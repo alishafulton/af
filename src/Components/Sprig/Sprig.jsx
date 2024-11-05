@@ -1,6 +1,4 @@
-import sprig1 from '../../assets/sprig1.png'
-import sprig2 from '../../assets/sprig2.png'
-import SprigPrototype from './SprigPrototype';
+
 
 // i imported all of my sections of my portfolio
 // separately as components 
@@ -10,13 +8,6 @@ import SprigPrototype from './SprigPrototype';
 export default function Sprig () {
     return (
 <>
-        <div className="flex flex-col justify-items-center">
-        <img src={ sprig1 } alt="" className="p-0 lg:p-1" />
-        
-              <SprigPrototype/>
-            
-        <img src={ sprig2 } alt="" className="p-0 lg:p-1"/>
-        </div>
 </>
     );
 };
