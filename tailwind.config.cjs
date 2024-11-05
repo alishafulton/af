@@ -28,8 +28,8 @@ module.exports = {
     },},
   variants: {
     extend: {
-      blur: ['hover'],
-      filter: ['hover'],
+      blur: ['hover', 'group-hover'],
+      filter: ['hover', 'group-hover'],
       backdropBlur: ['hover'],
     },
   },

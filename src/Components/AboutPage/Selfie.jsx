@@ -7,7 +7,7 @@ export default function Selfie() {
 
       return (
         <div>
-        <img src ={ selfie } alt="" className="h-full w-full filter blur "/>
+        <img src ={ selfie } alt="" className="h-full w-full filter blur group-hover:blur-lg"/>
         </div>
       );
     }
