@@ -8,8 +8,8 @@ export default function Project3() {
     
       return (
 <div>
-        <div className="w-52 justify-self-center border border-gray-200">
-          <div className="w-40 mx-6">
+        <div className="w-40 md:w-56 justify-self-center border border-gray-200">
+          <div className="w-28 md:w-40 mx-6">
             <Mockup4/>
           </div>
           </div>
