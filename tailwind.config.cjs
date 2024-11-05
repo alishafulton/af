@@ -30,6 +30,7 @@ module.exports = {
     extend: {
       blur: ['hover'],
       filter: ['hover'],
+      backdropBlur: ['hover'],
     },
   },
   plugins: [],
