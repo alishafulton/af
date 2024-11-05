@@ -14,7 +14,7 @@ export default function Project1() {
               </div>
             </div>
         
-            <div className="flex flex-row align-middle text-lg leading-8 text-black ">Coast
+            <div className="flex flex-row align-middle text-lg leading-10 text-black ">Coast
           <UxTag/>
           </div>
 </div>
