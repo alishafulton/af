@@ -6,7 +6,7 @@ export default function Selfie() {
   const activeOver = "text-green ";
 
       return (
-        <div>
+        <div className="group">
         <img src ={ selfie } alt="" className="h-full w-full filter blur group-hover:blur-lg"/>
         </div>
       );
