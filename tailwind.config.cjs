@@ -33,6 +33,7 @@ module.exports = {
       backdropBlur: ['hover'],
     },
   },
-  plugins: [],
+  corePlugins: {
+    blur: false},
 }
 }                     
