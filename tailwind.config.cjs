@@ -25,6 +25,7 @@ module.exports = {
       green: '#41A039',
       blue: '#335FCF',
       purple: '#BEA7E5',
+      white: '#FAFAFA',
     },},
   variants: {
     extend: {
