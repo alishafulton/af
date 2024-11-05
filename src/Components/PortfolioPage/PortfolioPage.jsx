@@ -8,6 +8,7 @@ import { NavLink } from "react-router-dom";
 
 
 export default function PortfolioPage() {
+  const activeLink = "backdrop-filter hover:backdrop-blur-sm";
     
       return (
         <div className="w-full">
