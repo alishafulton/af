@@ -9,10 +9,10 @@ export default function Compliments() {
     
       return (
         <div className = "flex flex-row justify-center space-x-2">
-            <img src={ starbucks1 } alt="" className="w-28" />
-            <img src={ starbucks2 } alt="" className="w-28" />
-            <img src={ starbucks3 } alt="" className="w-28" />
-            <img src={ starbucks4 } alt="" className="w-28" />
+            <img src={ starbucks1 } alt="" className="w-24" />
+            <img src={ starbucks2 } alt="" className="w-24" />
+            <img src={ starbucks3 } alt="" className="w-24" />
+            <img src={ starbucks4 } alt="" className="w-24" />
         </div>
       );
     }
