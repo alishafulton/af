@@ -1,5 +1,5 @@
 import React from "react";
-import Selfie from "./Selfie";
+import Blurb from "./Blurb";
 
 
 
@@ -7,7 +7,7 @@ export default function AboutPage() {
     
       return (
         <div>
-            <Blurb/>
+            <Blurb />
         </div>
       );
     }
