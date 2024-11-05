@@ -7,7 +7,7 @@ import Resume from "./Resume";
 export default function AboutPage() {
     
       return (
-        <div className="flex justify-items-center">
+        <div className="flex flex-col justify-items-center">
             <Blurb />
             <Resume />
         </div>
