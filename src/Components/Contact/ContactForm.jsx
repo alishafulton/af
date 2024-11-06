@@ -60,7 +60,7 @@ export default function ContactForm() {
             <textarea className="flex-1 border rounded bg-white border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
             </textarea></div><br/>
   
-          <div className="flex justify-center "><button type="submit"  className=" w-1/3  h-8 bg-black text-white  hover:bg-green ">SUBMIT</button>
+          <div className="flex justify-center "><button type="submit"  className=" w-1/3  h-8 bg-black text-white  hover:bg-pink ">SUBMIT</button>
           </div>
         
         </form>
