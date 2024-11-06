@@ -8,7 +8,7 @@ export default function Project2() {
     
       return (
 <div >
-        <div className="w-42 md:w-56 justify-self-center border border-gray-200 group-hover:bg-pink group-hover:bg-opacity-10 group-hover:border-pink transition-all ease-in-out duration-200">
+        <div className="w-42 md:w-56 justify-self-center border border-gray-200 group-hover:bg-pink group-hover:bg-opacity-10 group-hover:border-pink transition-all ease-in-out duration-300">
           <div className="w-30 md:w-42 mx-6">
             <Mockup2 />
           </div>
