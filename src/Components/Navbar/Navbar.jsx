@@ -10,7 +10,7 @@ export default function Navbar () {
 
 return (
       
-      <div className="flex justify-center py-5">
+      <div className="flex justify-center bg-white py-5">
         <div className="flex flex-row font-mono text-sm tracking-tighter text-black">
           <div className="p-3"><NavLink to="/" className={({ isActive }) => (isActive ? activeLink : "")}>PORTFOLIO</NavLink></div>
           <div className="p-3 "><NavLink to="/about" className={({ isActive }) => (isActive ? activeLink : "")}>ABOUT</NavLink></div>
