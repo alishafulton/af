@@ -13,7 +13,9 @@ import channel5 from '../../assets/channel5.png';
 // all have prototypes in them
 
 
-export default function Channel () {  const [showBtn, setShowBtn] = useState("myBtn none");
+export default function Channel () {  
+    
+    const [showBtn, setShowBtn] = useState("myBtn none");
 
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () {
