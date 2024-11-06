@@ -11,8 +11,8 @@ export default function ContactPage() {
   return (
 <div className = "flex flex-col w-screen h-screen p-5 justify-center cursor-crosshair ">
   <Header/>
-  <ContactForm className="z=11" />
-  <DiscoBall className="z-10" />
+  <ContactForm />
+  <DiscoBall />
 
 </div>
   );
