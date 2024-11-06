@@ -1,38 +1,41 @@
 import React, { useState } from 'react';
 
-const ScrollButton = () => {
-    const [visible, setVisible] = useState(false);
+const [showBtn, setShowBtn] = useState("myBtn none");
 
-    const toggleVisible = () => {
-        const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 300) {
-            setVisible(true);
-        } else if (scrolled <= 300) {
-            setVisible(false);
-        }
-    };
-}
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () {
+    scrollFunction();
+  };
 
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-            /* you can also use 'auto' behaviour
-         in place of 'smooth' */
-        });
-    };
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      setShowBtn("myBtn");
+    } else {
+      setShowBtn("none");
+    }
+  }
 
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 
-    window.addEventListener("scroll", toggleVisible);
-
-export default function ScrollUp() {
+export default function ScrollButton() {
     return (
-    <button onclick= { scrollToTop }
-            className="scroll-to-top fixed z-30 bottom-6 right-6 py-2 px-4
-                       bg-pink text-white rounded-full 
-                       transition duration-300 hover:bg-gray-700 
-                       hover:text-gray-200">
-                        <div className="w-min" style={{ display: visible ? "inline" : "none"}}>up</div></button> 
+
+        <div>
+      <button
+        onClick={topFunction}
+        id="myBtn"
+        className={showBtn}
+        title="Go to top"
+      >
+        Top
+      </button>
+    </div>
                         
                     );
                 }

@@ -4,7 +4,8 @@ import channel2 from '../../assets/channel2.png';
 import channel3 from '../../assets/channel3.png';
 import channel4 from '../../assets/channel4.png';
 import channel5 from '../../assets/channel5.png';
-import ScrollUp from './ScrollButton';
+import ScrollButton from './ScrollButton';
+
 
 
 // i imported all of my sections of my portfolio
@@ -14,7 +15,7 @@ import ScrollUp from './ScrollButton';
 
 export default function Channel () {
     return (<>
-   <ScrollUp/>
+   <ScrollButton />
    
         <div className="flex-col max-w-4xl justify-items-center ">
         <img src={ channel1 } alt="" className="p-0" />
