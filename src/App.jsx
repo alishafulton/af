@@ -20,7 +20,7 @@ export default function App () {
           </div>
         </div>
 
-        <div className="w-full justify-center mt-auto md:flex md:items-center md:justify-between">
+        <div className="w-full justify-center items-center mt-auto md:flex md:items-center md:justify-between">
           <Footer/>
         </div>
 
