@@ -31,12 +31,12 @@ const scrollToTopButton =
 
 export default function Channel () {
     return (<>
-    <button onclick="scrollToTop()" 
-            className="scroll-to-top fixed z-30 bottom-6 right-6 
-                       bg-gray-800 text-white rounded-full 
+    <button onclick= { scrollToTop }
+            className="scroll-to-top fixed z-30 bottom-6 right-6 py-2 px-4
+                       bg-pink text-white rounded-full 
                        transition duration-300 hover:bg-gray-700 
                        hover:text-gray-200">
-                        <div className="w-2 text-pink">up</div></button>
+                        <div className="w-min">up</div></button>
    
         <div className="flex-col max-w-4xl justify-items-center ">
         <img src={ channel1 } alt="" className="p-0" />
