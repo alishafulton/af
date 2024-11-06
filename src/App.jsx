@@ -7,8 +7,8 @@ import Footer from "./Components/Footer/Footer";
 
 export default function App () {
   return (
-    <div className="w-screen">
-      <div className="sticky top-0 z-50 sm:px-16 px-6 flex justify-center items-center">
+    <div className="w-screen min-h-screen">
+      <div className="sticky top-0 z-50 flex justify-center items-center">
         <div className="w-full">
           <Navbar/>
         </div>
@@ -20,7 +20,7 @@ export default function App () {
           </div>
         </div>
 
-        <div className="w-full justify-center ">
+        <div className="w-full justify-center absolute left-0 bottom-0 right-0">
           <Footer/>
         </div>
 
