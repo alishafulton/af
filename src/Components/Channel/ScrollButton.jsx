@@ -25,7 +25,7 @@ const ScrollButton = () => {
 
     window.addEventListener("scroll", toggleVisible);
 
-export default function ScrollButton() {
+export default function ScrollUp() {
     return (
     <button onclick= { scrollToTop }
             className="scroll-to-top fixed z-30 bottom-6 right-6 py-2 px-4
