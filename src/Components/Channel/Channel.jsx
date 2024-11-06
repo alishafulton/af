@@ -21,6 +21,7 @@ const ScrollButton = () => {
             setVisible(false);
         }
     };
+}
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -53,4 +54,4 @@ export default function Channel () {
         </div>
  </>
     );
-};
+}
