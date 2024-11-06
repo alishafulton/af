@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 export default function PortfolioPage() {
     
       return (
-        <div className="w-full">
+        <div className="w-full justify-center justify-items-center">
           <div className="flex flex-row space-x-6 md:space-x-14 my-6 md:my-12 ">
           <NavLink to="/coast/" className="group"><Project1 className="m-2 " /></NavLink>
           <NavLink to="/channel/" className="group"><Project2 className="m-2" /></NavLink>
