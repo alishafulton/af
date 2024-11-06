@@ -43,7 +43,7 @@ export default function ContactForm() {
 
     return (
       <div className="flex flex-col justify-center">
-      <div className="flex my-2 w-full max-w-6xl p-5 text-xs tracking-wide">
+      <div className="my-2 w-full max-w-6xl p-5 text-xs tracking-wide">
 
         <form onSubmit={onSubmit} >
 
