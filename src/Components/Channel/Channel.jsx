@@ -8,26 +8,30 @@ import channel5 from '../../assets/channel5.png';
 // i imported all of my sections of my portfolio
 // separately as components 
 // all have prototypes in them
-const scrollToTopButton = 
-              document.getElementById('scroll-to-top');
-      
-        // Show button when user scrolls down
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 100) {
-                scrollToTopButton.style.display = 'block';
-            } else {
-                scrollToTopButton.style.display = 'none';
-            }
-        });
 
-        // Smooth scroll to top
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'smooth'
-            });
-        }  
+
+const ScrollButton = () => {
+    const [visible, setVisible] = useState(false);
+
+    const toggleVisible = () => {
+        const scrolled = document.documentElement.scrollTop;
+        if (scrolled > 300) {
+            setVisible(true);
+        } else if (scrolled <= 300) {
+            setVisible(false);
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+            /* you can also use 'auto' behaviour
+         in place of 'smooth' */
+        });
+    };
+
+    window.addEventListener("scroll", toggleVisible);
 
 export default function Channel () {
     return (<>
