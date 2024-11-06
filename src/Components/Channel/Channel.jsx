@@ -8,10 +8,34 @@ import channel5 from '../../assets/channel5.png';
 // i imported all of my sections of my portfolio
 // separately as components 
 // all have prototypes in them
+const scrollToTopButton = 
+              document.getElementById('scroll-to-top');
+      
+        // Show button when user scrolls down
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                scrollToTopButton.style.display = 'block';
+            } else {
+                scrollToTopButton.style.display = 'none';
+            }
+        });
 
+        // Smooth scroll to top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }  
 
 export default function Channel () {
-    return (
+    return (<>
+    <button onclick="scrollToTop()" 
+            class="scroll-to-top fixed z-30 bottom-4 right-4 
+                       bg-gray-800 text-white rounded-full 
+                       transition duration-300 hover:bg-gray-700 
+                       hover:text-gray-200"><div className="w-2 text-pink">up</div></button>
+   
         <div className="flex-col max-w-4xl justify-items-center ">
         <img src={ channel1 } alt="" className="p-0" />
         <img src={ channel2 } alt="" className="p-0" />
@@ -21,6 +45,6 @@ export default function Channel () {
 
 
         </div>
-
+ </>
     );
 };
