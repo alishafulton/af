@@ -42,22 +42,22 @@ export default function ContactForm() {
     // and finally a beautiful orange submit button :)
 
     return (
-      <div className="grid grid-cols-1 w-full justify-center">
+      <div className="grid grid-cols-1 w-full justify-center bg-transparent">
       <div className="flex flex-col my-2 w-full justify-self-center max-w-4xl p-5 text-xs tracking-wide">
 
         <form onSubmit={onSubmit} >
 
 
           <div className="m-0.5">
-              <input className="flex-1 border rounded border-black w-full p-2" type="text" name="name" placeholder="Name" required/>
+              <input className="flex-1 border rounded bg-white border-black w-full p-2" type="text" name="name" placeholder="Name" required/>
           </div><br/>
           
           <div className="m-0.5">
-            <input className="flex-1 border rounded border-black w-full p-2" type="email" name="email" placeholder="Email" required/>
+            <input className="flex-1 border rounded bg-white border-black w-full p-2" type="email" name="email" placeholder="Email" required/>
           </div><br/>
 
           <div className="m-0.5 h-40">
-            <textarea className="flex-1 border rounded border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
+            <textarea className="flex-1 border rounded bg-white border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
             </textarea></div><br/>
   
           <div className="flex justify-center "><button type="submit"  className=" w-1/3  h-8 bg-black text-white  hover:bg-green ">SUBMIT</button>
