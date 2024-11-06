@@ -7,7 +7,7 @@ import './index.css'
 export default function App () {
   return (
     <>
-      <div className="flex flex-col mx-2">
+      <div className="flex flex-col mx-4">
        <Navbar/>
        <Outlet/>
        </div>
