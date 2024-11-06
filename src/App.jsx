@@ -14,7 +14,7 @@ export default function App () {
         </div>
         </div>
        
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center justify-items-center">
           <div className="w-full">
             <Outlet/>
           </div>
