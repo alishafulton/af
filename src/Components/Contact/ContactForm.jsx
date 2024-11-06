@@ -44,7 +44,7 @@ export default function ContactForm() {
     return (
       <div className="flex flex-col justify-items-center my-2 w-full p-5 text-xs tracking-wide">
 
-        <form onSubmit={onSubmit} className="w-full justify-items-center">
+        <form onSubmit={onSubmit} className=" justify-items-center">
 
 
           <div className="m-0.5">
