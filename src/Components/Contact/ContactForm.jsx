@@ -42,9 +42,9 @@ export default function ContactForm() {
     // and finally a beautiful orange submit button :)
 
     return (
-      <div className="flex flex-col justify-center my-2 w-full m-5 text-xs tracking-wide">
+      <div className="flex flex-col justify-center my-2 w-full p-5 text-xs tracking-wide">
 
-        <form onSubmit={onSubmit} className="w-full justify-center">
+        <form onSubmit={onSubmit} className="w-2/3 justify-center">
 
 
           <div className="m-0.5">
