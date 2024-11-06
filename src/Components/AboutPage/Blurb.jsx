@@ -9,7 +9,7 @@ export default function Blurb() {
         <div className = "flex flex-col justify-center justify-items-center md:flex-row space-x-0 md:space-x-6 mx-2 h-min ">
             <div className="flex w-full md:w-min justify-center "><Selfie/></div>
         
-        <div className="w-96 m-4 md:m-0 text-2xs md:text-xs font-mono text-center md:text-left justify-center">
+        <div className="w-96 m-4 md:m-0 text-2xs md:text-xs font-mono text-center md:text-left justify-self-center">
         I am a lifelong learner of educational psychology, including human behavior, motivations, and learning processes. 
         I am an empathic and active listener who has had years of observational research of others. My 8 years with Starbucks (and licensed stores!) have given me a unique view of the customer-business relationship and how to problem-solve in a moments' notice. 
         I am grateful to constantly grow my technology knowledge online, and I consider myself to be self-taught on a wide variety of subjects. I've taken computer science classes through Colorado State, ux courses through Google and Coursera, and am always learning something new. 
