@@ -8,8 +8,8 @@ export default function Footer () {
 
 return (
       
-      <div className="flex justify-center  py-5 bg-white ">
-        <div className="flex flex-row font-mono text-sm tracking-tighter text-black">|
+      <div className="flex justify-center justify-items-center py-5 bg-white ">
+        <div className="flex flex-row font-mono text-sm text-center tracking-tighter text-black">|
         </div>
     </div>
         
