@@ -12,6 +12,7 @@ export default function App () {
         <div className="w-full">
           <Navbar/>
         </div>
+        </div>
        
         <div className="flex justify-center items-center">
           <div className="w-full">
@@ -22,8 +23,9 @@ export default function App () {
         <div className="w-full justify-center">
           <Footer/>
         </div>
-       </div>
-    </div>
+
+      </div>
+
     
   )
 };
