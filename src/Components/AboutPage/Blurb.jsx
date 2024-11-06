@@ -7,7 +7,7 @@ export default function Blurb() {
     
       return (
         <div className = "flex flex-col-reverse justify-items-center md:flex-row space-x-0 md:space-x-6 mx-2 h-min ">
-            <div className="w-full md:w-min"><Selfie/></div>
+            <div className="w-full md:w-min justify-center"><Selfie/></div>
         
         <div className="m-4 md:m-0 text-2xs md:text-xs font-mono text-center md:text-left ">
         I am a lifelong learner of educational psychology, including human behavior, motivations, and learning processes. 
