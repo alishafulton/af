@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
 <div className = "w-screen cursor-crosshair ">
   <Header/>
-  <ContactForm/>
+  <ContactForm className="w-96"/>
 </div>
   );
 }
