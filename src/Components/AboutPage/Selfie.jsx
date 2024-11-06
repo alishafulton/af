@@ -5,7 +5,7 @@ import selfie from '../../assets/Selfie.png'
 export default function Selfie() {
 
       return (
-        <div className="w-40 md:w-52 justify-center">
+        <div className="w-40 md:w-52 justify-self-center">
         <img src ={ selfie } alt="" className="h-full w-full "/>
         </div>
       );
