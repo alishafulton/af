@@ -3,10 +3,9 @@ import selfie from '../../assets/Selfie.png'
 
 
 export default function Selfie() {
-  const activeOver = "text-green ";
 
       return (
-        <div className="group">
+        <div className="w-40 md:w-52 ">
         <img src ={ selfie } alt="" className="h-full w-full "/>
         </div>
       );
