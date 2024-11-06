@@ -16,9 +16,9 @@ export default function ContactPage() {
 </div>
 
 
-  <div className="flex h-screen w-screen flex-shrink-0 z-40">
-    <video className="absolute flex h-full w-full object-cover "
-            controls muted autoPlay loop playsInline disablePictureInPicture >
+  <div className="flex absolute h-screen w-screen flex-shrink-0 z-40  object-cover ">
+    <video
+            muted autoPlay loop playsInline disablePictureInPicture >
     <source src={ DiscoBall }  type="video/webm"></source>
   </video>
 
