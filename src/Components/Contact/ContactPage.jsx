@@ -10,13 +10,13 @@ import DiscoBall from './../../assets/disco.mov';
 export default function ContactPage() {
   return (
     <>
-<div className = "flex flex-col relative w-screen h-screen p-5 justify-center cursor-crosshair ">
+<div className = "flex flex-col relative w-screen h-lvh p-5 justify-center cursor-crosshair z-60 ">
   <Header/>
   <ContactForm />
 </div>
 
 
-  <div className="flex absolute top-0 h-screen w-screen flex-shrink-0  bg-pink">
+  <div className="flex absolute top-0 flex-shrink-0  bg-pink">
     <video className="object-cover"
             muted autoPlay loop playsInline disablePictureInPicture >
     <source src={ DiscoBall }  type="video/webm"></source>
