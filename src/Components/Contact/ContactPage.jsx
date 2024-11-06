@@ -8,7 +8,7 @@ import Header from './header';
 
 export default function ContactPage() {
   return (
-<div className = "flex w-screen p-5 justify-center cursor-crosshair ">
+<div className = "flex flex-col w-screen p-5 justify-center cursor-crosshair ">
   <Header/>
   <ContactForm className="justify-center" />
 </div>
