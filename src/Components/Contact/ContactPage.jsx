@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
 <div className = "w-screen p-5 justify-center cursor-crosshair ">
   <Header/>
-  <ContactForm />
+  <ContactForm className="justify-center" />
 </div>
   );
 }
