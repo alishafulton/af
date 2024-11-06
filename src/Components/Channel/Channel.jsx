@@ -56,8 +56,7 @@ export default function Channel () {  const [showBtn, setShowBtn] = useState("my
         onClick={topFunction}
         id="myBtn"
         className={showBtn}
-        title="Go to top" >
-        Top
+        title="Go to top" >top
       </button>
                      </div>
  </div>
