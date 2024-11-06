@@ -44,7 +44,7 @@ export default function ContactForm() {
     return (
       <div className="flex flex-col justify-items-center my-2 w-full p-5 text-xs tracking-wide">
 
-        <form onSubmit={onSubmit} className="w-full justify-items-center">
+        <form onSubmit={onSubmit}>
 
 
           <div className="m-0.5">
@@ -59,7 +59,7 @@ export default function ContactForm() {
             <textarea className="flex-1 border rounded border-black  w-full p-2 h-full " name="message" placeholder="Message" required>
             </textarea></div><br/>
   
-          <div className="flex justify-center "><button type="submit"  className=" w-1/3 h-8 bg-black text-white  hover:bg-green ">SUBMIT</button>
+          <div className="flex justify-center "><button type="submit"  className=" w-1/3  h-8 bg-black text-white  hover:bg-green ">SUBMIT</button>
           </div>
         
         </form>
