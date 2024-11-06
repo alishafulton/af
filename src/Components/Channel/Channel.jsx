@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import channel1 from '../../assets/channel1.png';
 import channel2 from '../../assets/channel2.png';
 import channel3 from '../../assets/channel3.png';
