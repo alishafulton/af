@@ -17,7 +17,7 @@ export default function Blurb() {
         Combining my strengths, talents and understanding where my passion lies, I am focusing my advocacy for others into the digital user experience.
         <br/> <br/>
         Outside of design and technology, I enjoy woodworking, gardening, and exercising. I like spending time with my cat, Tony, and I'm very excited to be a godmother in December 2024!
-        </></div>
+        </div></div>
         </div>
       );
     }
