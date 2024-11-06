@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactForm from './ContactForm';
 import Header from './header';
-import DiscoBall from './../../assets/disco.mov'
+import DiscoBall from './../../assets/disco.mov';
 
 // the contact PAGE holds the contact FORM!
 
