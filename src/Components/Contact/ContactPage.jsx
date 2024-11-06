@@ -9,10 +9,10 @@ import DiscoBall from './Disco';
 
 export default function ContactPage() {
   return (
-<div className = "grid grid-cols-1 w-screen h-screen p-5 justify-center cursor-crosshair ">
+<div className = "flex flex-col w-screen h-screen p-5 justify-center cursor-crosshair ">
   <Header/>
-  <ContactForm />
-  <DiscoBall />
+  <ContactForm className="z=11" />
+  <DiscoBall className="z-10" />
 
 </div>
   );
