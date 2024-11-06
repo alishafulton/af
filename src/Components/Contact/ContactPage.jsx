@@ -12,7 +12,14 @@ export default function ContactPage() {
 <div className = "flex flex-col w-screen h-screen p-5 justify-center cursor-crosshair ">
   <Header/>
   <ContactForm />
-  <DiscoBall />
+  <div className="relative flex h-[80vh] flex-shrink-0 ">
+
+<video className="relative flex h-full w-full flex-shrink-0 object-cover "
+    muted autoplay loop playsinline disablepictureinpicture >
+  <source src="./../../assets/disco.mov"  type="video/webm"></source>
+</video>
+
+  </div>
 
 </div>
   );
