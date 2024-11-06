@@ -24,6 +24,7 @@ const scrollToTopButton =
         function scrollToTop() {
             window.scrollTo({
                 top: 0,
+                left: 0,
                 behavior: 'smooth'
             });
         }  
@@ -31,10 +32,11 @@ const scrollToTopButton =
 export default function Channel () {
     return (<>
     <button onclick="scrollToTop()" 
-            class="scroll-to-top fixed z-30 bottom-4 right-4 
+            className="scroll-to-top fixed z-30 bottom-6 right-6 
                        bg-gray-800 text-white rounded-full 
                        transition duration-300 hover:bg-gray-700 
-                       hover:text-gray-200"><div className="w-2 text-pink">up</div></button>
+                       hover:text-gray-200">
+                        <div className="w-2 text-pink">up</div></button>
    
         <div className="flex-col max-w-4xl justify-items-center ">
         <img src={ channel1 } alt="" className="p-0" />
