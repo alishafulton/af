@@ -13,7 +13,7 @@ export default function ContactPage() {
   <Header/>
   <ContactForm />
 
-  <div className="relative flex h-[80vh] flex-shrink-0 ">
+  <div className="relative flex h-[80vh] flex-shrink-0 z-40">
     <video className="absolute flex h-full w-full object-cover "
             muted autoplay loop playsinline disablepictureinpicture >
     <source src="./../../assets/disco.mov"  type="video/webm"></source>
