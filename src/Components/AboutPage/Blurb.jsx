@@ -6,8 +6,8 @@ import Selfie from "./Selfie";
 export default function Blurb() {
     
       return (
-        <div className = "flex flex-row space-x-6 h-min ">
-            <div className="w-40 md:w-48"><Selfie/></div>
+        <div className = "flex flex-row space-x-2 md:space-x-6 h-min ">
+            <div className="w-40 md:w-52 "><Selfie/></div>
         
         <div className="w-56 md:w-96 text-2xs md:text-xs font-mono">
         I am a lifelong learner of educational psychology, including human behavior, motivations, and learning processes. 
