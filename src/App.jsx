@@ -7,13 +7,23 @@ import Footer from "./Components/Footer/Footer";
 
 export default function App () {
   return (
-    <>
-      <div className="flex flex-col mx-4">
-       <Navbar/>
-       <Outlet/>
-       <Footer className="align-bottom"/>
+    <div className="w-full">
+      <div className="sticky top-0 z-50 sm:px-16 px-6 flex justify-center items-center">
+        <div className="w-full">
+          <Navbar/>
+        </div>
+       
+        <div className="flex justify-center items-center">
+          <div className="w-full">
+            <Outlet/>
+          </div>
+        </div>
+
+        <div className="w-full justify-center">
+          <Footer/>
+        </div>
        </div>
-    </>
+    </div>
     
   )
 };
