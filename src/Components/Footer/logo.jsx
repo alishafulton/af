@@ -7,7 +7,7 @@ export default function Logo() {
     const onMouseEnter = () => setIsHovered(true);
     const onMouseLeave = () => setIsHovered(false);
     return (
-<div className="flex items-center flex-shrink-0 mr-6 cursor-pointer"
+<div className="flex items-center flex-shrink-0 mr-6"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}>
 
