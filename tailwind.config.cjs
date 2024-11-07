@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       height: {
+
         '500': '500px'
       },
       letterSpacing: {
