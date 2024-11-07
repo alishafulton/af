@@ -16,8 +16,7 @@ export default function CoastPrototype () {
 <iframe className="h-72 md:h-500 "
 src="https://embed.figma.com/proto/n1MAVIcv7nkcqeTpwo0CpA/3.3--Primary-%26-Secondary-Actions?page-id=0%3A44&node-id=1118-714&node-type=canvas&viewport=362%2C550%2C0.1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1118%3A696&embed-host=share" />
 
-<br/>
-<div className="flex w-1/3 px-2 py-2 bg-black hover:bg-red font-mono text-white text-xs tracking-tighter justify-center justify-self-center justify-items-center">
+<div className="flex max-w-1/2 min-w-1/3 px-2 py-2 bg-black hover:bg-red font-mono text-white text-xs tracking-tighter">
 <a href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6qN9WFCdBbpowtNV9vJwQ1%2Fbound%3Fpage-id%3D5%253A2%26node-id%3D453-34027%26starting-point-node-id%3D474%253A35060%26t%3DvMPeVuUw8dw5Z00Z-1">
 open in a new window</a>
 </div>
