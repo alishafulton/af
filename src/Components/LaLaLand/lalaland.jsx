@@ -11,10 +11,10 @@ import lala3 from '../../assets/4.mp4';
 
 export default function LaLaLand () {
     return (
-        <div>
-            <div className="flex flex-col max-w-4xl justify-items-center ">
+        <div className="justify-center">
+            <div className="flex flex-col max-w-4xl justify-center justify-items-center ">
 
-                <div className="flex bg-pink z-40">
+                <div className="flex bg-pink z-40 border-black">
                     <video className="object-cover "
                         muted autoPlay loop playsInline disablePictureInPicture >
                             <source src={ lala1 }  type="video/webm">
