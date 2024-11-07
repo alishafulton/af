@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import sprig1 from './../../assets/sprig1.png';
 import sprig2 from './../../assets/sprig2.png';
+import sprigcover from './../../assets/sprigcover.png';
 import SprigPrototype from './SprigPrototype';
 
 // i imported all of my sections of my portfolio
@@ -37,8 +38,9 @@ export default function Sprig () {
     return (
         <div>
             <div className="flex-col max-w-4xl justify-items-center ">
+              <img src = {sprigcover} alt="" />
+              <SprigPrototype/>
               <img src = {sprig1} alt="" />
-                <SprigPrototype/>
               <img src = {sprig2} alt="" />
             </div>
 
