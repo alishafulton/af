@@ -9,12 +9,18 @@ import React from "react"
 
 export default function CoastPrototype () {
     return (
-      <div className="flex justify-center">
-          <a href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fn1MAVIcv7nkcqeTpwo0CpA%2F3.3--Primary-%2526-Secondary-Actions%3Fpage-id%3D0%253A44%26node-id%3D1118-714%26viewport%3D684%252C531%252C0.18%26t%3DE4LyJHnr7f3kuQ4t-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D1118%253A696" 
-              className=" bg-black hover:bg-green text-white font-mono tracking-tight my-4 mx-4 px-5 py-2">
-              Open in a new window
-          </a>
-      </div>
+
+
+
+<div className="flex-col mx-12 h-96 justify-center">
+<iframe 
+src="https://embed.figma.com/proto/n1MAVIcv7nkcqeTpwo0CpA/3.3--Primary-%26-Secondary-Actions?page-id=1101%3A163&node-id=1102-720&node-type=frame&viewport=-1595%2C-5163%2C0.11&scaling=min-zoom&content-scaling=fixed&embed-host=share" 
+className="h-full w-1/2 lg:w-full"/>
+
+<br/><a href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6qN9WFCdBbpowtNV9vJwQ1%2Fbound%3Fpage-id%3D5%253A2%26node-id%3D453-34027%26starting-point-node-id%3D474%253A35060%26t%3DvMPeVuUw8dw5Z00Z-1">
+Open in a new window</a>
+
+</div>
     
 );
 
