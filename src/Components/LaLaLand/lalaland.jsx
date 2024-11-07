@@ -1,7 +1,7 @@
 import React from 'react';
-import lala1 from '../../assets/1.png';
-import lala2 from '../../assets/2.png';
-import lala3 from '../../assets/3.png';
+import lala1 from '../../assets/2.mp4';
+import lala2 from '../../assets/3.mp4';
+import lala3 from '../../assets/4.mp4';
 
 
 // i imported all of my sections of my portfolio
