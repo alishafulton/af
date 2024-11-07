@@ -35,6 +35,8 @@
   }
 
   .prototype {
+    display: block;
+    position: fixed;
     height: 500px;
   }
 
