@@ -7,10 +7,9 @@ export default function Logo() {
     return(
         <>
         <img src={ logo }
- onMouseOver={(e) => (e.currentTarget.src = { logohover })}
-    onMouseLeave={(e) => 
-      (e.currentTarget.src = { logo })}
- className="w-6 h-6"
+            onMouseOver={(e) => (e.currentTarget.src = { logohover })}
+            onMouseLeave={(e) =>  (e.currentTarget.src = { logo })}
+            className="w-6 h-6"
           />
         </>
     );
