@@ -42,7 +42,7 @@ export default function Coast () {
 
 
     return (
-        <>
+        <div>
         <div className="flex-col max-w-4xl justify-items-center ">
         <img src={ coast1 } alt="" className="p-0" />
         <img src={ coast2 } alt="" className="p-0" />
@@ -65,6 +65,6 @@ export default function Coast () {
         title="Go to top" >top
       </button>
                      </div>
-</>
+</div>
     );
 };
