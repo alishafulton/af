@@ -17,7 +17,7 @@ export default function PortfolioPage() {
         </div>
         <div className="flex flex-row space-x-6 md:space-x-14 mx-3 md:mx-0 my-6 md:my-12 justify-center justify-items-center">
         <NavLink to="/sprig/" className="group"><Project3 className="m-2" /></NavLink>
-          <Project4 className="m-2" />
+        <NavLink to="/lalaland/" className="group"><Project4 className="m-2" /></NavLink>
         </div>
       </div>
       );
