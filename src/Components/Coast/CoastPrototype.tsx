@@ -17,7 +17,7 @@ export default function CoastPrototype () {
 src="https://embed.figma.com/proto/n1MAVIcv7nkcqeTpwo0CpA/3.3--Primary-%26-Secondary-Actions?page-id=0%3A44&node-id=1118-714&node-type=canvas&viewport=362%2C550%2C0.1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1118%3A696&embed-host=share" />
 
 <div className="flex justify-center justify-items-center"><div className=" flex justify-center justify-items-center justify-self-center w-1/2 md:w-1/3 px-2 py-2 my-2 rounded-sm bg-black hover:bg-red-800 font-mono text-white text-xs tracking-tighter">
-<a href="https://embed.figma.com/proto/n1MAVIcv7nkcqeTpwo0CpA/3.3--Primary-%26-Secondary-Actions?page-id=0%3A44&node-id=1118-714&node-type=canvas&viewport=362%2C550%2C0.1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1118%3A696&embed-host=share">
+<a href="https://embed.figma.com/proto/n1MAVIcv7nkcqeTpwo0CpA/3.3--Primary-%26-Secondary-Actions?page-id=0%3A44&node-id=1118-714&node-type=canvas&viewport=362%2C550%2C0.1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1118%3A696&embed-host=share" target="_blank">
 open in a new window</a>
 </div>
 </div>
