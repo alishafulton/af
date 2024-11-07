@@ -12,7 +12,7 @@ export default function CoastPrototype () {
 
 <div className="flex w-full justify-items-center justify-center">
 
-<div className="flex flex-col mx-12 h-96 justify-items-center justify-center">
+<div className="flex flex-col mx-12 w-full h-96 justify-items-center justify-center">
 <iframe 
 src="https://embed.figma.com/proto/n1MAVIcv7nkcqeTpwo0CpA/3.3--Primary-%26-Secondary-Actions?page-id=0%3A44&node-id=1118-714&node-type=canvas&viewport=362%2C550%2C0.1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1118%3A696&embed-host=share" 
 className="h-full w-1/2 lg:w-full"/>
