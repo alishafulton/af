@@ -6,7 +6,7 @@ import Selfie from "./Selfie";
 export default function Blurb() {
     
       return (
-        <div className = "flex flex-col md:flex-row w-full justify-center justify-items-center space-x-0 md:space-x-6 mx-2 h-min ">
+        <div className = "flex flex-col md:flex-row w-full justify-center justify-items-center space-x-0 md:space-x-6 h-min ">
             <div className="flex justify-center"><Selfie/></div>
         
             <div className="flex justify-center my-4 md:m-0">
