@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import lalacover from '../../assets/1cover.png';
 import lala1 from '../../assets/2.mp4';
 import lala2 from '../../assets/3.mp4';
