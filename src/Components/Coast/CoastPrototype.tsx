@@ -19,7 +19,7 @@ id="prototype"/>
 
 <br/>
 <a href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6qN9WFCdBbpowtNV9vJwQ1%2Fbound%3Fpage-id%3D5%253A2%26node-id%3D453-34027%26starting-point-node-id%3D474%253A35060%26t%3DvMPeVuUw8dw5Z00Z-1">
-<div className=" flex  px-2 bg-black font-sans text-white text-sm">Open in a new window</div></a>
+<div className="px-3 py-2 bg-black font-mono text-white text-sm ">Open in a new window</div></a>
 
 </div>
 </div>
