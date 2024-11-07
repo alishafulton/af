@@ -43,7 +43,7 @@ export default function Channel () {
     
     <div>
    
-        <div className="flex-col max-w-4xl justify-items-center ">
+        <div className="flex-col max-w-4xl justify-center justify-items-center ">
         <img src={ channel1 } alt="" className="p-0" />
         <img src={ channel2 } alt="" className="p-0" />
         <img src={ channel3 } alt="" className="p-0" />
