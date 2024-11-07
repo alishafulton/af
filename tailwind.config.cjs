@@ -7,6 +7,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      height: {
+        '500': '500px'
+      },
       letterSpacing: {
         tightest: '-0.1em',
       },
