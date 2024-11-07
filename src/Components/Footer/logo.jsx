@@ -13,9 +13,9 @@ export default function Logo() {
 
             <div>
               {isHovering ? (
-                <img src={logo} className="w-6 h-6" />
-              ) : (
                 <img src={logohover} className="w-6 h-6" />
+              ) : (
+                <img src={logo} className="w-6 h-6" />
               )}
             </div></div>
         );
