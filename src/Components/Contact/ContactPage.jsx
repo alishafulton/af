@@ -9,7 +9,7 @@ import DiscoBall from './../../assets/disco.mov';
 
 export default function ContactPage() {
   return (
-    <>
+    <div>
 <div className = "flex flex-col relative w-screen h-lvh p-5 justify-center cursor-crosshair bg-transparent z-50 ">
   <Header/>
   <ContactForm />
@@ -26,6 +26,6 @@ export default function ContactPage() {
 
 
 
-</>
+</div>
   );
 }
